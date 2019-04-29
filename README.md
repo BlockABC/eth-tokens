@@ -27,7 +27,7 @@ Feel free to submit tokens if you are the token's owner or not, the community ne
 Thanks to [MyEtherWallet](https://github.com/MyEtherWallet/ethereum-lists) for initial data.
 
 ## Template
-Please submit your token's JSON file follow template below. [BNB](./tokens/0xB8c77482e45F1F44dE1745F52C74426C631bDD52)
+Please submit your token's JSON file follow template below. [BNB](tokens/0xb8c77482e45f1f44de1745f52c74426c631bdd52)
 
 ```json
 {
