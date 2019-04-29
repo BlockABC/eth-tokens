@@ -124,7 +124,7 @@ func InitializeTokens(dir string, tokenLists []TokenInfo) error {
 }
 
 func WriteTokenInfo(dir string, token TokenInfo) error {
-	f := fmt.Sprintf("%s/%s/%s.json", dir, strings.ToLower(token.Address), FormatSymbol(token.Symbol))
+	f := fmt.Sprintf("%s/%s/token.json", dir, strings.ToLower(token.Address))
 	if _, err := os.Stat(f); err == nil || os.IsExist(err){
 		return nil
 	}

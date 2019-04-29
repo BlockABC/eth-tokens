@@ -16,7 +16,7 @@ PR is welcome!
 
 1. Create a folder under [/tokens](/tokens) named with token's contract address(lowercase) `/tokens/${CONTRACT_ADDRESS}`
 
-2. Then add yor token LOGO and JSON file under the folder. `/tokens/${CONTRACT_ADDRESS}/{TOKEN_UPPERCASE}.png` `/tokens/${CONTRACT_ADDRESS}/{TOKEN_UPPERCASE}.json`
+2. Then add yor token LOGO and JSON file under the folder. `/tokens/${CONTRACT_ADDRESS}/token.png` `/tokens/${CONTRACT_ADDRESS}/token.json`
 
 3. Create PR, and leave your contact (Telegram/WeChat/Email) in comment for further support.
 
@@ -35,7 +35,7 @@ Please submit your token's JSON file follow template below. [BNB](tokens/0xb8c77
     "symbol": "BNB",
     "contract": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/eager7/eth_tokens/master/tokens/0xB8c77482e45F1F44dE1745F52C74426C631bDD52/BNB.png",
+    "logo": token.png,
     "desc": {
         "en": "",
         "zh": ""

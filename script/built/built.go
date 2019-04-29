@@ -51,7 +51,7 @@ func BuildReadme(fil string, tokens []*Token) error {
 	var tokensInfo []string
 	for _, token := range tokens {
 		tokensInfo = append(tokensInfo, fmt.Sprintf(`|  <img src="%s" width=30 />  | [%s](https://github.com/eager7/eth_tokens/blob/master/tokens/%s/%s.json) | [%s](https://etherscan.io/address/%s) |`,
-			token.Logo, token.Symbol, strings.ToLower(token.Contract), FormatSymbol(token.Symbol), token.Contract, token.Contract))
+			token.Logo, token.Symbol, strings.ToLower(token.Contract), "token.json", token.Contract, token.Contract))
 	}
 	file, err := os.OpenFile(fil, os.O_RDWR|os.O_CREATE|os.O_TRUNC, os.ModePerm)
 	if err != nil {
