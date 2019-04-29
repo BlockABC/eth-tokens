@@ -55,8 +55,4 @@ Please submit your token's JSON file follow template below. [BNB](./tokens/0xB8c
 2. `invalid` field is only used to indicate that this token is invalid on chain. If your token is valid, please don't fill in this field.
 
 ## Token List
-<!-- token_list_start -->
-|   Logo    | Symbol      | Contract Address |
-| ----------- |:------------:|:------------:|
-|  <img src="" width=30 />  | [TOD]() | [21dice4token]() |
-<!-- token_list_end -->
+ [tokens.md](./tokens.md)
