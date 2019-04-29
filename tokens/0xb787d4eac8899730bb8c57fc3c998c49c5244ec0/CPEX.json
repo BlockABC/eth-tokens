@@ -1,0 +1,18 @@
+{
+    "name": "CoinPulseToken",
+    "symbol": "CPEX",
+    "contract": "0xb787d4eac8899730bb8c57fc3c998c49c5244ec0",
+    "decimals": 8,
+    "logo": "https://i.imgur.com/GaPxtv5.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@coinpulse",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/coinpulseex",
+        "telegram": "https://t.me/coinpulseex"
+    }
+}

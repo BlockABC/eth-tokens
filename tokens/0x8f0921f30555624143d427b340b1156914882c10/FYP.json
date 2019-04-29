@@ -1,0 +1,18 @@
+{
+    "name": "Flyp.me",
+    "symbol": "FYP",
+    "contract": "0x8f0921f30555624143d427b340b1156914882c10",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

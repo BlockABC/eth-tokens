@@ -1,0 +1,18 @@
+{
+    "name": "HeyToken",
+    "symbol": "HEY",
+    "contract": "0xe9c9e7e1dabea830c958c39d6b25964a6f52143a",
+    "decimals": 18,
+    "logo": "https://assets.hey.network/public/icon/icon-512x512%401x.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/hey-project",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/hey_network_",
+        "telegram": "https://t.me/hey_network"
+    }
+}

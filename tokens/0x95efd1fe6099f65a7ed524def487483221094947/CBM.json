@@ -1,0 +1,18 @@
+{
+    "name": "CryptoBonusMiles",
+    "symbol": "CBM",
+    "contract": "0x95efd1fe6099f65a7ed524def487483221094947",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

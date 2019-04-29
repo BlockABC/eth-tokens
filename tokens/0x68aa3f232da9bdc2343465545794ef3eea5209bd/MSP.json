@@ -1,0 +1,18 @@
+{
+    "name": "Mothership",
+    "symbol": "MSP",
+    "contract": "0x68AA3F232dA9bdC2343465545794ef3eEa5209BD",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": "https://t.me/mothershipcx"
+    }
+}

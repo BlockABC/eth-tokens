@@ -1,0 +1,18 @@
+{
+    "name": "WemarkToken",
+    "symbol": "WMK",
+    "contract": "0xbfbe5332f172d77811bc6c272844f3e54a7b23bb",
+    "decimals": 18,
+    "logo": "https://cdn.wemark.com/wmk-logo-250.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/wemark-stories",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/@_wemark",
+        "telegram": "https://t.me/wemark"
+    }
+}

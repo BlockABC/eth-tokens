@@ -1,0 +1,18 @@
+{
+    "name": "Trident Group",
+    "symbol": "TRDT",
+    "contract": "0x33f90dee07c6e8b9682dd20f73e6c358b2ed0f03",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

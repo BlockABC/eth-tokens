@@ -1,0 +1,18 @@
+{
+    "name": "ARX",
+    "symbol": "ARX",
+    "contract": "0x7705FaA34B16EB6d77Dfc7812be2367ba6B0248e",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": "https://t.me/ARTEX_GLOBAL"
+    }
+}

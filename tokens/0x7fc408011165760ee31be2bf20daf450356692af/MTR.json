@@ -1,0 +1,18 @@
+{
+    "name": "Mitrav",
+    "symbol": "MTR",
+    "contract": "0x7FC408011165760eE31bE2BF20dAf450356692Af",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/mitrav_m",
+        "telegram": "https://t.me/mitravteam"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "smartshare token",
+    "symbol": "SSP",
+    "contract": "0x624d520bab2e4ad83935fa503fb130614374e850",
+    "decimals": 4,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Bullion Crypto",
+    "symbol": "BLX (Bullion)",
+    "contract": "0xce59d29b09aae565feeef8e52f47c3cd5368c663",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "http://www.bullioncrypto.info/blog",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/bullion_coin",
+        "telegram": "https://t.me/bullion_coin"
+    }
+}

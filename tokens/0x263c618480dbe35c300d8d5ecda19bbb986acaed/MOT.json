@@ -1,0 +1,18 @@
+{
+    "name": "MOT",
+    "symbol": "MOT",
+    "contract": "0x263c618480dbe35c300d8d5ecda19bbb986acaed",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

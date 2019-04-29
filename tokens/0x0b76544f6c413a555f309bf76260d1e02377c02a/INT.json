@@ -1,0 +1,18 @@
+{
+    "name": "Internet Node Token",
+    "symbol": "INT",
+    "contract": "0x0b76544f6c413a555f309bf76260d1e02377c02a",
+    "decimals": 6,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

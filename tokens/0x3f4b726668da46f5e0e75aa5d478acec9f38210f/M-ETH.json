@@ -1,0 +1,18 @@
+{
+    "name": "M-ETH",
+    "symbol": "M-ETH",
+    "contract": "0x3f4b726668da46f5e0e75aa5d478acec9f38210f",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

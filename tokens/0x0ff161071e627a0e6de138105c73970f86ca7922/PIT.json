@@ -1,0 +1,18 @@
+{
+    "name": "Paypite v2",
+    "symbol": "PIT",
+    "contract": "0x0ff161071e627a0e6de138105c73970f86ca7922",
+    "decimals": 18,
+    "logo": "https://paypite.org/wp-content/uploads/2018/04/Logo-paypite-Site-wordpress.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/Paypites",
+        "telegram": "https://t.me/paypite"
+    }
+}

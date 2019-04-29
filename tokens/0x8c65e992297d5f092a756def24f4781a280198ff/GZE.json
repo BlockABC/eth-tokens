@@ -1,0 +1,18 @@
+{
+    "name": "GazeCoin",
+    "symbol": "GZE",
+    "contract": "0x8C65e992297d5f092A756dEf24F4781a280198Ff",
+    "decimals": 18,
+    "logo": "https://media.gazecoin.io/static/icons/gazecoin-28x28-on-trans.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/GazeCoin",
+        "telegram": "https://t.me/GazeCoinPublic"
+    }
+}

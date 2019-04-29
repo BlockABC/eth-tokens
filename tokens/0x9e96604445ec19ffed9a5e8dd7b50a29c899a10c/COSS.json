@@ -1,0 +1,18 @@
+{
+    "name": "Coss Token",
+    "symbol": "COSS",
+    "contract": "0x9e96604445ec19ffed9a5e8dd7b50a29c899a10c",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

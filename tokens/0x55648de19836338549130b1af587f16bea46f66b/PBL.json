@@ -1,0 +1,18 @@
+{
+    "name": "PBL",
+    "symbol": "PBL",
+    "contract": "0x55648de19836338549130b1af587f16bea46f66b",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/PublicaIO",
+        "telegram": "https://t.me/publicaofficial"
+    }
+}

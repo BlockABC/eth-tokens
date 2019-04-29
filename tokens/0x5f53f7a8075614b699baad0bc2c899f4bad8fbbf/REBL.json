@@ -1,0 +1,18 @@
+{
+    "name": "Rebellious",
+    "symbol": "REBL",
+    "contract": "0x5f53f7a8075614b699baad0bc2c899f4bad8fbbf",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/RebelliousCoin",
+        "telegram": "https://t.me/RebelliousCoin"
+    }
+}

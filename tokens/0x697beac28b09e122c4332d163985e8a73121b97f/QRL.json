@@ -1,0 +1,18 @@
+{
+    "name": "QRL",
+    "symbol": "QRL",
+    "contract": "0x697beac28B09E122C4332D163985e8a73121b97F",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

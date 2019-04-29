@@ -1,0 +1,18 @@
+{
+    "name": "Frozencoin Network",
+    "symbol": "Fzcoin",
+    "contract": "0xE5aeE163513119F4F750376C718766B40fA37A5F",
+    "decimals": 18,
+    "logo": "https://avatars2.githubusercontent.com/u/44194025?s=400\u0026u=970b2065cf404120fe0f9e486c506003aa96563f\u0026v=4",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": "https://t.me/Official_Fzcoin"
+    }
+}

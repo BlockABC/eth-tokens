@@ -1,0 +1,18 @@
+{
+    "name": "$Fluzcoin",
+    "symbol": "$FFC",
+    "contract": "0x4E84E9e5fb0A972628Cf4568c403167EF1D40431",
+    "decimals": 18,
+    "logo": "https://i.imgur.com/ar18ECx.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@fluzcoin",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/fluzcoin",
+        "telegram": "https://t.me/Fluzcoin_Foundation"
+    }
+}

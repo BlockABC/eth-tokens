@@ -1,0 +1,18 @@
+{
+    "name": "GELD",
+    "symbol": "GELD",
+    "contract": "0x24083bb30072643c3bb90b44b7285860a755e687",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/gelder",
+        "telegram": ""
+    }
+}

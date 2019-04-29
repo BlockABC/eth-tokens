@@ -1,0 +1,18 @@
+{
+    "name": "AVA",
+    "symbol": "AVA",
+    "contract": "0xeD247980396B10169BB1d36f6e278eD16700a60f",
+    "decimals": 4,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@AvalonPlatform",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/Avalonplatform",
+        "telegram": "https://t.me/joinchat/GQEIcg6hXg-QWXwzDDiOgA"
+    }
+}

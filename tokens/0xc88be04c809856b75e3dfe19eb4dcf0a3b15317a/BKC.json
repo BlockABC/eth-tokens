@@ -1,0 +1,18 @@
+{
+    "name": "Bankcoin Cash",
+    "symbol": "BKC",
+    "contract": "0xc88Be04c809856B75E3DfE19eB4dCf0a3B15317a",
+    "decimals": 8,
+    "logo": "https://bankcoin-cash.com/bankcoincash.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

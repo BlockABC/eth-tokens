@@ -1,0 +1,18 @@
+{
+    "name": "Blockchain Certified Data Token",
+    "symbol": "BCDT",
+    "contract": "0xacfa209fb73bf3dd5bbfb1101b9bc999c49062a5",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/bcdiploma",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/BCDiploma",
+        "telegram": "https://t.me/BCDiploma"
+    }
+}

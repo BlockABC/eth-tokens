@@ -1,0 +1,18 @@
+{
+    "name": "EasyHomes",
+    "symbol": "EHT",
+    "contract": "0xf9F0FC7167c311Dd2F1e21E9204F87EBA9012fB2",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/teameasyhomes",
+        "telegram": ""
+    }
+}

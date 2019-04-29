@@ -1,0 +1,18 @@
+{
+    "name": "ABBC Cash",
+    "symbol": "ABCH",
+    "contract": "0xcc7d26d8ea6281bb363c8448515f2c61f7bc19f0",
+    "decimals": 18,
+    "logo": "https://github.com/ABBCCash/ABBCCashtoken/blob/master/images/ABCH_128px.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/abbcfoundation",
+        "telegram": "https://t.me/abbcfoundation"
+    }
+}

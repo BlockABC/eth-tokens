@@ -1,0 +1,18 @@
+{
+    "name": "DaTa eXchange Token",
+    "symbol": "DTX",
+    "contract": "0x765f0c16d1ddc279295c1a7c24b0883f62d33f75",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/databrokerdao",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/DataBrokerDAO",
+        "telegram": "https://t.me/databrokerdao"
+    }
+}

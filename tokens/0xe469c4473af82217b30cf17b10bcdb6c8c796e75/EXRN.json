@@ -1,0 +1,18 @@
+{
+    "name": "EXRP Network",
+    "symbol": "EXRN",
+    "contract": "0xe469c4473af82217b30cf17b10bcdb6c8c796e75",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

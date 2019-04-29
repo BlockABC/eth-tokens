@@ -1,0 +1,18 @@
+{
+    "name": "CoxxxCoin",
+    "symbol": "CXC",
+    "contract": "0x2134057c0b461f898d375cead652acae62b59541",
+    "decimals": 18,
+    "logo": "http://www.coxxxcoin.com/CoxxxCoin.256.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/coxxxcoin",
+        "telegram": ""
+    }
+}

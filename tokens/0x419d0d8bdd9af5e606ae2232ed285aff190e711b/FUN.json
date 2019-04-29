@@ -1,0 +1,18 @@
+{
+    "name": "Funfair",
+    "symbol": "FUN",
+    "contract": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/FunFairTech/status/885910956701876224",
+        "telegram": ""
+    }
+}

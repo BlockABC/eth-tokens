@@ -1,0 +1,18 @@
+{
+    "name": "TimeBanking",
+    "symbol": "HIN",
+    "contract": "0x7FCcaDee21660425FDEc86029b6362845ffC052C",
+    "decimals": 8,
+    "logo": "https://resources.rebene.com/tokens/logo.jpeg",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

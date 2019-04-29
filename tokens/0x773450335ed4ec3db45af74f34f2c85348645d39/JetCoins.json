@@ -1,0 +1,18 @@
+{
+    "name": "JetCoins",
+    "symbol": "JetCoins",
+    "contract": "0x773450335eD4ec3DB45aF74f34F2c85348645D39",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

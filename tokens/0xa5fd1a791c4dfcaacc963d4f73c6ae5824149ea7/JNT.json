@@ -1,0 +1,18 @@
+{
+    "name": "JNT",
+    "symbol": "JNT",
+    "contract": "0xa5Fd1A791C4dfcaacC963D4F73c6Ae5824149eA7",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@jibrelnetwork",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/JibrelNetwork",
+        "telegram": "https://t.me/jibrel_network"
+    }
+}

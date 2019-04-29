@@ -1,0 +1,18 @@
+{
+    "name": "All Sports Coin",
+    "symbol": "SOC",
+    "contract": "0x2d0e95bd4795d7ace0da3c0ff7b706a5970eb9d3",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

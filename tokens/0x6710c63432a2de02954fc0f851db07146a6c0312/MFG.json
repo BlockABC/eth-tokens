@@ -1,0 +1,18 @@
+{
+    "name": "SyncFab Manufacturing",
+    "symbol": "MFG",
+    "contract": "0x6710c63432a2de02954fc0f851db07146a6c0312",
+    "decimals": 18,
+    "logo": "https://blockchain.syncfab.com/assets/img/mfg-logo.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/syncfabmfg",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/syncfab",
+        "telegram": "https://t.me/syncfab"
+    }
+}

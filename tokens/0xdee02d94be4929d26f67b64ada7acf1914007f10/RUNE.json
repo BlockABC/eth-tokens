@@ -1,0 +1,18 @@
+{
+    "name": "Rune",
+    "symbol": "RUNE",
+    "contract": "0xdEE02D94be4929d26f67B64Ada7aCf1914007F10",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/thorchain_org",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/thorchain_org",
+        "telegram": "https://t.me/thorchain_org"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Medical Token Currency",
+    "symbol": "MTC",
+    "contract": "0x905E337c6c8645263D3521205Aa37bf4d034e745",
+    "decimals": 18,
+    "logo": "https://cdn.docademic.com/images/ico/mtc200.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://news.docademic.com",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/docademic",
+        "telegram": "https://t.me/docademicofficial"
+    }
+}

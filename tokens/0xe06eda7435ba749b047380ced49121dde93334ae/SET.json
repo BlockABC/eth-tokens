@@ -1,0 +1,18 @@
+{
+    "name": "SET",
+    "symbol": "SET",
+    "contract": "0xe06eda7435ba749b047380ced49121dde93334ae",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/sydethereum",
+        "telegram": "https://chat.sydeth.com"
+    }
+}

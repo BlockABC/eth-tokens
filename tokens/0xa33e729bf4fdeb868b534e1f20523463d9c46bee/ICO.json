@@ -1,0 +1,18 @@
+{
+    "name": "ICO",
+    "symbol": "ICO",
+    "contract": "0xa33e729bf4fdeb868b534e1f20523463d9c46bee",
+    "decimals": 10,
+    "logo": "https://etherscan.io/token/images/icocoin_28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/icocoin1",
+        "telegram": ""
+    }
+}

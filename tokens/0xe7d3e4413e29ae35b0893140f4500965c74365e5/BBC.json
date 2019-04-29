@@ -1,0 +1,18 @@
+{
+    "name": "B2BCoin",
+    "symbol": "BBC",
+    "contract": "0xe7D3e4413E29ae35B0893140F4500965c74365e5",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

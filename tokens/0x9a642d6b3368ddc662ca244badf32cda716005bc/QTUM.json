@@ -1,0 +1,18 @@
+{
+    "name": "Qtum",
+    "symbol": "QTUM",
+    "contract": "0x9a642d6b3368ddc662CA244bAdf32cDA716005BC",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://qtum.org/en/blog",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/QtumOfficial",
+        "telegram": ""
+    }
+}

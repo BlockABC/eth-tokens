@@ -1,0 +1,18 @@
+{
+    "name": "Flair Coin",
+    "symbol": "FLR",
+    "contract": "0x9aeFBE0b3C3ba9Eab262CB9856E8157AB7648e09",
+    "decimals": 18,
+    "logo": "https://flaircoin.co/assets/images/flair_logo_64x64.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "U Networks",
+    "symbol": "UUU",
+    "contract": "0x3543638eD4a9006E4840B105944271Bcea15605D",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

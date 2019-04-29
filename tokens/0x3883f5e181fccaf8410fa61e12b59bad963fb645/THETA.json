@@ -1,0 +1,18 @@
+{
+    "name": "Theta Token",
+    "symbol": "THETA",
+    "contract": "0x3883f5e181fccaf8410fa61e12b59bad963fb645",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "twitter.com/thetatoken",
+        "telegram": "https://t.me/thetatoken"
+    }
+}

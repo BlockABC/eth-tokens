@@ -1,0 +1,18 @@
+{
+    "name": "THUG",
+    "symbol": "THUG",
+    "contract": "0xfe7B915A0bAA0E79f85c5553266513F7C1c03Ed0",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "CoinOil",
+    "symbol": "COIL",
+    "contract": "0x0c91b015aba6f7b4738dcd36e7410138b29adc29",
+    "decimals": 8,
+    "logo": "https://coinoil.io/oldw/assets/images/logo/icon.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://www.twitter.com/Coinoil",
+        "telegram": ""
+    }
+}

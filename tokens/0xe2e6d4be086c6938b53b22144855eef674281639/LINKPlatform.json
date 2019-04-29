@@ -1,0 +1,18 @@
+{
+    "name": "Link Platform",
+    "symbol": "LINK Platform",
+    "contract": "0xe2e6d4be086c6938b53b22144855eef674281639",
+    "decimals": 18,
+    "logo": "https://etherscan.io/token/images/linkplatform28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://www.medium.com/@ethlink",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://www.twitter.com/linkplatform",
+        "telegram": ""
+    }
+}

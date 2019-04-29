@@ -1,0 +1,18 @@
+{
+    "name": "Twinkle",
+    "symbol": "MOVED",
+    "contract": "0xfbd0d1c77b501796a35d86cf91d65d9778eee695",
+    "decimals": 3,
+    "logo": "https://www.rainbowcurrency.com/new/assets/img/logo_full2.jpg",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/RainbowCurrency",
+        "telegram": "https://t.me/joinchat/C4OIwEUEDO69rS7rsPRpsg"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Silent Notary Token",
+    "symbol": "SNTR",
+    "contract": "0x2859021ee7f2cb10162e67f33af2d22764b31aff",
+    "decimals": 4,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

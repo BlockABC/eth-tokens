@@ -1,0 +1,18 @@
+{
+    "name": "CryptoKEE",
+    "symbol": "KEE",
+    "contract": "0x72D32ac1c5E66BfC5b08806271f8eEF915545164",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

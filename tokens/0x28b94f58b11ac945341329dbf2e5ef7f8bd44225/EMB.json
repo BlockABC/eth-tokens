@@ -1,0 +1,18 @@
+{
+    "name": "Emblem",
+    "symbol": "EMB",
+    "contract": "0x28b94f58b11ac945341329dbf2e5ef7f8bd44225",
+    "decimals": 8,
+    "logo": "https://res.cloudinary.com/dnbcgedbu/image/upload/v1550314565/bc-logo-250x250.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://blog.blockcollider.org/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/blockcollider",
+        "telegram": "https://t.me/blockcollider"
+    }
+}

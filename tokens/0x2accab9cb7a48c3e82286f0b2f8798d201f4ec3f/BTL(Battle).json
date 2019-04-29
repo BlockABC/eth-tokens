@@ -1,0 +1,18 @@
+{
+    "name": "BTL (Battle)",
+    "symbol": "BTL (Battle)",
+    "contract": "0x2accaB9cb7a48c3E82286F0b2f8798D201F4eC3f",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/persian_token",
+        "telegram": ""
+    }
+}

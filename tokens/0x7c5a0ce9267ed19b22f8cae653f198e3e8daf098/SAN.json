@@ -1,0 +1,18 @@
+{
+    "name": "Santiment",
+    "symbol": "SAN",
+    "contract": "0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/santiment",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/santimentfeed",
+        "telegram": "https://t.me/santiment_network"
+    }
+}

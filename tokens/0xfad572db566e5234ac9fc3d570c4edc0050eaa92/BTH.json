@@ -1,0 +1,18 @@
+{
+    "name": "Bytether",
+    "symbol": "BTH",
+    "contract": "0xfad572db566e5234ac9fc3d570c4edc0050eaa92",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/bytether",
+        "telegram": ""
+    }
+}

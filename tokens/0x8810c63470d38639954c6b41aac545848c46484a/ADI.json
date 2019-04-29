@@ -1,0 +1,18 @@
+{
+    "name": "Aditus",
+    "symbol": "ADI",
+    "contract": "0x8810C63470d38639954c6B41AaC545848C46484a",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/aditusnetwork",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": "http://t.me/aditusnetwork"
+    }
+}

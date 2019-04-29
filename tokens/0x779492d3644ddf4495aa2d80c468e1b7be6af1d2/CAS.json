@@ -1,0 +1,18 @@
+{
+    "name": "CAS Coin",
+    "symbol": "CAS",
+    "contract": "0x779492d3644dDF4495Aa2d80C468E1B7be6AF1d2",
+    "decimals": 2,
+    "logo": "http://cas.casino/assets/img/logo/mew.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/cascoin",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/cas_casino",
+        "telegram": ""
+    }
+}

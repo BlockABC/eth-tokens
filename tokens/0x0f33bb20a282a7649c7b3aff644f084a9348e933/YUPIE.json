@@ -1,0 +1,18 @@
+{
+    "name": "YUPIE",
+    "symbol": "YUPIE",
+    "contract": "0x0F33bb20a282A7649C7B3AFf644F084a9348e933",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

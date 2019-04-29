@@ -1,0 +1,18 @@
+{
+    "name": "Iconomi",
+    "symbol": "BLX (Iconomi)",
+    "contract": "0xE5a7c12972f3bbFe70ed29521C8949b8Af6a0970",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

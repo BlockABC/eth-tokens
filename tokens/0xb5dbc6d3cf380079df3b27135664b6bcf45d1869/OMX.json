@@ -1,0 +1,18 @@
+{
+    "name": "Omix",
+    "symbol": "OMX",
+    "contract": "0xb5dbc6d3cf380079df3b27135664b6bcf45d1869",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

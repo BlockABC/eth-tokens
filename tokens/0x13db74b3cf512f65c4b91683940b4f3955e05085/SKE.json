@@ -1,0 +1,18 @@
+{
+    "name": "Super Keep Token",
+    "symbol": "SKE",
+    "contract": "0x13DB74B3cf512F65C4b91683940B4f3955E05085",
+    "decimals": 8,
+    "logo": "http://app.superkeep.cn/DataCenter/upload/admin/image/currency/0x13db74b3cf512f65c4b91683940b4f3955e05085.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

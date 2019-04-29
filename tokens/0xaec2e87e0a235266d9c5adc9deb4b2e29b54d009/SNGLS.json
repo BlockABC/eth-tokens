@@ -1,0 +1,18 @@
+{
+    "name": "SingularDTV",
+    "symbol": "SNGLS",
+    "contract": "0xaeC2E87E0A235266D9C5ADc9DEb4b2E29b54D009",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

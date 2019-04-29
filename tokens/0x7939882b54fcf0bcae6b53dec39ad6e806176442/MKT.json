@@ -1,0 +1,18 @@
+{
+    "name": "Mikado",
+    "symbol": "MKT",
+    "contract": "0x7939882b54fcf0bcae6b53dec39ad6e806176442",
+    "decimals": 8,
+    "logo": "https://avatars3.githubusercontent.com/u/38851395?s=400",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@mikado.io",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/mikadoio",
+        "telegram": "https://t.me/mikadoio"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "WickNote",
+    "symbol": "WIC",
+    "contract": "0x62cd07d414ec50b68c7ecaa863a23d344f2d062f",
+    "decimals": 0,
+    "logo": "http://wicknote.com/wicklogo-small.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

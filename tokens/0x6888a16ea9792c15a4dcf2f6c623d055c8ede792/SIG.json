@@ -1,0 +1,18 @@
+{
+    "name": "Signal",
+    "symbol": "SIG",
+    "contract": "0x6888a16eA9792c15A4DCF2f6C623D055c8eDe792",
+    "decimals": 18,
+    "logo": "https://uploads-ssl.webflow.com/58fd371467a8320d4f29aed3/5906667d95a2d43d31378ce7_60x60logo.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/spectiv-vr",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/spectivvr",
+        "telegram": "http://t.me/spectivtelegram"
+    }
+}

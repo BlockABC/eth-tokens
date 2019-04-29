@@ -1,0 +1,18 @@
+{
+    "name": "NebulaAiToken",
+    "symbol": "NBAI",
+    "contract": "0x17f8aFB63DfcDcC90ebE6e84F060Cc306A98257D",
+    "decimals": 18,
+    "logo": "https://tokensale.nebula-ai.network/ressources/images/1801349612.jpg",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://bitcointalk.org/index.php?topic=3220514.msg33494165#msg33494165",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/nebula_ai",
+        "telegram": "https://t.me/NebulaAICommunity"
+    }
+}

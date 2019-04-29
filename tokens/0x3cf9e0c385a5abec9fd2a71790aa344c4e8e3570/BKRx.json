@@ -1,0 +1,18 @@
+{
+    "name": "BlockRx",
+    "symbol": "BKRx",
+    "contract": "0x3cf9e0c385a5abec9fd2a71790aa344c4e8e3570",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/blockrxproject",
+        "telegram": ""
+    }
+}

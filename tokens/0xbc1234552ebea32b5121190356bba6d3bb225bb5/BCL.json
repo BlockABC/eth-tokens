@@ -1,0 +1,18 @@
+{
+    "name": "BCL",
+    "symbol": "BCL",
+    "contract": "0xbc1234552EBea32B5121190356bBa6D3Bb225bb5",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

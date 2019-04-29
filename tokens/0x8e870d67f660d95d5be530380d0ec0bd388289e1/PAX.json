@@ -1,0 +1,18 @@
+{
+    "name": "Paxos Standard (PAX)",
+    "symbol": "PAX",
+    "contract": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+    "decimals": 18,
+    "logo": "https://static.standard.paxos.com/logos/square_120_120.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://www.paxos.com/news-blogs/engineering/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/paxosglobal",
+        "telegram": ""
+    }
+}

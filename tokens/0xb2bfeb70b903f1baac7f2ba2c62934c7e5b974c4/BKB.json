@@ -1,0 +1,18 @@
+{
+    "name": "BetKing Bankroll Token",
+    "symbol": "BKB",
+    "contract": "0xb2bfeb70b903f1baac7f2ba2c62934c7e5b974c4",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/betkingio",
+        "telegram": "https://t.me/joinchat/GmNTqw7kaxhGRqsJhRuzzw"
+    }
+}

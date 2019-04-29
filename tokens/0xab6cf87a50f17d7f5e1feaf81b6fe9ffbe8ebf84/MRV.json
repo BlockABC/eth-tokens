@@ -1,0 +1,18 @@
+{
+    "name": "MRV",
+    "symbol": "MRV",
+    "contract": "0xAB6CF87a50F17d7F5E1FEaf81B6fE9FfBe8EBF84",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

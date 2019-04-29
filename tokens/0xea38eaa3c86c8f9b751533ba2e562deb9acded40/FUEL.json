@@ -1,0 +1,18 @@
+{
+    "name": "Etherparty FUEL",
+    "symbol": "FUEL",
+    "contract": "0xEA38eAa3C86c8F9B751533Ba2E562deb9acDED40",
+    "decimals": 18,
+    "logo": "https://image.ibb.co/mzeWD6/EP3_Blue.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/etherparty",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/etherparty_io",
+        "telegram": "https://t.me/etherparty"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "GastroAdvisorToken",
+    "symbol": "FORK",
+    "contract": "0x5bB1632fA0023e1AA76a1AE92B4635C8DBa49Fa2",
+    "decimals": 18,
+    "logo": "https://www.gastroadvisor.com/wp-content/uploads/2019/02/Gastro_logo_black.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/gastroadvisor-official",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/gastroadvisor",
+        "telegram": "https://t.me/GastroAdvisor"
+    }
+}

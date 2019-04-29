@@ -1,0 +1,18 @@
+{
+    "name": "TieToken",
+    "symbol": "TIE",
+    "contract": "0x999967e2ec8a74b7c8e9db19e039d920b31d39d0",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

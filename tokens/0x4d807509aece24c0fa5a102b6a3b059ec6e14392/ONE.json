@@ -1,0 +1,18 @@
+{
+    "name": "Menlo One",
+    "symbol": "ONE",
+    "contract": "0x4d807509aece24c0fa5a102b6a3b059ec6e14392",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/MenloOne/menlo-one-logos/master/menlo-one-blue-logo-solid-transparent.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/menlo-one",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "hgttps://teitter.com/menloone",
+        "telegram": "https://t.me/menloone"
+    }
+}

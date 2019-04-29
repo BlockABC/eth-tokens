@@ -1,0 +1,18 @@
+{
+    "name": "ZPER",
+    "symbol": "ZPR",
+    "contract": "0xb5b8f5616fe42d5ceca3e87f3fddbdd8f496d760",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

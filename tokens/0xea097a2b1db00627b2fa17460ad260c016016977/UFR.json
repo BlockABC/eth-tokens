@@ -1,0 +1,18 @@
+{
+    "name": "Upfiring",
+    "symbol": "UFR",
+    "contract": "0xea097a2b1db00627b2fa17460ad260c016016977",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

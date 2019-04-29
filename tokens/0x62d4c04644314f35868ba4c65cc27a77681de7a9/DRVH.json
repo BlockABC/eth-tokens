@@ -1,0 +1,18 @@
+{
+    "name": "Driveholic Token",
+    "symbol": "DRVH",
+    "contract": "0x62d4c04644314f35868ba4c65cc27a77681de7a9",
+    "decimals": 18,
+    "logo": "https://airdrop.driveholic.com/icon/apple-icon-180x180.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@driveholicsite",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/driveholic",
+        "telegram": "https://t.me/driveholicairdrop"
+    }
+}

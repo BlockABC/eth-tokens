@@ -1,0 +1,18 @@
+{
+    "name": "NXX OLD",
+    "symbol": "NXX OLD",
+    "contract": "0x5c6183d10A00CD747a6Dbb5F658aD514383e9419",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

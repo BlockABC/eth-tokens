@@ -1,0 +1,18 @@
+{
+    "name": "WhoHas",
+    "symbol": "WHO",
+    "contract": "0xe933c0Cd9784414d5F278C114904F5A84b396919",
+    "decimals": 18,
+    "logo": "https://whohas.io/wp-content/uploads/2018/02/blueEye_blackText.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/WhoHas_App",
+        "telegram": ""
+    }
+}

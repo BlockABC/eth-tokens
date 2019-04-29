@@ -1,0 +1,18 @@
+{
+    "name": "Evolution Land Global Token",
+    "symbol": "RING",
+    "contract": "0x9469D013805bFfB7D3DEBe5E7839237e535ec483",
+    "decimals": 18,
+    "logo": "https://imgland.oss-cn-hangzhou.aliyuncs.com/photo/2018/450e60bc-bad7-4058-822d-b88ed4e82262.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@evolutionland9/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/evolutionland9",
+        "telegram": "https://t.me/evolutionland9"
+    }
+}

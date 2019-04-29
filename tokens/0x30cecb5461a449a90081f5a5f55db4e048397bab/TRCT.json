@@ -1,0 +1,18 @@
+{
+    "name": "Tracto",
+    "symbol": "TRCT",
+    "contract": "0x30ceCB5461A449A90081F5a5F55db4e048397BAB",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

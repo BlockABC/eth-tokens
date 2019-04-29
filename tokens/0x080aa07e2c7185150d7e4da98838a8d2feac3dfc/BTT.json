@@ -1,0 +1,18 @@
+{
+    "name": "Bitether",
+    "symbol": "BTT",
+    "contract": "0x080aa07e2c7185150d7e4da98838a8d2feac3dfc",
+    "decimals": 0,
+    "logo": "https://www.bitether.co/wp-content/uploads/thegem-logos/logo_865d0b770c80162beeec3624ca062e6d_1x.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/bitEther_coin",
+        "telegram": "https://t.me/BitEthercoin"
+    }
+}

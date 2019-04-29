@@ -1,0 +1,18 @@
+{
+    "name": "Primalbase Token (PBT)",
+    "symbol": "PBT",
+    "contract": "0xF4c07b1865bC326A3c01339492Ca7538FD038Cc0",
+    "decimals": 4,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/primalbase",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/primalbasehq",
+        "telegram": "https://t.me/joinchat/AAAAAELBNMavaVUQvMRffQ"
+    }
+}

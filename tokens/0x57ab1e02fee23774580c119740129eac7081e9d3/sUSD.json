@@ -1,0 +1,18 @@
+{
+    "name": "USD Synth (sUSD)",
+    "symbol": "sUSD",
+    "contract": "0x57Ab1E02fEE23774580C119740129eAC7081e9D3",
+    "decimals": 18,
+    "logo": "https://www.synthetix.io/img/sUSD_blue_sml.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://blog.havven.io",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/synthetix_io",
+        "telegram": ""
+    }
+}

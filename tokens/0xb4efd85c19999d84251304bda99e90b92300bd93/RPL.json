@@ -1,0 +1,18 @@
+{
+    "name": "Rocket Pool",
+    "symbol": "RPL",
+    "contract": "0xb4efd85c19999d84251304bda99e90b92300bd93",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

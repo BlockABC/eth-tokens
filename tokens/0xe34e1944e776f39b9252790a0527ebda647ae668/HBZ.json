@@ -1,0 +1,18 @@
+{
+    "name": "Helbiz",
+    "symbol": "HBZ",
+    "contract": "0xe34e1944e776f39b9252790a0527ebda647ae668",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Sandcoin",
+    "symbol": "SND",
+    "contract": "0xf333b2Ace992ac2bBD8798bF57Bc65a06184afBa",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": "https://t.me/sandcoin"
+    }
+}

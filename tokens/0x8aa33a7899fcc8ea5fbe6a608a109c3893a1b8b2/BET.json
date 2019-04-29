@@ -1,0 +1,18 @@
+{
+    "name": "BET",
+    "symbol": "BET",
+    "contract": "0x8aA33A7899FCC8eA5fBe6A608A109c3893A1B8b2",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

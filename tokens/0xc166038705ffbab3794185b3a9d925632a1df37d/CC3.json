@@ -1,0 +1,18 @@
+{
+    "name": "Coal Coin",
+    "symbol": "CC3",
+    "contract": "0xc166038705FFBAb3794185b3a9D925632A1DF37D",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/CoalCoin",
+        "telegram": ""
+    }
+}

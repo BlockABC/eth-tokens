@@ -1,0 +1,18 @@
+{
+    "name": "YANG",
+    "symbol": "YNN",
+    "contract": "0x1bc7c1de0ac6ef4fdec35c053030d90cf54c7e9a",
+    "decimals": 18,
+    "logo": "https://prnt.sc/mwg7ak",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/GlobalYang",
+        "telegram": "https://t.me/yangglobal"
+    }
+}

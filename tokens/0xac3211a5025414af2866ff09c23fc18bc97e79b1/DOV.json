@@ -1,0 +1,18 @@
+{
+    "name": "DOVU",
+    "symbol": "DOV",
+    "contract": "0xac3211a5025414af2866ff09c23fc18bc97e79b1",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

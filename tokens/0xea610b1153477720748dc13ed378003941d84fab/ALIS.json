@@ -1,0 +1,18 @@
+{
+    "name": "ALIS Token",
+    "symbol": "ALIS",
+    "contract": "0xEA610B1153477720748DC13ED378003941d84fAB",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@alismedia",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/ALIS_media",
+        "telegram": ""
+    }
+}

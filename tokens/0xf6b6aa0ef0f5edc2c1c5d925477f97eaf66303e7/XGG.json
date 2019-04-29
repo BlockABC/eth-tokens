@@ -1,0 +1,18 @@
+{
+    "name": "Going Gems",
+    "symbol": "XGG",
+    "contract": "0xf6b6aa0ef0f5edc2c1c5d925477f97eaf66303e7",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://www.going-gems.com/#blog",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/GoingGems",
+        "telegram": "https://t.me/GoingGemsChannel"
+    }
+}

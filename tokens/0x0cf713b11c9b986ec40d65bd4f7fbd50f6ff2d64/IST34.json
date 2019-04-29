@@ -1,0 +1,18 @@
+{
+    "name": "IST34 Token",
+    "symbol": "IST34",
+    "contract": "0x0cf713b11c9b986ec40d65bd4f7fbd50f6ff2d64",
+    "decimals": 18,
+    "logo": "https://hiperteknoloji.org/ht/ist34-token-28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://hiperteknoloji.org/2018/05/10/ist34token/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/IST34_Token",
+        "telegram": "https://t.me/IST34Token"
+    }
+}

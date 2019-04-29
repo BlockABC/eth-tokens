@@ -1,0 +1,18 @@
+{
+    "name": "Honest",
+    "symbol": "HNST",
+    "contract": "0x9c9fe3bd60b22a9735908b9589011e78f2025c11",
+    "decimals": 18,
+    "logo": "https://honestmining.github.io/hnst/HNST-128.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://honestmining.com/blog",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/honestmining",
+        "telegram": "https://t.me/HonestMining"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "UnikoinGold",
+    "symbol": "UKG",
+    "contract": "0x24692791bc444c5cd0b81e3cbcaba4b04acd1f3b",
+    "decimals": 18,
+    "logo": "https://f.unkrn.com/2017-11-04/a/1509813079_unikoin-icon-gold.svg",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://news.unikrn.com/topic/UnikoinGold",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/unikoingold",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Oyster Shell",
+    "symbol": "SHL",
+    "contract": "0x8542325b72c6d9fc0ad2ca965a78435413a915a0",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

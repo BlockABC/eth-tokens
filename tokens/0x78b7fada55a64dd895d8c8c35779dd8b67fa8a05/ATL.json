@@ -1,0 +1,18 @@
+{
+    "name": "ATL",
+    "symbol": "ATL",
+    "contract": "0x78B7FADA55A64dD895D8c8c35779DD8b67fA8a05",
+    "decimals": 18,
+    "logo": "https://atlant.io/promo/Atlant_custom_300x300_logo.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://blog.atlant.io/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/atlantio",
+        "telegram": "https://t.me/atlant_eng"
+    }
+}

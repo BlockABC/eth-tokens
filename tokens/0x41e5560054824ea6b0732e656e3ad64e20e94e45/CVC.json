@@ -1,0 +1,18 @@
+{
+    "name": "CVC",
+    "symbol": "CVC",
+    "contract": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

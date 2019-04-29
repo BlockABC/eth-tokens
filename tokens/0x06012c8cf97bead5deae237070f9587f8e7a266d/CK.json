@@ -1,0 +1,18 @@
+{
+    "name": "CK",
+    "symbol": "CK",
+    "contract": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

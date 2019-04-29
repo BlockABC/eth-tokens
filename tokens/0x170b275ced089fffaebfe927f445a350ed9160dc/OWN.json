@@ -1,0 +1,18 @@
+{
+    "name": "OWNDATA",
+    "symbol": "OWN",
+    "contract": "0x170b275ced089fffaebfe927f445a350ed9160dc",
+    "decimals": 8,
+    "logo": "https://owndata.network/assets/front/images/favicon/android-icon-28x28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://steemit.com/@owndata",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/owndata_coin",
+        "telegram": "https://t.me/joinchat/Hr2kt06aQWrteu_rnRu-Kgn"
+    }
+}

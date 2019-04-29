@@ -1,0 +1,18 @@
+{
+    "name": "FidelityHouse Token",
+    "symbol": "FIH",
+    "contract": "0xdfc3e857c8ccea7657e0ed98ab92e048e38dee0f",
+    "decimals": 18,
+    "logo": "https://www.fidelityhouse.io/assets/logo_fidelityhouse-28x28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/fidelityhouse",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/Fidelity_House",
+        "telegram": "https://t.me/FidelityHouseInternational"
+    }
+}

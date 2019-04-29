@@ -1,0 +1,18 @@
+{
+    "name": "qiibeeToken",
+    "symbol": "QBX",
+    "contract": "0x2467aa6b5a2351416fd4c3def8462d841feeecec",
+    "decimals": 18,
+    "logo": "https://avatars0.githubusercontent.com/u/31820267?s=400\u0026u=f671cf8b24876d0dddf9b16930d31cc2114103eb\u0026v=4",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://blog.qiibee.com",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/qiibee",
+        "telegram": "https://t.me/qiibee"
+    }
+}

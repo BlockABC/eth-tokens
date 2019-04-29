@@ -1,18 +1,18 @@
 {
     "name": "BNB",
     "symbol": "BNB",
-    "contract": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+    "contract": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/eager7/eth_tokens/master/tokens/0xB8c77482e45F1F44dE1745F52C74426C631bDD52/BNB.png",
+    "logo": "https://etherscan.io/token/images/binance_28.png",
     "desc": {
-        "en": "",
-        "zh": ""
+        "en": "ERC20",
+        "zh": "ERC20"
     },
-    "website": "https://www.binance.com/cn",
+    "website": "",
     "whitepaper": "",
     "invalid": true,
     "links": {
-        "twitter": "",
+        "twitter": "https://twitter.com/binance_2017",
         "telegram": ""
     }
 }

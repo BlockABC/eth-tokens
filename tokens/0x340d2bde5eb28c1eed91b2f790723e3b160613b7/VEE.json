@@ -1,0 +1,18 @@
+{
+    "name": "BLOCKv",
+    "symbol": "VEE",
+    "contract": "0x340d2bde5eb28c1eed91b2f790723e3b160613b7",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@blockv_io",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/blockv_io",
+        "telegram": "https://t.me/block_v"
+    }
+}

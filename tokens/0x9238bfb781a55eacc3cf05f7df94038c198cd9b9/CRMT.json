@@ -1,0 +1,18 @@
+{
+    "name": "Cremit",
+    "symbol": "CRMT",
+    "contract": "0x9238bfb781a55eacc3cf05f7df94038c198cd9b9",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

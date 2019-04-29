@@ -1,0 +1,18 @@
+{
+    "name": "ViteToken",
+    "symbol": "VITE",
+    "contract": "0x1b793e49237758dbd8b752afc9eb4b329d5da016",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

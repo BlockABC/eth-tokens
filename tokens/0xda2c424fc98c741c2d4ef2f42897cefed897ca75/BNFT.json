@@ -1,0 +1,18 @@
+{
+    "name": "Benefits Coin",
+    "symbol": "BNFT",
+    "contract": "0xdA2C424Fc98c741c2d4ef2f42897CEfed897CA75",
+    "decimals": 9,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "XGT",
+    "symbol": "XGT",
+    "contract": "0x30f4A3e0aB7a76733D8b60b89DD93c3D0b4c9E2f",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@cryptogene",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/cryptogenegroup",
+        "telegram": "https://t.me/Cryptogene"
+    }
+}

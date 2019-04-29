@@ -1,0 +1,18 @@
+{
+    "name": "MCAP",
+    "symbol": "MCAP",
+    "contract": "0x93E682107d1E9defB0b5ee701C71707a4B2E46Bc",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

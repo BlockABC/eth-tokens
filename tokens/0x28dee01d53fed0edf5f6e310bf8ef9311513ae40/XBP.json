@@ -1,0 +1,18 @@
+{
+    "name": "BlitzPredict",
+    "symbol": "XBP",
+    "contract": "0x28dee01d53fed0edf5f6e310bf8ef9311513ae40",
+    "decimals": 18,
+    "logo": "https://s3.amazonaws.com/blitzpredict-public/MEW+Logo.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@BlitzPredict1",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/@blitzpredict",
+        "telegram": "https://t.me/BlitzPredict"
+    }
+}

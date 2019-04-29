@@ -1,0 +1,18 @@
+{
+    "name": "SKRP (Phase 1-E)",
+    "symbol": "SKRP",
+    "contract": "0x324a48ebcbb46e61993931ef9d35f6697cd2901b",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

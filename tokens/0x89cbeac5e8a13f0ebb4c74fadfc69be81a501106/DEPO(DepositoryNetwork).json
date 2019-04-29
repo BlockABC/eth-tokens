@@ -1,0 +1,18 @@
+{
+    "name": "DEPO (Depository Network)",
+    "symbol": "DEPO (Depository Network)",
+    "contract": "0x89cbeac5e8a13f0ebb4c74fadfc69be81a501106",
+    "decimals": 18,
+    "logo": "https://i.imgur.com/ar18ECx.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://depository.network/blog/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/deponetwork",
+        "telegram": "https://t.me/depositorynetwork"
+    }
+}

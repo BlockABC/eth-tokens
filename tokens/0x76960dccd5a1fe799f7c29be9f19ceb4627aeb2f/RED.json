@@ -1,0 +1,18 @@
+{
+    "name": "Red Community Token",
+    "symbol": "RED",
+    "contract": "0x76960dccd5a1fe799f7c29be9f19ceb4627aeb2f",
+    "decimals": 18,
+    "logo": "https://static.red-lang.org/pr/logo/red-token-logo_sq_128x128.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://www.red-lang.org",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/red_lang",
+        "telegram": "https://t.me/redofficial"
+    }
+}

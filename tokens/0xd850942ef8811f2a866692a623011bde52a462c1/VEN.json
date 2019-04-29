@@ -1,0 +1,18 @@
+{
+    "name": "Vechain",
+    "symbol": "VEN",
+    "contract": "0xD850942eF8811f2A866692A623011bDE52a462C1",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

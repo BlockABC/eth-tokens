@@ -1,0 +1,18 @@
+{
+    "name": "NULS",
+    "symbol": "NULS",
+    "contract": "0xb91318f35bdb262e9423bc7c7c2a3a93dd93c92c",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/nulsservice",
+        "telegram": "https://t.me/Nulsio"
+    }
+}

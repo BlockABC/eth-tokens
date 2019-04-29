@@ -1,0 +1,18 @@
+{
+    "name": "iExec RLC",
+    "symbol": "RLC",
+    "contract": "0x607F4C5BB672230e8672085532f7e901544a7375",
+    "decimals": 9,
+    "logo": "https://ipfs.io/ipfs/QmcjNqEC4uDyZJBM946Pyrh8murWVkMh9ufBjpt5hPYuZp",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/iex-ec",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://slack.iex.ec/",
+        "telegram": "https://t.me/iexec_announcements"
+    }
+}

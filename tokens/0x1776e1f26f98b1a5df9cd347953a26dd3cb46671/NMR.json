@@ -1,0 +1,18 @@
+{
+    "name": "NMR",
+    "symbol": "NMR",
+    "contract": "0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

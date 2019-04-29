@@ -1,0 +1,18 @@
+{
+    "name": "Amon",
+    "symbol": "AMN",
+    "contract": "0x737f98ac8ca59f2c68ad658e3c3d8c8963e40a4c",
+    "decimals": 18,
+    "logo": "https://amon.tech/assets/img/token/amn.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@amontech",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/amonwallet",
+        "telegram": "https://t.me/amontech"
+    }
+}

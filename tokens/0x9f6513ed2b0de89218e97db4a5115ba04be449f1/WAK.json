@@ -1,0 +1,18 @@
+{
+    "name": "Wak Coin",
+    "symbol": "WAK",
+    "contract": "0x9f6513ED2b0DE89218E97DB4A5115ba04Be449f1",
+    "decimals": 18,
+    "logo": "https://res.cloudinary.com/cloudimgstorage/image/upload/v1549991462/wak-logo-28x28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/WAKCoin",
+        "telegram": ""
+    }
+}

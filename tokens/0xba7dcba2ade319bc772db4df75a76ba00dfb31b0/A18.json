@@ -1,0 +1,18 @@
+{
+    "name": "Apollo18",
+    "symbol": "A18",
+    "contract": "0xBa7DCBa2Ade319Bc772DB4df75A76BA00dFb31b0",
+    "decimals": 18,
+    "logo": "https://apollo18.co.in/wp-content/uploads/2018/08/a18-28x28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@apollo18",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.apollo18.co.in",
+        "telegram": "https://telegram.apollo18.co.in"
+    }
+}

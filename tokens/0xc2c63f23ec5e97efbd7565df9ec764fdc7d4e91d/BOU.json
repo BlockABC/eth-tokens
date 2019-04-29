@@ -1,0 +1,18 @@
+{
+    "name": "Boule Coin",
+    "symbol": "BOU",
+    "contract": "0xC2C63F23ec5E97efbD7565dF9Ec764FDc7d4e91d",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/boulecoin",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": "https://t.me/joinchat/FSM1Gw0WEk5Hb-SuoIIwqA"
+    }
+}

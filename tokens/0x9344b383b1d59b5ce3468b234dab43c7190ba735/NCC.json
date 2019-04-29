@@ -1,0 +1,18 @@
+{
+    "name": "NeedsCoin",
+    "symbol": "NCC",
+    "contract": "0x9344b383b1D59b5ce3468B234DAB43C7190ba735",
+    "decimals": 18,
+    "logo": "https://res.cloudinary.com/cloudimgstorage/image/upload/v1542398850/NeedsCoinLogo/ncc.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://steemit.com/blockchain/@okane81/needscoin-token",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/NeedsCoin",
+        "telegram": "https://t.me/ethernetcash"
+    }
+}

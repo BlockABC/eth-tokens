@@ -1,0 +1,18 @@
+{
+    "name": "GXC",
+    "symbol": "GXC",
+    "contract": "0x58ca3065c0f24c7c96aee8d6056b5b5decf9c2f8",
+    "decimals": 10,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": "https://t.me/GXCommunity"
+    }
+}

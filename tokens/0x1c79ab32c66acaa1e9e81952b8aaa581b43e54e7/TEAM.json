@@ -1,0 +1,18 @@
+{
+    "name": "TEAM",
+    "symbol": "TEAM",
+    "contract": "0x1c79ab32c66acaa1e9e81952b8aaa581b43e54e7",
+    "decimals": 4,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

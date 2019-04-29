@@ -1,0 +1,18 @@
+{
+    "name": "Eximchain Token",
+    "symbol": "EXC",
+    "contract": "0x00c4b398500645eb5da00a1a379a88b11683ba01",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

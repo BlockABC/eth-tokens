@@ -1,0 +1,18 @@
+{
+    "name": "RiptideCoin",
+    "symbol": "RIPT",
+    "contract": "0xdd007278b667f6bef52fd0a4c23604aa1f96039a",
+    "decimals": 8,
+    "logo": "https://etherscan.io/token/images/riptide_28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/RiptideCoin",
+        "telegram": ""
+    }
+}

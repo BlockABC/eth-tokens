@@ -1,0 +1,18 @@
+{
+    "name": "1WO",
+    "symbol": "1WO",
+    "contract": "0xfdbc1adc26f0f8f8606a5d63b7d3a3cd21c22b23",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/1World_Online",
+        "telegram": "https://t.me/joinchat/Fu2jLgtH-b2obpp1FO5jyQ"
+    }
+}

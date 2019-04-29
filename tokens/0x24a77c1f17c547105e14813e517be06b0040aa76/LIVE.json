@@ -1,0 +1,18 @@
+{
+    "name": "LIVE Token",
+    "symbol": "LIVE",
+    "contract": "0x24A77c1F17C547105E14813e517be06b0040aa76",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/LiveStarsIO",
+        "telegram": "https://t.me/livestarsio"
+    }
+}

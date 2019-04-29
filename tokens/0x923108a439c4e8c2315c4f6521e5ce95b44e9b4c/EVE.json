@@ -1,0 +1,18 @@
+{
+    "name": "EVE",
+    "symbol": "EVE",
+    "contract": "0x923108a439C4e8C2315c4f6521E5cE95B44e9B4c",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/devery-io",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/deveryofficial",
+        "telegram": "https://t.me/deverychat"
+    }
+}

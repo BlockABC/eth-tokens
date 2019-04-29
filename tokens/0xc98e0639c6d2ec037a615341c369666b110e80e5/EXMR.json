@@ -1,0 +1,18 @@
+{
+    "name": "eXMRcoin",
+    "symbol": "EXMR",
+    "contract": "0xc98e0639c6d2ec037a615341c369666b110e80e5",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://www.twitter.com/eXMRCoin",
+        "telegram": "https://t.me/joinEXMR/"
+    }
+}

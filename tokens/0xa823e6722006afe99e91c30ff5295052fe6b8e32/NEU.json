@@ -1,0 +1,18 @@
+{
+    "name": "NEU Fund",
+    "symbol": "NEU",
+    "contract": "0xa823e6722006afe99e91c30ff5295052fe6b8e32",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/neufundorg",
+        "telegram": "https://t.me/neufund"
+    }
+}

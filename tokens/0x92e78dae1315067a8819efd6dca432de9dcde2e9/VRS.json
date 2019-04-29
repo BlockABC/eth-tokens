@@ -1,0 +1,18 @@
+{
+    "name": "Veros",
+    "symbol": "VRS",
+    "contract": "0x92e78dae1315067a8819efd6dca432de9dcde2e9",
+    "decimals": 6,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

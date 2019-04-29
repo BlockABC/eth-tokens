@@ -1,0 +1,18 @@
+{
+    "name": "ZMINE",
+    "symbol": "ZMN",
+    "contract": "0x554ffc77f4251a9fb3c0e3590a6a205f8d4e067d",
+    "decimals": 18,
+    "logo": "https://zmine.com/img/logo_300x300.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://zmine.com/blog/en/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": "https://t.me/zmineofficial"
+    }
+}

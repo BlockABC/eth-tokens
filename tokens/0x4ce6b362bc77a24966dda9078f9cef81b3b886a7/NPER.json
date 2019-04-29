@@ -1,0 +1,18 @@
+{
+    "name": "NPER",
+    "symbol": "NPER",
+    "contract": "0x4ce6b362bc77a24966dda9078f9cef81b3b886a7",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@NPERproject",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "AMIS",
+    "symbol": "AMIS",
+    "contract": "0x949bed886c739f1a3273629b3320db0c5024c719",
+    "decimals": 9,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@AMIS_ERC20",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/AMIS_ERC20",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "SPiCE VC Token",
+    "symbol": "SPICE",
+    "contract": "0x0324dd195d0cd53f9f07bee6a48ee7a20bad738f",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

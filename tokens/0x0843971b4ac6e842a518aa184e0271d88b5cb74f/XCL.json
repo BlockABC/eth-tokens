@@ -1,0 +1,18 @@
+{
+    "name": "CLASSIE",
+    "symbol": "XCL",
+    "contract": "0x0843971b4ac6e842a518aa184e0271d88b5cb74f",
+    "decimals": 8,
+    "logo": "https://res.cloudinary.com/cloudimgstorage/image/upload/v1551593804/classie-xcl-logo-28x28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/ClassieToken",
+        "telegram": "https://t.me/Classietokens"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Immune Coin",
+    "symbol": "IMC",
+    "contract": "0xe3831c5A982B279A198456D577cfb90424cb6340",
+    "decimals": 6,
+    "logo": "http://immunecoin.info/logo_32_32.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/IMmuneCoin",
+        "telegram": "https://t.me/IMCtoken"
+    }
+}

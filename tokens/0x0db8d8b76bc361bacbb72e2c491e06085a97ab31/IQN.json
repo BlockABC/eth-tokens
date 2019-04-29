@@ -1,0 +1,18 @@
+{
+    "name": "$IQeon",
+    "symbol": "$IQN",
+    "contract": "0x0db8d8b76bc361bacbb72e2c491e06085a97ab31",
+    "decimals": 18,
+    "logo": "https://s3.eu-central-1.amazonaws.com/iqeon-content/logo/4_5953844568075010913.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://iqeon.io/news",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/IQeon",
+        "telegram": "https://t.me/IQeonICO"
+    }
+}

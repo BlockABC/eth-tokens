@@ -1,0 +1,18 @@
+{
+    "name": "Populous",
+    "symbol": "PPT",
+    "contract": "0xd4fa1460F537bb9085d22C7bcCB5DD450Ef28e3a",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@BitPopulous",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

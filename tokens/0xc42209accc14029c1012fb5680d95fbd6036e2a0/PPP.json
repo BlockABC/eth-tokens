@@ -1,0 +1,18 @@
+{
+    "name": "PayPie",
+    "symbol": "PPP",
+    "contract": "0xc42209accc14029c1012fb5680d95fbd6036e2a0",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": "https://t.me/PayPieTokens"
+    }
+}

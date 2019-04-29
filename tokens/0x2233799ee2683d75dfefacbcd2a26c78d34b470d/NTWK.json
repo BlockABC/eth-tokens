@@ -1,0 +1,18 @@
+{
+    "name": "Network",
+    "symbol": "NTWK",
+    "contract": "0x2233799ee2683d75dfefacbcd2a26c78d34b470d",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

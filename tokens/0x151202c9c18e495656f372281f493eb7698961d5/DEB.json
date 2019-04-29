@@ -1,0 +1,18 @@
+{
+    "name": "DEBITUM",
+    "symbol": "DEB",
+    "contract": "0x151202C9c18e495656f372281F493EB7698961D5",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/DebitumNetwork",
+        "telegram": "https://t.me/joinchat/G6KFmURKsu0FIfJetJ3mOA"
+    }
+}

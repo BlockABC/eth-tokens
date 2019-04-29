@@ -1,0 +1,18 @@
+{
+    "name": "Soarcoin",
+    "symbol": "Soar",
+    "contract": "0xD65960FAcb8E4a2dFcb2C2212cb2e44a02e2a57E",
+    "decimals": 6,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

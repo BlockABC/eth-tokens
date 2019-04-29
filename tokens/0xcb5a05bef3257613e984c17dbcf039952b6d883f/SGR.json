@@ -1,0 +1,18 @@
+{
+    "name": "Sugar Exchange",
+    "symbol": "SGR",
+    "contract": "0xcb5a05bef3257613e984c17dbcf039952b6d883f",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

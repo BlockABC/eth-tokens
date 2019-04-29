@@ -1,0 +1,18 @@
+{
+    "name": "Wibson Token",
+    "symbol": "WIB",
+    "contract": "0x3F17Dd476faF0a4855572F0B6ed5115D9bBA22AD",
+    "decimals": 9,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@wibson",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/WibsonOrg",
+        "telegram": "https://t.me/wibsoncommunity"
+    }
+}

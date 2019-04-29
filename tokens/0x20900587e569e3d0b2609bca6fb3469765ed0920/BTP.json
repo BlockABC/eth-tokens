@@ -1,0 +1,18 @@
+{
+    "name": "Bitpoint",
+    "symbol": "BTP",
+    "contract": "0x20900587e569e3d0b2609bca6fb3469765ed0920",
+    "decimals": 18,
+    "logo": "https://res.cloudinary.com/cloudimgstorage/image/upload/v1555672579/BTP-LOGO-256x256.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/Bitmarket2",
+        "telegram": ""
+    }
+}

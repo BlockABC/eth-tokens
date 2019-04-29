@@ -1,0 +1,18 @@
+{
+    "name": "AdBank",
+    "symbol": "ADB",
+    "contract": "0x2baac9330cf9ac479d819195794d79ad0c7616e3",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "DigiPulse",
+    "symbol": "DGPT",
+    "contract": "0xf6cFe53d6FEbaEEA051f400ff5fc14F0cBBDacA1",
+    "decimals": 18,
+    "logo": "https://files.coinmarketcap.com/static/img/coins/200x200/digipulse.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://blog.digipulse.io",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/DigiPulseIO",
+        "telegram": "https://t.me/digipulse_official"
+    }
+}

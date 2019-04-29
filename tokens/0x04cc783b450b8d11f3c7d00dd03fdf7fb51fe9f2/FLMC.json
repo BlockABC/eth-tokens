@@ -1,0 +1,18 @@
+{
+    "name": "Filmscoin",
+    "symbol": "FLMC",
+    "contract": "0x04cC783b450b8D11F3C7d00DD03fDF7FB51fE9F2",
+    "decimals": 18,
+    "logo": "https://filmscoin.com/images/icon-flmc28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/filmscoin1",
+        "telegram": "https://t.me/filmscoin"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "BETR",
+    "symbol": "BETR",
+    "contract": "0x763186eb8d4856d536ed4478302971214febc6a9",
+    "decimals": 18,
+    "logo": "https://betterbetting.org/assets/images/bb-token-icon_w28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/BETRBetting",
+        "telegram": "https://t.me/betterbetting"
+    }
+}

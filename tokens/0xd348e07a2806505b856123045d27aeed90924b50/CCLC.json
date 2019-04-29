@@ -1,0 +1,18 @@
+{
+    "name": "Christ Coin",
+    "symbol": "CCLC",
+    "contract": "0xd348e07a2806505b856123045d27aeed90924b50",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://lifechange.io/app/posts",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

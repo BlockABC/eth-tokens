@@ -1,0 +1,18 @@
+{
+    "name": "AdShares",
+    "symbol": "ADST",
+    "contract": "0x422866a8F0b032c5cf1DfBDEf31A20F4509562b0",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

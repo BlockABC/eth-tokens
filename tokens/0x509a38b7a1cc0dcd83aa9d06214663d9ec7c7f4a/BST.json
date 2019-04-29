@@ -1,0 +1,18 @@
+{
+    "name": "BlocksquareToken",
+    "symbol": "BST",
+    "contract": "0x509A38b7a1cC0dcd83Aa9d06214663D9eC7c7F4a",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "http://go.blocksquare.io/medium",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "http://go.blocksquare.io/twitter",
+        "telegram": "http://go.blocksquare.io/telegram"
+    }
+}

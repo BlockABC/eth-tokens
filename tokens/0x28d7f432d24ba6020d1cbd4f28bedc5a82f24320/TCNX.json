@@ -1,0 +1,18 @@
+{
+    "name": "Tercet Network",
+    "symbol": "TCNX",
+    "contract": "0x28d7f432d24ba6020d1cbd4f28bedc5a82f24320",
+    "decimals": 18,
+    "logo": "http://tercet.network/180Logo.jpg",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@tercetnetwork",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/TercetN",
+        "telegram": "https://t.me/TercetN"
+    }
+}

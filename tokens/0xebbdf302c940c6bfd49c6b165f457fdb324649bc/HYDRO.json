@@ -1,0 +1,18 @@
+{
+    "name": "Hydro",
+    "symbol": "HYDRO",
+    "contract": "0xebbdf302c940c6bfd49c6b165f457fdb324649bc",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

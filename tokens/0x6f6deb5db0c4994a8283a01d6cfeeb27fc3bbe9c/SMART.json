@@ -1,0 +1,18 @@
+{
+    "name": "Smart Billions",
+    "symbol": "SMART",
+    "contract": "0x6F6DEb5db0C4994A8283A01D6CFeEB27Fc3bBe9C",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/smartbns",
+        "telegram": "https://t.me/SmartBillionsGroup"
+    }
+}

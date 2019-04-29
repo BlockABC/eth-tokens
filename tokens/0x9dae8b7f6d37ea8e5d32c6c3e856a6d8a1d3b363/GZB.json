@@ -1,0 +1,18 @@
+{
+    "name": "GigziBlack",
+    "symbol": "GZB",
+    "contract": "0x9dae8b7f6d37ea8e5d32c6c3e856a6d8a1d3b363",
+    "decimals": 18,
+    "logo": "https://gigzi.com/assets/crypto-assets-block/icon_gzb.svg",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/gigziofficial",
+        "telegram": "https://t.me/gigzicommunity"
+    }
+}

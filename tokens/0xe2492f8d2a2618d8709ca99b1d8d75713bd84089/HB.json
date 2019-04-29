@@ -1,0 +1,18 @@
+{
+    "name": "HeartBout",
+    "symbol": "HB",
+    "contract": "0xe2492f8d2a2618d8709ca99b1d8d75713bd84089",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

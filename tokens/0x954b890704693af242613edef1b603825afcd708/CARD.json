@@ -1,0 +1,18 @@
+{
+    "name": "Cardstack Token",
+    "symbol": "CARD",
+    "contract": "0x954b890704693af242613edef1b603825afcd708",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/cardstack",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/cardstack",
+        "telegram": "https://telegram.me/cardstack"
+    }
+}

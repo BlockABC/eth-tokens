@@ -1,0 +1,18 @@
+{
+    "name": "Vegan",
+    "symbol": "VEGAN",
+    "contract": "0xfade17a07ba3b480aa1714c3724a52d4c57d410e",
+    "decimals": 8,
+    "logo": "https://res.cloudinary.com/cloudimgstorage/image/upload/v1550925563/vegan-logo-28x28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/vegancurrency",
+        "telegram": ""
+    }
+}

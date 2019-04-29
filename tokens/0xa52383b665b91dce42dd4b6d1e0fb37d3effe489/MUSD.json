@@ -1,0 +1,18 @@
+{
+    "name": "MASTER USD",
+    "symbol": "MUSD",
+    "contract": "0xa52383b665b91dce42dd4b6d1e0fb37d3effe489",
+    "decimals": 18,
+    "logo": "https://res.cloudinary.com/cloudimgstorage/image/upload/v1553022473/MUSD-Logo-128x128.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/masterusdorg",
+        "telegram": ""
+    }
+}

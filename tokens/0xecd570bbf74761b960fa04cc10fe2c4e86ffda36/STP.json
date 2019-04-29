@@ -1,0 +1,18 @@
+{
+    "name": "StashPay",
+    "symbol": "STP",
+    "contract": "0xecd570bBf74761b960Fa04Cc10fe2c4e86FfDA36",
+    "decimals": 8,
+    "logo": "https://etherscan.io/token/images/stash_28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/stashpay",
+        "telegram": ""
+    }
+}

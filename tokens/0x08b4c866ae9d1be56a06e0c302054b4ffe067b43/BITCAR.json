@@ -1,0 +1,18 @@
+{
+    "name": "BitCar Token",
+    "symbol": "BITCAR",
+    "contract": "0x08b4c866aE9D1bE56a06e0C302054B4FFe067b43",
+    "decimals": 8,
+    "logo": "https://raw.githubusercontent.com/BitCar-io/logos/master/crestlogo128x128.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@bitcar",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/bitcar_io",
+        "telegram": "https://t.me/bitcar_io"
+    }
+}

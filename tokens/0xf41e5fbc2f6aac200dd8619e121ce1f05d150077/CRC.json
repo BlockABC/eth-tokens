@@ -1,0 +1,18 @@
+{
+    "name": "CryCash",
+    "symbol": "CRC",
+    "contract": "0xf41e5fbc2f6aac200dd8619e121ce1f05d150077",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

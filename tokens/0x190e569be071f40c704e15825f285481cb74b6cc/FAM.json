@@ -1,0 +1,18 @@
+{
+    "name": "FAM",
+    "symbol": "FAM",
+    "contract": "0x190e569bE071F40c704e15825F285481CB74B6cC",
+    "decimals": 12,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

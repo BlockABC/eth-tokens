@@ -1,0 +1,18 @@
+{
+    "name": "AirToken",
+    "symbol": "AIR",
+    "contract": "0x27dce1ec4d3f72c3e457cc50354f1f975ddef488",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@airfox",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/airtoken",
+        "telegram": "https://t.me/airfoxico"
+    }
+}

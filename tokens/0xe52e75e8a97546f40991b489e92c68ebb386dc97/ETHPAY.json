@@ -1,0 +1,18 @@
+{
+    "name": "ETHPAY",
+    "symbol": "ETHPAY",
+    "contract": "0xe52e75e8a97546f40991b489e92c68ebb386dc97",
+    "decimals": 18,
+    "logo": "https://res.cloudinary.com/cloudimgstorage/image/upload/v1555062501/ETHPAY-Logo-256x256.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/ETHPAY1",
+        "telegram": "https://t.me/ETHPAYtoken"
+    }
+}

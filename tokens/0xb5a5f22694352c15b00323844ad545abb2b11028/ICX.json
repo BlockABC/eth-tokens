@@ -1,0 +1,18 @@
+{
+    "name": "ICON",
+    "symbol": "ICX",
+    "contract": "0xb5a5f22694352c15b00323844ad545abb2b11028",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/helloiconworld",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/helloiconworld",
+        "telegram": "https://t.me/joinchat/Fqw4igkkVmYtj--ZVi-QcA"
+    }
+}

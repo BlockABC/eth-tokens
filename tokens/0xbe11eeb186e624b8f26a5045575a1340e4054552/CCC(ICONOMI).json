@@ -1,0 +1,18 @@
+{
+    "name": "CCC (ICONOMI)",
+    "symbol": "CCC (ICONOMI)",
+    "contract": "0xbe11eeb186e624b8f26a5045575a1340e4054552",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

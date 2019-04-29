@@ -1,0 +1,18 @@
+{
+    "name": "RiderToken",
+    "symbol": "RTN",
+    "contract": "0x54b293226000ccBFC04DF902eEC567CB4C35a903",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/RiderTokenICO",
+        "telegram": "https://t.me/joinchat/FFraxA_gh6l2-Ahev-AxHQ"
+    }
+}

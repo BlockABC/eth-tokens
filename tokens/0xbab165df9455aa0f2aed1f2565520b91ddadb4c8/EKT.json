@@ -1,0 +1,18 @@
+{
+    "name": "EDUCare",
+    "symbol": "EKT",
+    "contract": "0xbab165df9455aa0f2aed1f2565520b91ddadb4c8",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

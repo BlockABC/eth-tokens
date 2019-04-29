@@ -1,0 +1,18 @@
+{
+    "name": "BTZ by Bunz",
+    "symbol": "BTZ",
+    "contract": "0xE5f867dE1EA81346df5181b8b48DD6B0BB3357B0",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

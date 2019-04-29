@@ -1,0 +1,18 @@
+{
+    "name": "CacaoShares",
+    "symbol": "CCS",
+    "contract": "0x315ce59fafd3a8d562b7ec1c8542382d2710b06c",
+    "decimals": 18,
+    "logo": "http://cacaoshares.com/wp-content/uploads/2017/12/cropped-logo-cherry-2018-1-e1513046302595.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "http://www.cacaoshares.com/blog",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/cacaoshares",
+        "telegram": "https://t.me/joinchat/FoJjLkP1Qxh9yZbCZ5mC9A"
+    }
+}

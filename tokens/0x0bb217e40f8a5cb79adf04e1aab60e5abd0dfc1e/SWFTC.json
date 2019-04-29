@@ -1,0 +1,18 @@
+{
+    "name": "SwftCoin",
+    "symbol": "SWFTC",
+    "contract": "0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

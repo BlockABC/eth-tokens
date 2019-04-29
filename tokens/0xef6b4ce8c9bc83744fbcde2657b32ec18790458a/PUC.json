@@ -1,0 +1,18 @@
+{
+    "name": "Pour Coin",
+    "symbol": "PUC",
+    "contract": "0xef6b4ce8c9bc83744fbcde2657b32ec18790458a",
+    "decimals": 0,
+    "logo": "http://price-s.info/wp-content/uploads/2018/01/p.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/pourcoin",
+        "telegram": ""
+    }
+}

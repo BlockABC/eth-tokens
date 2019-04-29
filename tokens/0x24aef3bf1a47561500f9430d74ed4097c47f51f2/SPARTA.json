@@ -1,0 +1,18 @@
+{
+    "name": "SPARTA",
+    "symbol": "SPARTA",
+    "contract": "0x24aef3bf1a47561500f9430d74ed4097c47f51f2",
+    "decimals": 4,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/spartaico",
+        "telegram": "https://t.me/joinchat/FiHDZw5qhOTmSArzrs42rQ"
+    }
+}

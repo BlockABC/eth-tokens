@@ -1,0 +1,18 @@
+{
+    "name": "ALX",
+    "symbol": "ALX",
+    "contract": "0x49b127Bc33ce7E1586EC28CEC6a65b112596C822",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

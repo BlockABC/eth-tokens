@@ -1,0 +1,18 @@
+{
+    "name": "Suretly",
+    "symbol": "SUR",
+    "contract": "0xe120c1ecbfdfea7f0a8f0ee30063491e8c26fedf",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "CreatorPAL",
+    "symbol": "CPAL",
+    "contract": "0x31910aff5545784755970ae1fbe7fe65d5f0eea2",
+    "decimals": 8,
+    "logo": "https://res.cloudinary.com/cloudimgstorage/image/upload/v1554740390/CPAL-LOGO-256X256.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/creatorpaltoken",
+        "telegram": ""
+    }
+}

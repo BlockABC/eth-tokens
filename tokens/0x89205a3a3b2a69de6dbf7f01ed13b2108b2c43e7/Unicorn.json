@@ -1,0 +1,18 @@
+{
+    "name": "Unicorn",
+    "symbol": "Unicorn",
+    "contract": "0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

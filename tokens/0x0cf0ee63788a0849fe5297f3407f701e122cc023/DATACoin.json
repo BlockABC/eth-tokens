@@ -1,0 +1,18 @@
+{
+    "name": "DATACoin",
+    "symbol": "DATACoin",
+    "contract": "0x0cf0ee63788a0849fe5297f3407f701e122cc023",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://blog.streamr.com",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/streamrinc",
+        "telegram": ""
+    }
+}

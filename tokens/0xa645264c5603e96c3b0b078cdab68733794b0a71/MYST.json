@@ -1,0 +1,18 @@
+{
+    "name": "Mysterium",
+    "symbol": "MYST",
+    "contract": "0xa645264C5603E96c3b0B078cdab68733794B0A71",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/MysteriumNet",
+        "telegram": "https://t.me/mysterium_network"
+    }
+}

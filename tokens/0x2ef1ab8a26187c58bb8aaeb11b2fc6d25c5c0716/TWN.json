@@ -1,0 +1,18 @@
+{
+    "name": "The World News",
+    "symbol": "TWN",
+    "contract": "0x2eF1aB8a26187C58BB8aAeB11B2fC6D25C5c0716",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/TheWorldNewsNet",
+        "telegram": "https://t.me/theworldnewsdev"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Aion",
+    "symbol": "AION",
+    "contract": "0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://blog.aion.network/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/Aion_Network",
+        "telegram": "https://t.me/aion_blockchain"
+    }
+}

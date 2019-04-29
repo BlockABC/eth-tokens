@@ -1,0 +1,18 @@
+{
+    "name": "ETERNAL TOKEN",
+    "symbol": "XET",
+    "contract": "0x054c64741dbafdc19784505494029823d89c3b13",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

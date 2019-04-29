@@ -1,0 +1,18 @@
+{
+    "name": "GTKT",
+    "symbol": "GTKT",
+    "contract": "0x025abad9e518516fdaafbdcdb9701b37fb7ef0fa",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

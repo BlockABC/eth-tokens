@@ -1,0 +1,18 @@
+{
+    "name": "LML",
+    "symbol": "LML",
+    "contract": "0x25B6325f5BB1c1E03cfbC3e53F470E1F1ca022E3",
+    "decimals": 18,
+    "logo": "https://public.liangnotes.com/images/gny/gny-logo.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/gny_io",
+        "telegram": "https://t.me/GNYioBlockchain"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "SPARC",
+    "symbol": "SPARC",
+    "contract": "0x58bf7df57d9DA7113c4cCb49d8463D4908C735cb",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/kingsdsnetwork",
+        "telegram": ""
+    }
+}

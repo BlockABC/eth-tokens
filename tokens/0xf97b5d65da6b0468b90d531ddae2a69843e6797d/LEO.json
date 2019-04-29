@@ -1,0 +1,18 @@
+{
+    "name": "LEOcoin",
+    "symbol": "LEO",
+    "contract": "0xf97b5d65da6b0468b90d531ddae2a69843e6797d",
+    "decimals": 18,
+    "logo": "https://upgrade2erc20.leocoin.org/img/LEOcoinToken.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

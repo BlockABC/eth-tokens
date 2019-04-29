@@ -1,0 +1,18 @@
+{
+    "name": "eRupee",
+    "symbol": "E₹",
+    "contract": "0xb67734521eAbBE9C773729dB73E16CC2dfb20A58",
+    "decimals": 2,
+    "logo": "https://raw.githubusercontent.com/eRupee/images/master/coin%20logo.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://erupee.wordpress.com",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/eRupeeCoin",
+        "telegram": "t.me/eRupee"
+    }
+}

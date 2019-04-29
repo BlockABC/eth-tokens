@@ -1,0 +1,18 @@
+{
+    "name": "$FIXY NETWORK",
+    "symbol": "$FXY",
+    "contract": "0xa024e8057eec474a9b2356833707dd0579e26ef3",
+    "decimals": 18,
+    "logo": "https://ibb.co/diUwiJ",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@fixynetwork",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/fixy_app",
+        "telegram": "https://t.me/fixynetwork"
+    }
+}

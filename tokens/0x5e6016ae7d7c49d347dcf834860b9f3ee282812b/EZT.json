@@ -1,0 +1,18 @@
+{
+    "name": "EZToken",
+    "symbol": "EZT",
+    "contract": "0x5e6016ae7d7c49d347dcf834860b9f3ee282812b",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

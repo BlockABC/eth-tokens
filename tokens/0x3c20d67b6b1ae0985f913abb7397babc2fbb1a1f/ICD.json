@@ -1,0 +1,18 @@
+{
+    "name": "ICEDIUM",
+    "symbol": "ICD",
+    "contract": "0x3c20d67b6b1ae0985f913abb7397babc2fbb1a1f",
+    "decimals": 18,
+    "logo": "https://icedium.com/icon/0x3c20d67b6b1ae0985f913abb7397babc2fbb1a1f.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@Icedium",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/Icedium_Group",
+        "telegram": "https://t.me/ICEDIUM"
+    }
+}

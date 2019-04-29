@@ -1,0 +1,18 @@
+{
+    "name": "BTC Lite",
+    "symbol": "BTCL",
+    "contract": "0x5acD19b9c91e596b1f062f18e3D02da7eD8D1e50",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "http://btclite.org/blog/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/BTCliteofficial",
+        "telegram": "http://t.me/BTCLITE"
+    }
+}

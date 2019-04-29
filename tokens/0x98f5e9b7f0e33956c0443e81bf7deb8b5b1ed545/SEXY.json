@@ -1,0 +1,18 @@
+{
+    "name": "Sexy Token",
+    "symbol": "SEXY",
+    "contract": "0x98f5e9b7f0e33956c0443e81bf7deb8b5b1ed545",
+    "decimals": 18,
+    "logo": "https://etherscan.io/token/images/sexytoken28.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

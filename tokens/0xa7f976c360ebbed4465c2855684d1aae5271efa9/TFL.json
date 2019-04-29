@@ -1,0 +1,18 @@
+{
+    "name": "TrueFlip",
+    "symbol": "TFL",
+    "contract": "0xa7f976C360ebBeD4465c2855684D1AAE5271eFa9",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "StreamShares",
+    "symbol": "SSH",
+    "contract": "0x6e2050CBFB3eD8A4d39b64cC9f47E711a03a5a89",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

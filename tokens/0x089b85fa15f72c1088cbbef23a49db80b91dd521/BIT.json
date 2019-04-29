@@ -1,0 +1,18 @@
+{
+    "name": "BlockEstate Investment Token",
+    "symbol": "BIT",
+    "contract": "0x089b85fa15f72c1088cbbef23a49db80b91dd521",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/blockestate",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/block_estate",
+        "telegram": ""
+    }
+}

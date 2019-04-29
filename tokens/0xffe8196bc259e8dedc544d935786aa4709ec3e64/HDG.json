@@ -1,0 +1,18 @@
+{
+    "name": "Hedge Crypto",
+    "symbol": "HDG",
+    "contract": "0xffe8196bc259e8dedc544d935786aa4709ec3e64",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

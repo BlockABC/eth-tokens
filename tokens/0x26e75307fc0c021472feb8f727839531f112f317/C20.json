@@ -1,0 +1,18 @@
+{
+    "name": "CRYPTO20",
+    "symbol": "C20",
+    "contract": "0x26E75307Fc0C021472fEb8F727839531F112f317",
+    "decimals": 18,
+    "logo": "https://cdn.crypto20.com/images/C20_hex_dark_.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.crypto20.com",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/CRYPTOtwenty",
+        "telegram": ""
+    }
+}

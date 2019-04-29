@@ -1,0 +1,18 @@
+{
+    "name": "Climatecoin",
+    "symbol": "CO2",
+    "contract": "0xB4b1D2C217EC0776584CE08D3DD98F90EDedA44b",
+    "decimals": 18,
+    "logo": "https://climatecoin.io/uploads/logosmall-1-42x42.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@Climatecoin",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/infoclimatecoin",
+        "telegram": "https://t.me/climatecoinofficial"
+    }
+}

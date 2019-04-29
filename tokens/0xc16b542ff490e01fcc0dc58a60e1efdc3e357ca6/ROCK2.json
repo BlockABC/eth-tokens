@@ -1,0 +1,18 @@
+{
+    "name": "ICE ROCK MINING",
+    "symbol": "ROCK2",
+    "contract": "0xC16b542ff490e01fcc0DC58a60e1EFdc3e357cA6",
+    "decimals": 0,
+    "logo": "https://rockmining.blob.core.windows.net/logo/fullLogo.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/icerockmining",
+        "telegram": "https://t.me/icerockmining"
+    }
+}

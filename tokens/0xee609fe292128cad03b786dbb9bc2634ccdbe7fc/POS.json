@@ -1,0 +1,18 @@
+{
+    "name": "PoSToken",
+    "symbol": "POS",
+    "contract": "0xee609fe292128cad03b786dbb9bc2634ccdbe7fc",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/PoSToken",
+        "telegram": ""
+    }
+}

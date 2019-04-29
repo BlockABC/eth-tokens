@@ -1,0 +1,18 @@
+{
+    "name": "WCOIN",
+    "symbol": "WIN",
+    "contract": "0x899338b84d25ac505a332adce7402d697d947494",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Realisto",
+    "symbol": "REA",
+    "contract": "0x767bA2915EC344015a7938E3eEDfeC2785195D05",
+    "decimals": 18,
+    "logo": "https://realisto.io/files/images/rea-token-logo-128x136.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@realisto",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/REALISTO_TOKEN",
+        "telegram": "https://t.me/realistochat"
+    }
+}

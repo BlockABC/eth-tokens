@@ -1,0 +1,18 @@
+{
+    "name": "DigitalTicks",
+    "symbol": "DTx",
+    "contract": "0x82fdedfB7635441aA5A92791D001fA7388da8025",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

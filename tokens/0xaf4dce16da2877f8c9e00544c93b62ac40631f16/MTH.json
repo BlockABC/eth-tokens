@@ -1,0 +1,18 @@
+{
+    "name": "Monetha",
+    "symbol": "MTH",
+    "contract": "0xaF4DcE16Da2877f8c9e00544c93B62Ac40631F16",
+    "decimals": 5,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@monetha",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/Monetha_io",
+        "telegram": "https://t.me/monetha_io"
+    }
+}

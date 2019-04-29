@@ -1,0 +1,18 @@
+{
+    "name": "HOLDER.TECH",
+    "symbol": "HDL",
+    "contract": "0x95C4be8534d69C248C0623c4C9a7A2a001c17337",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

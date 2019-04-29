@@ -1,0 +1,18 @@
+{
+    "name": "Mychatcoin",
+    "symbol": "MIT (Mychatcoin)",
+    "contract": "0xad8dd4c725de1d31b9e8f8d146089e9dc6882093",
+    "decimals": 6,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/mychatcoin",
+        "telegram": "t.me/mychatcoin"
+    }
+}

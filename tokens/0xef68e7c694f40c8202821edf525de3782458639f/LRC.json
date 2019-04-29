@@ -1,0 +1,18 @@
+{
+    "name": "LRC",
+    "symbol": "LRC",
+    "contract": "0xEF68e7C694F40c8202821eDF525dE3782458639f",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/loopringorg",
+        "telegram": ""
+    }
+}

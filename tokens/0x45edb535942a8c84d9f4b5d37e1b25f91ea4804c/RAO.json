@@ -1,0 +1,18 @@
+{
+    "name": "RadioYo",
+    "symbol": "RAO",
+    "contract": "0x45edb535942a8c84d9f4b5d37e1b25f91ea4804c",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/gharshr/ICO_smartcontract/master/RAO_Token.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/radioyofm",
+        "telegram": "https://t.me/joinchat/AAAAAEMBG4bGWaQGuDkstg"
+    }
+}

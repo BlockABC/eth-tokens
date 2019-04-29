@@ -1,0 +1,18 @@
+{
+    "name": "ToorCoin",
+    "symbol": "TOOR",
+    "contract": "0x8eb965ee9cCFBCE76c0a06264492c0afEfc2826d",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/toorcoin",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/toorcoin",
+        "telegram": "https://t.me/Toorcoin"
+    }
+}

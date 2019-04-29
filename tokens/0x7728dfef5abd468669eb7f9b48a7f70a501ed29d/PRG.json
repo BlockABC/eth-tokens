@@ -1,0 +1,18 @@
+{
+    "name": "PRG",
+    "symbol": "PRG",
+    "contract": "0x7728dfef5abd468669eb7f9b48a7f70a501ed29d",
+    "decimals": 6,
+    "logo": "https://etherscan.io/token/images/paragon2.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@paragoncoin",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/ParagonCoin",
+        "telegram": "https://t.me/joinchat/Bvx800IXuCoe-QGoLXoVlQ"
+    }
+}

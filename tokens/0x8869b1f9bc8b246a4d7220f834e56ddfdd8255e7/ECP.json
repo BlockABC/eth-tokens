@@ -1,0 +1,18 @@
+{
+    "name": "ECrypto Coin",
+    "symbol": "ECP",
+    "contract": "0x8869b1f9bc8b246a4d7220f834e56ddfdd8255e7",
+    "decimals": 18,
+    "logo": "https://ecryptotokens.com/images/resources/logo.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

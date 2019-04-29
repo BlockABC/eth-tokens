@@ -1,0 +1,18 @@
+{
+    "name": "EWO Token",
+    "symbol": "EWO",
+    "contract": "0x444997b7e7fC830E20089afea3078cd518fCF2A2",
+    "decimals": 18,
+    "logo": "https://www.ewoplace.com/images/EWO-Token-Icon-256px-min.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

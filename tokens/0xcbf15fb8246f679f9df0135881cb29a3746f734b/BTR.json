@@ -1,0 +1,18 @@
+{
+    "name": "Bither Platform Token",
+    "symbol": "BTR",
+    "contract": "0xcbf15FB8246F679F9Df0135881CB29a3746f734b",
+    "decimals": 18,
+    "logo": "https://bitherplatform.io/images/logo/BTR.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@bitherplatform",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/BitherPlatform",
+        "telegram": "https://t.me/bitherplatform"
+    }
+}

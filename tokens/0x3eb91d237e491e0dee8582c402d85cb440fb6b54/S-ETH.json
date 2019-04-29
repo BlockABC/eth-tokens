@@ -1,0 +1,18 @@
+{
+    "name": "S-ETH",
+    "symbol": "S-ETH",
+    "contract": "0x3eb91d237e491e0dee8582c402d85cb440fb6b54",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

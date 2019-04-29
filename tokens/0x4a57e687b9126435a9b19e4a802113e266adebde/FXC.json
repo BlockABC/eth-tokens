@@ -1,0 +1,18 @@
+{
+    "name": "Flexacoin",
+    "symbol": "FXC",
+    "contract": "0x4a57e687b9126435a9b19e4a802113e266adebde",
+    "decimals": 18,
+    "logo": "https://flexacoin.org/logo.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": "https://t.me/flexacoin"
+    }
+}

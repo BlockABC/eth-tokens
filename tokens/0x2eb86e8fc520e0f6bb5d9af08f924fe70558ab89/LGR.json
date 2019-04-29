@@ -1,0 +1,18 @@
+{
+    "name": "Logarithm",
+    "symbol": "LGR",
+    "contract": "0x2eb86e8fc520e0f6bb5d9af08f924fe70558ab89",
+    "decimals": 8,
+    "logo": "https://getlogarithm.com/images/logo256.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/getlogarithm",
+        "telegram": "https://t.me/joinchat/CkoPiQxH8UujJ5tkifNIGA"
+    }
+}

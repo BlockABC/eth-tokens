@@ -1,0 +1,18 @@
+{
+    "name": "Groocoin",
+    "symbol": "GROO",
+    "contract": "0xC17195bde49D70CefCF8A9F2ee1759FFC27BF0B1",
+    "decimals": 18,
+    "logo": "https://cdn.staticaly.com/gh/TrustWallet/tokens/master/images/0xc17195bde49d70cefcf8a9f2ee1759ffc27bf0b1.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@groocoinio",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/groocoinio",
+        "telegram": "https://t.me/groocoin_official_en"
+    }
+}

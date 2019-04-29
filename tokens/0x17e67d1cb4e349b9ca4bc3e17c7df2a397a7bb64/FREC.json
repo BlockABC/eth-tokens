@@ -1,0 +1,18 @@
+{
+    "name": "Freyr Coin",
+    "symbol": "FREC",
+    "contract": "0x17e67d1cb4e349b9ca4bc3e17c7df2a397a7bb64",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

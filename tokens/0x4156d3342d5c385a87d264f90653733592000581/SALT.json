@@ -1,0 +1,18 @@
+{
+    "name": "Salt Lending Token",
+    "symbol": "SALT",
+    "contract": "0x4156D3342D5c385a87D264F90653733592000581",
+    "decimals": 8,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/SaltLending",
+        "telegram": ""
+    }
+}

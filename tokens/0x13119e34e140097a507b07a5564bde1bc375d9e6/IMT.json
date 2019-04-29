@@ -1,0 +1,18 @@
+{
+    "name": "MoneyToken",
+    "symbol": "IMT",
+    "contract": "0x13119E34E140097a507B07a5564bDe1bC375D9e6",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "",
+        "telegram": ""
+    }
+}

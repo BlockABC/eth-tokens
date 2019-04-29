@@ -1,0 +1,18 @@
+{
+    "name": "SNC",
+    "symbol": "SNC",
+    "contract": "0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/sun_contract",
+        "telegram": ""
+    }
+}

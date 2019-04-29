@@ -1,0 +1,18 @@
+{
+    "name": "Props",
+    "symbol": "PROPS",
+    "contract": "0x6fe56c0bcdd471359019fcbc48863d6c3e9d4f41",
+    "decimals": 18,
+    "logo": "https://propsproject.github.io/props-token-distribution/logo.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://blog.propsproject.com/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/propsproject",
+        "telegram": "https://t.me/propsproject"
+    }
+}

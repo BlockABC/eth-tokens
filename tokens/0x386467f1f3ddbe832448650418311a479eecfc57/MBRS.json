@@ -1,0 +1,18 @@
+{
+    "name": "Embers",
+    "symbol": "MBRS",
+    "contract": "0x386467f1f3ddbe832448650418311a479eecfc57",
+    "decimals": 0,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/TheEmbermine",
+        "telegram": ""
+    }
+}

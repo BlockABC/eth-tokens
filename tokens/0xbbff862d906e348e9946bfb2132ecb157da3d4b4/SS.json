@@ -1,0 +1,18 @@
+{
+    "name": "Sharder",
+    "symbol": "SS",
+    "contract": "0xbbFF862d906E348E9946Bfb2132ecB157Da3D4b4",
+    "decimals": 18,
+    "logo": "https://oss.sharder.org/sharder/Token/Token-logo-132x132.png",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://medium.com/@SharderChain",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/SharderChain",
+        "telegram": "https://t.me/sharder_talk"
+    }
+}

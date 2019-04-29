@@ -1,0 +1,18 @@
+{
+    "name": "FOAM Token",
+    "symbol": "FOAM",
+    "contract": "0x4946fcea7c692606e8908002e55a582af44ac121",
+    "decimals": 18,
+    "logo": "https://ipfs.io/ipfs/QmQLg44xb349BLV2qVAuRzRoGZXdm8JN26bWY5yRbzcpZ5",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://blog.foam.space/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/foamspace",
+        "telegram": "https://t.me/foamspace"
+    }
+}

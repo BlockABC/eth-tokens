@@ -1,0 +1,18 @@
+{
+    "name": "Amber Token",
+    "symbol": "AMB",
+    "contract": "0x4dc3643dbc642b72c158e7f3d2ff232df61cb6ce",
+    "decimals": 18,
+    "logo": "",
+    "desc": {
+        "en": "ERC20",
+        "zh": "ERC20"
+    },
+    "website": "https://blog.ambrosus.com/",
+    "whitepaper": "",
+    "invalid": true,
+    "links": {
+        "twitter": "https://twitter.com/AmbrosusAMB",
+        "telegram": "https://t.me/AmbrosusAMB"
+    }
+}
