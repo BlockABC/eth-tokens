@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Google Tag Manager -->
+  	<script>
+  		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  		})(window,document,'script','dataLayer','GTM-TFSBQFK');
+  	</script>
+  	<!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115864439-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115864439-1');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAOstack - An operating system for collective intelligence</title>
+    <meta name="description" content="DAOstack powers decentralized companies, funds and markets to make fast and innovative decisions at scale.">
+    <!-- facebook open graph tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.daostack.io" />
+    <meta property="og:title" content="DAOstack" />
+    <meta property="og:description" content="DAOstack is an operating system for collective intelligence and open collaboration." />
+    <meta property="og:image" content="https://www.daostack.io/daostack_thumb_web.png" />
+
+    <!-- twitter card tags additive with the og: tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.daostack.io" />
+    <meta name="twitter:title" value="DAOstack" />
+    <meta name="twitter:description" value="DAOstack is an operating system for collective intelligence and open collaboration." />
+    <meta name="twitter:image" content="https://www.daostack.io/daostack_thumb_web.png" />
+    <meta name="twitter:url" value="https://twitter.com/daostack" />
+    <meta name="twitter:label1" value="Follow us on Twitter" />
+    <meta name="twitter:data1" value="@daostack" />
+    <meta name="twitter:label2" value="Read our blog" />
+    <meta name="twitter:data2" value="" />
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-de2c00700e5f3fd50e3d84bd5ea8afd17790750a673d1c38e689691dba14852f.ico" />
+
+    <link rel="stylesheet" media="all" href="/assets/application-4e7c25d61b2161b790ae2ab34743e5d206243d9e74dbfaeae3e65a5a3f592aa9.css" />
+    <script src="/assets/application-66e614a94027e1f8984d428cfc6ff0efbe59db4cbe0cd87d9246a41e9ab2468f.js"></script>
+    
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ktkNhY9HiLzzB1MIJFbOrDViVZIWpxUmdkuZNWDSoWQaz8qob2q37kLZSHVq7JafoOfCI2F4V9BA35bjFU97ow==" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    
+<!-- Begin Inspectlet JS Code -->
+<script type="text/javascript" id="inspectletjs">
+(function() {
+var insp_ab_loader = true; // set this boolean to false to disable the A/B testing loader
+window.__insp = window.__insp || [];
+__insp.push(['wid', 1799861895]);
+var ldinsp = function(){
+if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1799861895&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x);if(typeof insp_ab_loader != "undefined" && insp_ab_loader){ var adlt = function(){ var e = document.getElementById('insp_abl'); if(e){ e.parentNode.removeChild(e); __insp.push(['ab_timeout']); }}; var adlc = "body{ visibility: hidden !important; }"; var adln = typeof insp_ab_loader_t != "undefined" ? insp_ab_loader_t : 1200; insp.onerror = adlt; var abti = setTimeout(adlt, adln); window.__insp_abt = abti; var abl = document.createElement('style'); abl.id = "insp_abl"; abl.type = "text/css"; if(abl.styleSheet) abl.styleSheet.cssText = adlc; else abl.appendChild(document.createTextNode(adlc)); document.head.appendChild(abl); } };
+setTimeout(ldinsp, 0);
+})();
+</script>
+
+  </head>
+  <body>
+      <div id="home-page" class="ltr en" style="background-color: #F2F2F2; overflow-x: hidden;position:relative;">
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFSBQFK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    	<header class=" ">
+		<div class = "nav">
+			<div class = "wrapper-logo
+						 col-xs-12 col-md-5 
+				">
+					<a href="/" class="left-logo-link">
+						<img class="logo-icon-left" src="/assets/daostack_icon_white-96cbf7f321611f0fc0fd0882fbf4cae531aaef82e111a180835e10c838ee7f8c.svg" alt="Daostack icon white" />	
+						DAOstack
+					</a>
+			</div>
+
+				<div class = "col-xs-12 col-md-2  text-center align-self-center wrapper-logo-icon">
+					<a href='/'>
+						<img class="logo-icon" src="/assets/glyph-ee794818656d1954a59e7d049e54c5e8f035733f601636126487af8bf66b9a12.png" alt="Glyph" />
+					</a>
+				 <!-- !! -->
+				</div>
+
+			<div class = "col-xs-12 col-md-5  text-right align-self-center nav-menu
+			">
+					<div>
+						
+						<!-- HIDE in genesis or alchemy or ebook FROM -->
+							<div class="dropdown text-center align-self-center">
+							  	<a href = "#" class="dropbtn">LEARN</a>
+								<div class="dropdown-content learn">
+								    <a href="/wp/DAOstack-White-Paper-en.pdf" target="_blank" rel="noopener noreferrer">WHITEPAPER</a>
+								    <a href="/deck/DAOstack-Deck-en.pdf" target="_blank" rel="noopener noreferrer">SUMMARY</a>
+								    <a href="https://www.youtube.com/channel/UCX4GNxoP4GdGQk7pUp0j6JA/videos" target="_blank" rel="noopener noreferrer">VIDEOS</a>
+										<a href="https://github.com/daostack" target="_blank" rel="noopener noreferrer">GITHUB</a>
+										<a href="https://forum.daostack.io/" target="_blank" rel="noopener noreferrer">FORUM</a>
+								    <a href="https://medium.com/daostack" target="_blank" rel="noopener noreferrer">BLOG</a>	
+								</div>
+							</div>
+							<span class="separator d-sm-none d-md-inline"></span>
+							<div class="dropdown text-center align-self-center">
+								<a href = "#" class="link_color dropbtn">CONNECT</a>
+								<div class="dropdown-content connect">
+
+									<a href="https://daostack.io/community" target="_blank" rel="noopener noreferrer">DISCORD</a>
+
+
+									<a href="https://twitter.com/daostack" target="_blank" rel="noopener noreferrer">TWITTER</a>
+									<a href="#" data-toggle="modal" data-target="#newsletter" rel="noopener noreferrer">NEWSLETTER</a>
+									<a href="/cdn-cgi/l/email-protection#f098959c9c9fb094919f838491939bde999f">EMAIL</a>
+								</div>
+							</div>
+
+							<span class="separator d-sm-none d-md-inline"></span>
+							<div class="dropdown text-center align-self-center language">
+							 <a href = "#" class="link_color dropbtn">
+								 <!-- <img class="flag_en" src="/assets/flags/flag_en-6b3e6ffe4469d4ac51a47a3c24e7015198370c1de5c4801615030268a0eeada7.png" alt="Flag en" /> -->
+								 <!-- <span>ENGLISH</span> -->
+								 <span><i class="fas fa-language"></i></span>
+							 </a>
+							 <div class="dropdown-content">
+									 <li>
+											<a href="/zh/home">
+												<!-- <img src="/assets/flags/flag_zh-9a49abf7468a50a3884b5bfbe3b205760f8332b10b1cc12917754b7359e06255.png" alt="Flag zh" /> -->
+												中文
+</a>										</li>
+									 <li>
+											<a href="/ja/home">
+												<!-- <img src="/assets/flags/flag_ja-6789ae662777d849b9a107a32b25e53fa1d07126efb2ae605c2bdfbb60a97abd.png" alt="Flag ja" /> -->
+												日本語
+</a>										</li>
+									 <li>
+											<a href="/ko/home">
+												<!-- <img src="/assets/flags/flag_ko-54e962bdc8752367c78a670f45bab808c3dfd90dd6779abbc90b5b9ed71ede0c.png" alt="Flag ko" /> -->
+												한국어
+</a>										</li>
+									 <li>
+											<a href="/ru/home">
+												<!-- <img src="/assets/flags/flag_ru-ec835c3306a9740040f2a4abd724c3408540ceb0b020f8d99c7169771a74a6ae.png" alt="Flag ru" /> -->
+												Русский
+</a>										</li>
+									 <li>
+											<a href="/fr/home">
+												<!-- <img src="/images/flags/flag_fr.png" alt="Flag fr" /> -->
+												français
+</a>										</li>
+									 <li>
+											<a href="/es/home">
+												<!-- <img src="/images/flags/flag_es.png" alt="Flag es" /> -->
+												español
+</a>										</li>
+							 </div>
+							</div>
+
+						<!-- HIDE END -->
+
+					</div>
+			</div>
+
+			<div class="mobile-nav nav-menu">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<img class="menu-icon" src="/assets/hamburger_stack_icon_white-963f86a421a80bb6770c3acd2e956cadbab65a4d34b3df575e87db390edccff4.svg" alt="Hamburger stack icon white" />					
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+	      <div class="collapse navbar-collapse" id="navbarResponsive">
+	        <ul class="navbar-nav ml-auto">
+		          <li class="nav-item">            
+								<a href="/alchemy" class="dropbtn">
+									ALCHEMY
+								</a>						
+		          </li>
+		          <li class="nav-item">
+		            <a href="/genesis" class="dropbtn">
+									GENESIS DAO
+								</a>
+		          </li>
+						<li class="nav-item">
+	            <a href="/" class="dropbtn">HOME</a>
+	          </li>					
+	          <!-- <li class="nav-item">
+	            <a href="" class="dropbtn">ABOUT</a>
+	          </li> -->
+	        </ul>
+	      </div>
+			</div>
+
+		</div>
+
+	</header>
+
+    
+<a class="communityLink" href=" https://daostack.io/community" target="_blank">
+
+    <span><img src="/assets/discord-dd90cac70e52ae034a4c787ba3823581221ecfe4012bde391bba34e8e01d0235.png" alt="Discord" /></span>
+</a>
+<img class="triangle-stone" src="/assets/triangle-stone-035c2a7fe87f1ce128faee9aeb9bfa6f833f09a640fd50cb118237c0270059f9.png" alt="Triangle stone" />
+<div class="hero">
+    <div class="hero-particles"></div>
+    <div class = "hero-content">
+      <div class="hero-heading">
+        <div class = "title">An operating system for collective intelligence</div>
+        <div class = "sub-title">DAOstack powers decentralized companies, funds and markets to make fast and innovative decisions at scale.</div>
+      </div>
+      <div class="signup-btn-container">
+        <a class="updateLink" href="#" data-toggle="modal" data-target="#newsletter">SIGN UP FOR UPDATES</a>
+      </div>
+      <div class="scroll-arrow">
+        <span style="cursor: pointer" onclick="$('#home-page').animate({ scrollTop: $('.video').offset().top }, 1000)">
+          <img src="/assets/scroll-arrow@2x-e780b1a568b28bb574e200950cc897f7ac514162128490fb61cea5ccb787b684.png" alt="Scroll arrow@2x" />
+        </span>
+      </div>
+    </div>
+    <div class="white-left-triangle"></div>
+
+</div>
+
+<div class="video" style="background-image:url('https://daostack.io/assets/video-big-thumbnail-5ddcaca38904d2bfb93bdd36cb094c05d7e80cb12f072364984d615c25316c7a.png'); width:100%;">
+	<!-- <img class="video-big-thumbnail" src="/assets/video-big-thumbnail-5ddcaca38904d2bfb93bdd36cb094c05d7e80cb12f072364984d615c25316c7a.png" alt="Video big thumbnail" /> -->
+	<div id="video" class="daostackVideo stopped">
+	 	<div class="video-player" id="player"></div>
+	</div>
+	<div class="videoCaption">
+		What is DAOStack?
+	</div>
+	<a id="play-video-button" href="javascript:void(0);" onclick="startPlaying()">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 162 162" style="enable-background:new 0 0 162 162;" xml:space="preserve">
+			<g>
+				<circle class="st0" cx="81" cy="81" r="80"></circle>
+			</g>
+			<g>
+				<path class="cirlce-path" d="M81,2c43.561,0,79,35.439,79,79s-35.439,79-79,79S2,124.561,2,81S37.439,2,81,2 M81,1C36.817,1,1,36.817,1,81
+					s35.817,80,80,80s80-35.817,80-80S125.183,1,81,1L81,1z"></path>
+			</g>
+			<g>
+				<path d="M74,55.13L99.87,81L74,106.87V55.13 M73,52.716v56.569L101.284,81L73,52.716L73,52.716z"></path>
+			</g>
+		</svg>
+	</a>
+	<div class="white-right-triangle"></div>
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+		var tag = document.createElement('script');
+		tag.src = "//www.youtube.com/iframe_api";
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+		var player;
+		var $videoScene = $('.video');
+		function onYouTubeIframeAPIReady() {
+			player = new YT.Player('player', {
+				height: '100%',
+				width: '100%',
+				videoId: 'rGFTeW6QBSo',
+				events: {
+					'onReady': onYoutubePlayerReady,
+					'onStateChange': onPlayerStateCahnge
+				}
+			});
+		}
+		function onYoutubePlayerReady() {
+			console.log('onYoutubePlayerReady');
+			$('#play-video-button').addClass('enabled');
+		}
+
+		function startPlaying() {
+			console.log('start playing video');
+			player.playVideo();
+			$videoScene.addClass('playing');
+		}
+		function onPlayerStateCahnge (event) {
+			console.log('yt player state: ', event)
+			if (event.data == YT.PlayerState.PAUSED || event.data == 0) {
+				$videoScene.removeClass('playing');
+			}
+			if (event.data == 1) {
+				$videoScene.addClass('playing');
+			}
+		}
+	</script>
+</div>
+
+<div class="row genesis-and-alchemy">
+	<div class="genesis col-12 col-lg-6">
+			<div class="inner-container">
+				<div class="icons-row">
+						<div class="icon-container">
+							<img src="/assets/home/ds_freelancers_icon_white_003-855d7536a8ce1e8d9190219aade6a03b3ccd44f37ec25bb8b42aca83fef4606c.svg" alt="Ds freelancers icon white 003" />					
+						</div>
+						<div class="icon-container">
+							<img src="/assets/home/ds_researchers_icon_white_003-849587ee366fe2040b2513652adf422979070fa4a3b231cc45f188ffe80e85ab.svg" alt="Ds researchers icon white 003" />					
+						</div>
+						<div class="icon-container">
+							<img src="/assets/home/ds_community_leaders_icon_white_003-618582a11dd18ba2f28835c529f6d96120208df9c81a6cf6a756bb2248f1b531.svg" alt="Ds community leaders icon white 003" />					
+						</div>
+					</div>
+		    <div class = "title">
+		    	Genesis
+	    	</div>
+				<div class="content-container fade-from-down startable delayed">
+					<div class="content">
+						<div class = "sub-title">Join the community</div>
+						<p class="text-content">
+							The Genesis DAO was launched by DAOstack to grow a thriving network of DAOs. It’s a perfect place to get your feet wet in the project.
+						</p>
+					</div>
+				</div>
+			        <a class="updateLink hover-white" href="./genesis">
+			        	LEARN MORE ABOUT GENESIS
+			        </a>
+			</div>
+		</div>
+	
+
+	<div class="alchemy col-12 col-lg-6">
+		<div class="inner-container">
+					<div class="icons-row">
+						<div class="icon-container">
+							<img src="/assets/home/icon_decentralized_new_001-fe904a6deba6316a6edce04e4121121e38baf7b513e5aa534ea556764f1fb499.svg" alt="Icon decentralized new 001" />					
+						</div>
+						<div class="icon-container">
+							<img src="/assets/home/icon_coordinated_new_001-9310950c6ef6b18b2fa348ac3201c347d35c5296e73ab6a2e10bece221003163.svg" alt="Icon coordinated new 001" />					
+						</div>
+						<div class="icon-container">
+							<img src="/assets/home/icon_empowered_new_001-4dbc0dd0b29f1233ada6d327395cb9e6120681f6ff40fcab4ed7e41e019b8bb6.svg" alt="Icon empowered new 001" />					
+						</div>
+						<div class="icon-container">
+							<img src="/assets/home/icon_scalable_new_001-7df0880ab80396b98a1d61fa89cb3c9635aae3405469ef0b6fcb7de18b97c4ab.svg" alt="Icon scalable new 001" />					
+						</div>
+					</div>
+			        <div class = "title">Alchemy</div>
+					<div class="content-container fade-from-down startable delayed">
+						<div class="content">
+					        <div class = "sub-title">A better way to collaborate</div>
+							<p class="text-content">
+								Alchemy is an interface for DAOs that want to seamlessly govern themselves, allocate resources and make effective decisions at scale.
+							</p>
+						</div>
+					</div>
+	      <div>
+	        <a class="updateLink" href="/alchemy">LEARN MORE ABOUT ALCHEMY</a>
+	      </div>
+	      <div>
+	      	<!-- <a class="updateLink" href="/ebook-landpage">
+	      		ebook
+	      	</a> -->
+	      </div>
+			
+
+		</div>
+	</div>
+</div>
+<!--
+	<div class="murmuration"><img src="/assets/murmuration-c2e87ab42343f61ea3e9db7b77f8fe32ffef2eb728183233f9796e0639c2db19.png" alt="Murmuration" /></div>
+	-->
+
+<div class="news">
+    <div class="foreground">
+        <p class="news-title">News and Updates</p>
+        <div class="entries">
+                <div class="entry" onclick="if (!$(this).is('a')) $('a', this).get(0).click()">
+                    <div class="diamond-stop">&#9670;</div>
+                    <div class="date">05-04-2019</div>
+                    <span class="newsEntryTitle">How to use Alchemy Earth</span>
+                    <a class="newsEntryReadMore" onClick="event.stopPropagation(); return true;" href="https://medium.com/daostack/how-to-use-alchemy-earth-d6df01acb0fc" target="_blank">Read More</a>
+                </div>
+                <div class="entry" onclick="if (!$(this).is('a')) $('a', this).get(0).click()">
+                    <div class="diamond-stop">&#9670;</div>
+                    <div class="date">25-03-2019</div>
+                    <span class="newsEntryTitle">Reputation vs Tokens</span>
+                    <a class="newsEntryReadMore" onClick="event.stopPropagation(); return true;" href="https://medium.com/daostack/reputation-vs-tokens-6d7642c7a538" target="_blank">Read More</a>
+                </div>
+                <div class="entry" onclick="if (!$(this).is('a')) $('a', this).get(0).click()">
+                    <div class="diamond-stop">&#9670;</div>
+                    <div class="date">22-03-2019</div>
+                    <span class="newsEntryTitle">DAOs Marching Forward</span>
+                    <a class="newsEntryReadMore" onClick="event.stopPropagation(); return true;" href="https://medium.com/daostack/daos-marching-forward-1b8bef05a6d7" target="_blank">Read More</a>
+                </div>
+                <div class="entry" onclick="if (!$(this).is('a')) $('a', this).get(0).click()">
+                    <div class="diamond-stop">&#9670;</div>
+                    <div class="date">13-03-2019</div>
+                    <span class="newsEntryTitle">Q1 2019 Genesis DAO Update</span>
+                    <a class="newsEntryReadMore" onClick="event.stopPropagation(); return true;" href="https://medium.com/daostack/q1-2019-genesis-dao-update-fcb793577f2f" target="_blank">Read More</a>
+                </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="why">
+	<!-- <div class="light-right-triangle"></div> -->
+	<!--
+	<div class="murmuration"><img src="/assets/murmuration-c2e87ab42343f61ea3e9db7b77f8fe32ffef2eb728183233f9796e0639c2db19.png" alt="Murmuration" /></div>
+	-->
+	<div class="why-triangle"><img src="/assets/triangle-02@2x-17d55b017ca9b4482238cc1983bb48895d390aaf044e3f86be4a5132d2dd0eb0.png" alt="Triangle 02@2x" /></div>
+	<div class="container">
+		<div class = "row">
+			<div class="col-xs-12 col-sm-12 text-center align-self-center">
+				<h3 class="heading-title">
+					<strong>
+						<div class="grow-each-span startable delayed">
+							<span>WHY</span>
+						</div>
+					</strong>
+				</h3>
+				<div class="content-container fade-from-down startable delayed">
+					<h1 class="title"><span>Decentralized Collaboration, at scale<span></h1>
+					<div class="content">
+						<p class="text-content">
+							Blockchain enables new forms of human association that combine the scale and efficiency of free markets with the alignment and coherence of startups. 
+The future of work involves networks self-organizing around shared goals and interests, and a new economy where cooperation is the winning strategy. This is a future of  Decentralized Autonomous Organizations (DAOs).
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<div class="what">
+	<div class="foreground">
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-xs-12 col-sm-12 text-center align-self-center">
+					<h3 class="heading-title grow-each-span startable delayed"><strong><span>WHAT<span></strong></h3>
+					<h1 class = "title fade-from-down startable delayed">DAOstack enables the effective governance<br>of self-organizing collectives</h1>
+				</div>
+			</div>
+
+
+			<div class="icon-images fade-from-down startable delayed">
+				<div class = "row">
+					<div class=" col-xs-12 col-sm-4 text-center">
+						<div><img src="/assets/icon-blockchaingovernance@2x-ea93c27e08f7ac7b95c9ec74ddaec4ae0deb9242675d2dfbaa39353b105a59c5.png" alt="Icon blockchaingovernance@2x" /></div>
+						<div class = "icon-title">Blockchain governance</div>
+						<div class="icon-title-body">Decentralized governance based on Ethereum smart contracts enables faultless execution of crowd decisions.</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 text-center">
+						<div><img src="/assets/icon-cooperation@2x-d415f19668285c0fe4d3f0d9e210d6e2df700f1140e323808a7d64e7a65263f6.png" alt="Icon cooperation@2x" /></div>
+						<div class = "icon-title">Programmatic cooperation</div>
+						<div class="icon-title-body">Crypto-economic incentive design at the individual level empowers frictionless cooperation at the collective level.</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 text-center">
+					<div><img src="/assets/icon-consensus@2x-479c971c845bd7e86124f3bf75144d960410bca216b806214b8cd2aae9bd1b1f.png" alt="Icon consensus@2x" /></div>
+					<div class = "icon-title">Holographic consensus</div>
+					<div class="icon-title-body">Effective decision-making is possible with edge decisions guaranteed to be coherent with the will of the greater majority.</div>
+				</div>
+				</div>
+			</div>
+
+			<div class = "row ethereum">
+				<div class="col-xs-12 col-sm-12 text-center align-self-center padding-top-10">
+					<div>
+						<img src="/assets/ethereum@2x-80039483791d0f4d644d70244b0c4ebe93ae468f0edad48ba694896382e9e1c9.png" alt="Ethereum@2x" />
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class = "how">
+	<div class="top-triangle"></div>
+	<div class="container">
+		<div class = "row">
+			<div class = "col-xs-12 col-sm-12 text-center align-self-center ">
+				<h3 class="heading-title"><strong>HOW</strong></h3>
+				<h1 class = "title">The foundations of a thriving DAO ecosystem</h1>
+				<div class="stack">
+					<div class="items">
+						<div class="item daos">
+							<div class="line"></div>
+							<div class="title">DAOs</div>
+							<span class="text">Mesh networks of smart companies, jointly building an anti-rivalrous economy. Decentralized collaboration at scale.</span>
+						</div>
+						<div class="item alchemy">
+							<div class="line"></div>
+							<div class="title">Alchemy</div>
+							<span class="text">The native user interface for the DAO stack, one of many interoperable collaborative applications.</span>
+						</div>
+						<div class="item dapps">
+							<div class="line"></div>
+							<div class="square"></div>
+							<div class="title">DApps</div>
+							<span class="text">Collaborative applications to enable crowd cooperation around any goal.</span>
+						</div>
+						<div class="item arcjs">
+							<div class="line"></div>
+							<div class="title">Arc.js</div>
+							<span class="text">A friendly API layer that lets front-end developers easily build collaborative applications on top of Arc without being familiar with Solidity or the blockchain.</span>
+						</div>
+						<div class="item archives">
+							<div class="line"></div>
+							<div class="title">Arc.Hives</div>
+							<span class="text">DAOstack’s shared registries that enhance the interoperability and network effect among collaborative DApps built on top of the stack.</span>
+						</div>
+						<div class="item arc">
+							<div class="line"></div>
+							<div class="title" >Arc</div>
+							<span class="text">A modular Solidity framework on the Ethereum blockchain that enables smart companies to be easily deployed, configured and upgraded. With an open library of governance modules and templates, Arc is like a Wordpress for DAOs.</span>
+						</div>
+					</div>
+					<img class="stack-image" src="/assets/home/stack-6ecbd26d922630af90bfdac2a89c4e17c44fec9d41d8dbd7e284c2eca58bc10a.jpg" alt="Stack" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="the-arc">
+  <div class="container">
+    <div class = "col-xs-12 col-sm-12 offset-sm-1 text-center align-self-center">
+      <h3 class="heading-title"><strong>THE ARC FRAMEWORK</strong></h3>
+      <h1 class="title">Arc is an evolutionary framework for scalable governance</h1>
+    </div>
+    <div class="arc-items">
+      <div class="row">
+        <div class = "col-xs-12  col-lg-4 col-sm-12 text-center align-self-center arc-item adaptive">
+          <div><img src="/assets/adaptive-0298e34fd65c0f9f7aeb7103adbc793751f0c1bdfece99aa2570fb00a1c23f1e.png" alt="Adaptive" /></div>
+          <div class = "icon-title">ADAPTIVE</div>
+          <div class="text">Arc supports an infinite number of governance elements. Its library of schemes and global constraints will evolve as the DAOstack ecosystem grows, with new templates and modules developed and added by the open-source development community and third parties.</div>
+        </div>
+
+        <div class = "col-xs-12 col-lg-4 col-sm-12 text-center align-self-center arc-item modular">
+          <div><img src="/assets/modular-74b65f713b076c7b056b2b9aa55dac53830481cc996e0f1d2764b0cbf988e741.png" alt="Modular" /></div>
+          <div class = "icon-title">MODULAR</div>
+          <div class="text">Every DAO’s governance structure is made of small building blocks – governance modules, or elements – that can easily be added, combined, edited or removed. Modules do not need to be redeployed onto the blockchain, but rather only referred to, saving storage and operation costs and enhancing security.</div>
+        </div>
+
+
+        <div class = "col-xs-12 col-lg-4 col-sm-12 text-center align-self-center arc-item upgradable">
+          <div><img src="/assets/upgradable-2d9ef1beab53095f3159a5a7caabfebf3d88c293a6f886ed5394e55a51965606.png" alt="Upgradable" /></div>
+          <div class = "icon-title">UPGRADABLE</div>
+          <div class="text">The governance structure of each DAO can easily be upgraded to use new schemes and constraints, or different parameters of existing ones. More granularly, each DAO created through Arc comes with a particular set of rules, which by default include the rules to change the rules.</div>
+        </div>
+         
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-triangle"></div>
+  <div class="bottom-triangle-shadow"></div>
+</div>
+<div class="usecase">
+    <img class="gallery-glice-top" src="/assets/slider/gallery-glice-top-43cc60b7c7194be88eb76e9ea369dfb546d36bb704250d12ac5987f6aecb305a.png" alt="Gallery glice top" />
+    <div class="caption">
+      <h3>USE CASES</h3>
+      <h2>Eventually, everything connects</h2>
+    </div>
+    <div class="usecase-slick">
+      
+      <div class="usecase-slide">
+        <img src="/assets/slider/usecase-collaboration-87c2df09040d01a14e9d3e4234a7756e59e85b4f145d68ab5ccea7e354b8641d.jpg" alt="Usecase collaboration" />
+        <div class="content">
+          <h1>Decentralized Collaboration</h1>
+          <p>Imagine a new web of open collaboration in which individuals, organizations and communities can easily self-organize around shared goals and interests at any scale. It might be a film project with 1,000 artists, a news network with 10,000 journalists, or an open-source software project of 50,000 developers.</p>
+        </div>
+      </div>
+      
+      <div class="usecase-slide">  
+        <img src="/assets/slider/usecase-curation-ab3b21f287fb59e7771129a976389c9cfd7534c670c36026289f071e3238d740.jpg" alt="Usecase curation" />
+        <div class="content">
+          <h1>Decentralized Curation</h1>
+          <p>Allowing Inter-subjective networks of people to rank the quality of objective world subjects, from hotels, restaurants and shops - to websites, articles and news feeds. Imagine decentralized curation networks where the contributors are the owners, editors and users.</p>
+        </div>
+      </div>  
+      
+      <div class="usecase-slide">
+        <img src="/assets/slider/usecase-ownership-c578df6b0d60d11797ff3ed07d0553440d33ec2cb3bd981b8426f7bdd7d48ecd.jpg" alt="Usecase ownership" />
+        <div class="content">
+          <h1>Decentralized Ownership</h1>
+          <p>Effective mechanisms for large-scale collective decision-making enable crowds to co-own and co-manage assets and funds. Think of decentralized investment funds, insurance networks, or charitable organizations, where value is shared proportionally, and the interests of all stakeholders are closely aligned.</p>
+        </div>
+      </div>
+      
+    </div>
+    
+    <img class="gallery-slice-bottom" src="/assets/slider/gallery-slice-bottom-fe1563ae231983028b55be9268d6f9b519374a6f5ac6d95caa9a869509f0f0fd.png" alt="Gallery slice bottom" />
+  
+</div>
+<div class="economy" id="economySection">
+	<div class = "container">
+
+		<div class="row">
+			<div class = "col-xs-12 col-sm-12 text-center align-self-center">
+					<img class="logo" src="/assets/economy-90890a9fe1f2132e256fc4ba82dfc79be79e26661e6e838f833ec717b8bf9783.png" alt="Economy" />
+			</div>
+		</div>
+
+		<div class="row">
+			<div class = "col-xs-12 col-sm-12 text-center align-self-center">
+				<h3 class="heading-title grow-each-span startable delayed"><strong><span>ECONOMY</span></strong></h3>
+				<h1 class="title fade-from-down startable dealyed">DAOstack runs on GEN</h1>
+				<div class="content fade-from-down startable dealyed	">
+					<p class="text-content">GEN is the native token of the DAOstack platform. Basic operations across the DAOstack ecosystem – such as promoting proposals –  will require the spending or holding of GEN. GEN will be distributed to contributors of value through the DAOstack framework itself, incentivizing development, promotion and adoption</p>
+				</div>
+				<p>
+					<h3 class="title tokenContract">Token Contract</h3>
+					<a href="https://etherscan.io/token/0x543ff227f64aa17ea132bf9886cab5db55dcaddf" target="_blank">0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf</a>
+				</p>
+				<div class="thanks">
+					<h2>THANK YOU FOR SIGNING UP</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	$(document).ready(function() {
+		$(".form-group label.valid").hide();
+		$(".thanks").hide();
+		function validateEmail($email) {
+			var emailReg = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*(\+[a-z0-9-]+)?@[a-z0-9-]+(\.[a-z0-9-]+)*$/;
+			return emailReg.test( $email );
+		}
+		$(".economy a#signUp").on( "click", function(event) {
+			event.preventDefault();
+			var email = document.getElementById("tokenSale").value;
+			if( !validateEmail(email) || email=="") {
+				$(".form-group label.valid").show();
+				return;
+			} else {
+				jQuery.ajax({
+					type: 'POST',
+					url: "/add",
+					headers: {
+						'X-CSRF-Token': 'MIYHKJ20T80CLOeupLh/doW7rNBVzbGo0MPOzqgKUaG4kMAFfZlwn7Py/NPqAidFED47YSIS817mV8EY3ZeLZg=='
+					},
+					data: {email: email},
+					dataType: 'json',
+					success: function(data) {
+						if (data.success) {
+							$(".form").hide();
+							$(".thanks").show();
+						} else {
+							$(".form-group label.valid").text(data.msg)
+							$(".form-group label.valid").show();
+						}
+					}, error: function (err) {
+							var r = jQuery.parseJSON(err.responseText);
+							r.msg = r.msg.replace("Use PUT to insert or update list members.", "");
+							$(".form-group label.valid").text(r.msg)
+							$(".form-group label.valid").show();
+          }
+				});
+			}
+		});
+	})
+</script>
+
+<div class="integrations">
+    <div class="white-left-triangle mobile"></div>
+    <div class="foreground"> 
+        <h3 class="heading-title"><strong>INTEGRATIONS</strong></h3>
+        <h1 class = "title">These projects are building on DAOstack</h1>
+        <div class="items">
+                <div class="item">
+                    <img src="/assets/partners/dutchx-3a1edeccc0329908017ef9d5d3b6314043729b412baaa15853eb3cee53fef859.png" alt="Dutchx" />
+                    <p>DAOstack will be integrated into the Dutch Exchange (DutchX), giving Magnolia token holders the opportunity to govern...</p>
+                    <a href="" target="_blank">Read More</a>
+                </div>
+                <div class="item">
+                    <img src="/assets/partners/partner-sapien@2x-bdd84095d7a38bf2110ea34c84aecda669e6350e7999ed590e1832c065b3defd.png" alt="Partner sapien@2x" />
+                    <p>For Sapien, DAOstack will serve as the content curation engine, providing content voting, reputation management, and ...</p>
+                    <a href="https://www.sapien.network" target="_blank">Read More</a>
+                </div>
+                <div class="item">
+                    <img src="/assets/partners/partner-gnosis@2x-345a532ecbf16da89fb0154b8a06871f3b6d995859b0a42026bac8131048dd5c.png" alt="Partner gnosis@2x" />
+                    <p>DAOstack will allow the Gnosis team to decentralize decision-making within the ongoing Gnosis X challenge, encouragin...</p>
+                    <a href="https://gnosis.pm" target="_blank">Read More</a>
+                </div>
+                <div class="item">
+                    <img src="/assets/partners/liberland-014530d3814d2dee32b08b49b6d6e9aa6030de75a7dd58c553ad4ed93600747f.png" alt="Liberland" />
+                    <p>Liberland will use DAOstack to create a state-of-the-art system to run the nation as a DAO.</p>
+                    <a href="http://coinedtimes.com/we-want-to-uberize-the-police-liberland-as-a-dao/" target="_blank">Read More</a>
+                </div>
+        </div>
+    </div>
+</div>
+<div class="partners">
+	<div class="container">
+		<div class="row">
+			<div class = "col-xs-12 col-sm-12 text-center align-self-center">
+					<h3 class="heading-title"><strong>PARTNERS</strong></h3>
+					<h1 class = "sub-title">We’re partnered with a diversity of innovative projects and leading organizations</h1>
+			</div>
+		</div>
+
+		<div class ="items">
+			<a href="https://menlo.one" target="_blank">
+				<img src="/assets/partners/partner-menlo@2x-33172c000d552faa7f0017b58b1d7bce70655ccc5faf91aa0479f4447173ade2.png" alt="Partner menlo@2x" />
+			</a>
+			<a href="https://www.endor.com/" target="_blank">
+				<img src="/assets/partners/partner-endor-95a7262e842d355aeccbad1da0680694c38b44fd79911f78e91c91258c8f64d9.png" alt="Partner endor" />
+			</a>
+			<a href="" target="_blank">
+				<img src="/assets/partners/partner-culture-363d804ffa46434792c05e011d81c40b053452712f2d74531eef6ee02733cfc8.png" alt="Partner culture" />
+			</a>
+			<a href="https://datafund.io/" target="_blank">
+				<img src="/assets/partners/datafund-f9fb0ee1b729018561add106306a4736fbe81f16eeb58593cd771f2b66c30d90.png" alt="Datafund" />
+			</a>
+			<a href="https://www.nfx.com/" target="_blank">
+				<img src="/assets/partners/partner-nfx-e32265e7af5d8ffc2d43e84e21443a1f08d034db683abe998d2bf92c8c3fefa6.svg" alt="Partner nfx" />
+			</a>
+			<a href="https://www.iangels.co/" target="_blank">
+				<img src="/assets/partners/partner-iangels-da9aab9bab3436a65603bb25427672416e1e775f287e8ffd169d62666a12b5f4.png" alt="Partner iangels" />
+			</a>
+			<a href="https://twitter.com/talaodao?lang=en" target="_blank">
+				<img src="/assets/partners/talao-4bbd07f6f8473f678fe02b32b95b5d96aba5e02bed9478e18aec20df5d74438b.png" alt="Talao" />
+			</a>
+			<a href="https://fi.co/s/prague" target="_blank">
+				<img src="/assets/partners/founder-institute-11ac7d7896d8912823680fe1b7bc10257646d30a8da5c7a878e3c56d17bb54a7.png" alt="Founder institute" />
+			</a>
+			<a href="https://www.xsq.io/" target="_blank">
+				<img src="/assets/partners/partner-xsq-f6802d0ad21478c8a928f77a730855768f1d34cb80b112fc54b2863eff3119ac.png" alt="Partner xsq" />
+			</a>
+		</div> 
+	</div>
+</div>
+
+<div class="press">
+	<div class="container">
+		<div class="row">
+			<div class = "col-xs-12 col-sm-12 text-center align-self-center">
+					<h3 class="heading-title"><strong>IN THE PRESS</strong></h3>
+					<h1 class = "sub-title">I heard it through the grapevine</h1>
+			</div>
+		</div>
+		<div class="logos row align-items-center top-press-row ">			
+			<div class="extended-items">
+					<div class="extended">
+						<div class="logo-press">
+							
+						<a href="" target="_blank">
+							<img src="/assets/press/forbes-eca577954c7076e59b55851f9a260bc43b170d7d109301c5521158a2580f708c.png" alt="Forbes" />
+						</a>
+
+						</div>
+						<div class="curly">{</div>
+						<div class="abstract">
+							<div class="abstract-inner">
+								After facebook&#39;s Data Blow-Up&#39; Are DAOs Leveraging? Blockchain&#39;s Future
+							</div>
+							<div class="read-more-extended">
+								<a href="https://www.forbes.com/sites/rogeraitken/2018/04/20/after-facebooks-data-blow-up-are-daos-leveraging-blockchain-the-future/#1a3892683cef">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="extended">
+						<div class="logo-press">
+							
+						<a href="" target="_blank">
+							<img src="/assets/press/yahoo-9ae5bbf113360b066237f8d0a79d9f54ea56b7bf3e5b760277164c90dcb3ebbe.png" alt="Yahoo" />
+						</a>
+
+						</div>
+						<div class="curly">{</div>
+						<div class="abstract">
+							<div class="abstract-inner">
+								New Solutions Emerge to Replace Ethereum&#39;s Premature DAO Experiment
+							</div>
+							<div class="read-more-extended">
+								<a href="https://finance.yahoo.com/news/solutions-emerge-replace-ethereum-premature-143111908.html">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="extended">
+						<div class="logo-press">
+							
+						<a href="" target="_blank">
+							<img src="/assets/press/inc-8200ab1d011dfafa96c3394e26017b3af93b3217926f4d1bfe16cf51711a5dc1.png" alt="Inc" />
+						</a>
+
+						</div>
+						<div class="curly">{</div>
+						<div class="abstract">
+							<div class="abstract-inner">
+								One example of an organization committed to developing a foundational solutio...
+							</div>
+							<div class="read-more-extended">
+								<a href="https://www.inc.com/darren-heitner/never-heard-of-a-dao-heres-why-its-going-to-become-hottest-new-type-of-corporation.html">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="extended">
+						<div class="logo-press">
+							
+						<a href="" target="_blank">
+							<img src="/assets/press/entrepreneur-57b670420a35cfe2da54631c843eb6c16dbd6763f7a0027a8c660b0a11b55038.png" alt="Entrepreneur" />
+						</a>
+
+						</div>
+						<div class="curly">{</div>
+						<div class="abstract">
+							<div class="abstract-inner">
+								DAOstack’s goal is to bring collaboration to the forefront of every vertical ...
+							</div>
+							<div class="read-more-extended">
+								<a href="https://www.entrepreneur.com/article/312779">Read More</a>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="logos bottom-press-row">
+			<a href="https://www.cnbc.com/2018/04/24/soon-blockchain-will-let-armies-of-free-agents-run-companies.html" target="_blank">
+				<img src="/assets/press/CNBC-5a4db5d3c1cffeba390c072aff820f2fd91e36e54a51cb2a379d29e779b346d0.png" alt="Cnbc" />
+			</a>	
+			<a href="https://www.ethnews.com/the-future-of-daostack" target="_blank">
+				<img src="/assets/press/ethnews-f3e81e8586a30085ee868491ab47f901ed748a4cb9bc516f1b8bf67bb8c60408.png" alt="Ethnews" />
+			</a>
+			<a href="https://www.hostingadvice.com/blog/daostack-leveraging-ethereum-for-decentralized-governance/" target="_blank">
+				<img src="/assets/press/hostingadvice-4516a3a20bb9aacd773d96bbbed84a3f924a73c57a7ef3c3057d16cdc06db3a3.png" alt="Hostingadvice" />
+			</a>
+			<a href="https://usethebitcoin.com/daostack-catalyzing-the-future-of-collaboration/" target="_blank" class="">
+				<img src="/assets/press/utb-6a80a735d000dea3d3a4f0c8d7a03a7cd0b4c62996718931ab759f01eaf8e535.png" alt="Utb" />
+			</a>
+			<a href="https://www.investopedia.com/news/daos-and-potential-ownerless-business/" target="_blank" class=" investopedia">
+				<img src="/assets/press/investopedia-2f67aeb8671010bff30aca6bade88ccaee853e8bdd6c3945e5e3fbce308b6370.png" alt="Investopedia" />
+			</a>
+			<a href="https://hackernoon.com/taking-the-blockchain-oath-c4b3b1cb980f" target="_blank">
+				<img src="/assets/press/hackernoon-247dbea411250c95d6823f796a778f1102899bb5fef47c0d72cbe04c9e66e3f4.png" alt="Hackernoon" />
+			</a>
+		</div>
+	</div>
+	<!--
+	<img class="bottom-triangle desktop" src="/assets/triangle-02@2x-17d55b017ca9b4482238cc1983bb48895d390aaf044e3f86be4a5132d2dd0eb0.png" alt="Triangle 02@2x" />
+	-->
+</div>
+
+<div class="team">
+	<div class="container">
+
+		<div class="row">
+			<div class = "col-xs-12 col-sm-12 text-center align-self-center">
+					<h3 class="heading-title"><strong>TEAM</strong></h3>
+					<h1 class = "title">We&#39;re all in this together</h1>
+			</div>
+		</div>
+
+		<div class="team-center">
+
+				<div class="team-items">
+
+					<div class="image-box adam">
+						<img src="/assets/team/team-adam-c60d994654a779d5e76291f921694a46c00d56e5d05b366d1175927f0b5a0e18.png" alt="Team adam" />
+						<a class="image-box-map"></a>
+						<div class="bio left-ib" data-align="left">
+							<div class="name"><a href="https://www.linkedin.com/in/adam-levi-ph-d-3bb5164/" target="_blank">Adam Levi <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Co-Founder / Technology </div>
+							<div class="description">Deep Blockchain technologist. PhD in physics from the Technion. Former IDF radar engineer. Twenty-two years writing code.</div>
+						</div>
+					</div>
+
+					<div class="image-box nathalia"  style="top: -110px; left: 110px;">
+						<img src="/assets/team/team-nathalia-8078aeeb95fac27c382fd7d29204b2e0bc8a145c2db68ccb87673f866631143b.png" alt="Team nathalia" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://www.linkedin.com/in/nathalia-scherer-b181b044/" target="_blank">Nathalia Scherer <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Ecosystem Development</div>
+							<div class="description">Culture and living systems catalyst. Dalai Lama Fellow and Systems Engineer with a focus on social innovation and complex problem-solving.  Artist, complexity geek and aspiring paraglider pilot.</div>
+						</div>
+					</div>
+
+					<div class="image-box matan" style="top: 0; left: 220px;">
+						<img src="/assets/team/team-matan-750191927fe4087e07dad9a0839e721ccc1e58c765ca222372f33aa2d34345ae.png" alt="Team matan" />
+						<a class="image-box-map"></a>
+						<div class="bio right-ib" data-align="right">
+							<div class="name"><a href="https://www.linkedin.com/in/matan-field-92a2b396/" target="_blank">Matan Field <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Co-founder &amp; Architect</div>
+							<div class="description">Leading expert in decentralized governance. PhD in Physics. DAO architect and blockchain entrepreneur since 2014.</div>
+						</div>
+					</div>
+
+					<div class="image-box oren" style="top: 0px; left: 440px;">
+						<img src="/assets/team/team-oren-32207023fd5c7f77a8049069d5774bfd4cca166edb3c42890f31c5e6cee87108.png" alt="Team oren" />
+						<a class="image-box-map"></a>
+						<div class="bio right-ib" data-align="right">
+							<div class="name"><a href="https://www.linkedin.com/in/oren-sokolowsky-5505331/" target="_blank">Oren Sokolowsky <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">LEAD DEVELOPER</div>
+							<div class="description">Highly experienced full stack SW developer. More than 20 years in a wide range of SW development projects. A passionate decentralization advocate. Loves transforming vision into code.</div>
+						</div>
+					</div>
+					<div class="image-box shira" style="top: 0px; left: 660px;">
+						<img src="/assets/team/team-shira-328b8ea34ec0ab2847578a6b504fc62c1bb4d76c6861bf7fbcd083637514cf08.png" alt="Team shira" />
+						<a class="image-box-map"></a>
+						<div class="bio" data-align="center">
+							<div class="name">Shira Smilanski</div>
+							<div class="role">Administration</div>
+							<div class="description">Personal guide and consultant. Former chief of training at the Intel development center (IDC), Israel. Educator and art student.</div>
+						</div>
+					</div>
+
+					<div class="image-box yehonatan" style="top: -110px; left: 770px;">
+						<img src="/assets/team/team-yehonatan-a73537574884afebba60288ba73b586ce4ccc3b2c98d4b0e06bd97662aa56017.png" alt="Team yehonatan" />
+						<a class="image-box-map"></a>
+						<div class="bio left-ib" data-align="left">
+							<div class="name"><a href="https://www.linkedin.com/in/yehonatan-goldman-90a437a0/" target="_blank">Yehonatan Goldman <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Operations</div>
+							<div class="description">Polymath and connoisseur of operations. Crypto explorer since 2014. Winemaker and archeologist.</div>
+						</div>
+					</div>
+
+					<div class="image-box prim" style="top: 0; left: 880px;">
+						<img src="/assets/team/team-prim-e8caa55f63be5a6b8d086f64f05d546f802ca62c877395bb40768352ff5b00bb.png" alt="Team prim" />
+						<a class="image-box-map"></a>
+						<div class="bio right-ib" data-align="right">
+							<div class="name"><a href="https://www.linkedin.com/in/primavera-de-filippi-07558536/" target="_blank">Primavera De Filippi <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Researcher</div>
+							<div class="description">Permanent researcher at the National Center of Scientific Research (CNRS) in Paris. Fellow at Harvard Law School.</div>
+						</div>
+					</div>
+					<div class="image-box tibet" style="top: 110px; left: 330px;">
+						<img src="/assets/team/team-tibet-6600cd833c0a73ceeabaf4177b1a7114912b152cecf3d3b079893ee2d1052967.png" alt="Team tibet" />
+						<a class="image-box-map"></a>
+						<div class="bio left-ib" data-align="left">
+							<div class="name"><a href="https://www.linkedin.com/in/tibet-sprague-a135622/" target="_blank">Tibet Sprague <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Alchemy Developer</div>
+							<div class="description">Experienced entrepreneur and technical leader. 25 years coding, 15 years of startup experience with two successful exits as VP of Engineering at NRG and 1BOG.</div>
+						</div>
+					</div>
+					<div class="image-box aaron" style="top: 110px; left: 550px;">
+						<img src="/assets/team/team-aaron-1caa3b437cb7be053ed860a961326293ab073c2a80699d86e3e95947fd5784f5.png" alt="Team aaron" />
+						<a class="image-box-map"></a>
+						<div class="bio right-ib" data-align="right">
+							<div class="name"><a href="https://www.linkedin.com/in/aaronbrodeur/" target="_blank">Aaron Brodeur <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Front end Developer</div>
+							<div class="description">Multidisciplinary designer, developer, and entrepreneur. 15 years of startup experience with two successful exits. Designed products that reached millions of users (Battle for the net, 1BOG).</div>
+						</div>
+					</div>
+					<div class="image-box erik" style="top: 0; left: 222px;">
+						<img src="/assets/team/team-erik-47ed3d49a80b1a239627f90b2383404e41a3eeee207ef34169ee1ad6d9b9d69c.png" alt="Team erik" />
+						<a class="image-box-map"></a>
+						<div class="bio left-ib" data-align="left">
+							<div class="name">Erik Rodrigues</div>
+							<div class="role">Pollinators project lead</div>
+							<div class="description">Independent researcher and community organizer. South School of Internet Governance Fellow and former project lead for community-driven startups and non-profit organizations.</div>
+						</div>
+					</div>
+					<div class="image-box patrick" style="top: -110px; left: 550px;">
+						<img src="/assets/team/team-patrick-125e2b512f0b06ecb33a3fdc07cf6fa95710805452539109e4c52b6fcec22499.png" alt="Team patrick" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://www.linkedin.com/in/patrick-rawson-48306867/" target="_blank">Patrick Rawson <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Communications &amp; Community</div>
+							<div class="description">Blockchain enthusiast and aspiring economist. Award-winning social media marketer.</div>
+						</div>
+					</div>
+					<div class="image-box stratis" style="top: 110px; left: 110px;">
+						<img src="/assets/team/team-stratis-79a282498f40905da41d90b256c3c6b2639d145cfbabfe7d0d9e6291cbcdd3cc.png" alt="Team stratis" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://gr.linkedin.com/in/stratis-karadakis" target="_blank">Stratis Karadakis <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Marketing &amp; PR</div>
+							<div class="description">Digital Marketer &amp; Blogger. Passionate about free thought, free speech and free market.</div>
+						</div>
+					</div>
+					<div class="image-box doug" style="top: 220px; left: 220px;">
+						<img src="/assets/team/team-doug-878378eb973c5530043ef5933f6a9f461ccfb50cbd8ce8384fb4643cb0cce342.png" alt="Team doug" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://ca.linkedin.com/in/doug-kent-760876a" target="_blank">Douglas Kent <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Fullstack Developer</div>
+							<div class="description">Full stack do-it-all from way back and all around. Into complexity, meditation, anti-fragility, and the full dimensionality of life and the universe. Loves life, playing music and basketball.</div>
+						</div>
+					</div>
+					<div class="image-box nave" style="top: 110px; left: 770px;">
+						<img src="/assets/team/team-nave-b1f04f6f275cc80da62730250dd821e44f22c79e6e8f0de0090387a6c8114b3c.png" alt="Team nave" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://il.linkedin.com/in/nave-rachman-78004624" target="_blank">Nave Rachman <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Business Development</div>
+							<div class="description">Global sales and business development professional. Connects tech-solutions with end-user needs. Lived, studied and led businesses in Asia.</div>
+						</div>
+					</div>
+					<div class="image-box alex" style="top: 220px; left: 660px;">
+						<img src="/assets/team/team-alex-d3c74eee852b9d4d72bafd5b0a3827eab7048671f18675c8e0131f26bd3f836e.png" alt="Team alex" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://il.linkedin.com/in/zakalex" target="_blank">Alex Zak <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Alchemy Product Manager</div>
+							<div class="description">Techy entrepreneur, with a passion for building things. Amateur gardener and productivity hacker.</div>
+						</div>
+					</div>
+					<div class="image-box ben" style="top: 220px; left: 0px;">
+						<img src="/assets/team/team-ben-36df13383392c0d7e87b32ea19cb2c86fdba52cd91bf70611ead699dbd2f8514.png" alt="Team ben" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://il.linkedin.com/in/ben-kaufman-703437114" target="_blank">Ben Kaufman <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Solidity Developer</div>
+							<div class="description">Software developer focusing on blockchain and decentralized networks. Autodidact, passionate about computer science and economics.</div>
+						</div>
+					</div>
+					<div class="image-box david" style="top: 330px; left: 110px;">
+						<img src="/assets/team/team-david-f1fa276beb37f890174ecee2b3563c42abb2e610dedda001e4b9bb499b6cf13c.png" alt="Team david" />
+						<a class="image-box-map"></a>
+						<div class="bio left-ib" data-align="center">
+							<div class="name"><a href="https://www.linkedin.com/in/davidpcostello" target="_blank">David Costello <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Social media manager</div>
+							<div class="description">Growth Specialist for High Potential Startups for the last 10 years. Award winning Entrepreneur and Tech enthusiast.</div>
+						</div>
+					</div>
+					<div class="image-box colin" style="top: 220px; left: 440px;">
+						<img src="/assets/team/team-colin-ca17a5c3f57fe959caae7862a135cc6978e96a0d340ac056f414657c087ae712.png" alt="Team colin" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://www.linkedin.com/in/colinleiker" target="_blank">Colin Leiker <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Visual Designer</div>
+							<div class="description">Multi-disciplinary creative interested in designing &amp; developing impactful brands. Over a decade in 3D, motion, and graphic design.</div>
+						</div>
+					</div>
+					<div class="image-box ezra" style="top: 330px; left: 770px;">
+						<img src="/assets/team/team-ezra-ee4227c64ca821e472172644ef6bef68fdd59d0b81403a7149621a064a1713e3.png" alt="Team ezra" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://www.linkedin.com/in/ezra-weller-6795893a" target="_blank">Ezra Weller <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Content &amp; Communications</div>
+							<div class="description">Governance writer and researcher. Co-founder of Groupmuse. Professional trumpet player and composer.</div>
+						</div>
+					</div>
+					<div class="image-box livia" style="top: 330px; left: 550px;">
+						<img src="/assets/team/team-livia-65bec5367ebd231da45caae70f7578bbffd660e3116629b4e9e3ced11038f885.png" alt="Team livia" />
+						<a class="image-box-map"></a>
+						<div class="bio left-ib" data-align="center">
+							<div class="name"><a href="https://www.linkedin.com/in/livia-deschermayer-4151aa168" target="_blank">Livia Deschermayer <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Community manager</div>
+							<div class="description">Actress and performance artist. Independent researcher of human behaviors, symbolism and the Intersectionality of cultures.</div>
+						</div>
+					</div>
+					<div class="image-box jelle" style="top: 220px; left: 880px;">
+						<img src="/assets/team/team-jelle-1063f21053fdac507ccf0cd61a06e3d2517cad107d747a37fb87180bd7911906.png" alt="Team jelle" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://it.linkedin.com/in/jelle-gerbrandy-4aa2b25" target="_blank">Jelle Gerbrandy <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Alchemy Lead Developer</div>
+							<div class="description">Ph.D. in Logic. Over two decades of software development. Discovered the blockchain and never looked back.</div>
+						</div>
+					</div>
+					<div class="image-box eyal" style="top: 330px; left: 330px;">
+						<img src="/assets/team/team-eyal-aedd96be72eecf3907db89a5b5114bf1140a3195b59e0eb3d4405c30fe35a40c.png" alt="Team eyal" />
+						<a class="image-box-map"></a>
+						<div class="bio center" data-align="center">
+							<div class="name"><a href="https://il.linkedin.com/in/eyal-munchik" target="_blank">Eyal Munchik <img src="/assets/linkedin-de8af6174aaf12331260f924173df68b7f1d076b76cc5df0323f502713fe8abb.svg" alt="Linkedin" /></a></div>
+							<div class="role">Legal &amp; Finance</div>
+							<div class="description">Practices in civil, commercial and administrative litigation, general corporate and Blockchain-related counseling and Blockchain regulation.</div>
+						</div>
+					</div>
+
+
+				</div>
+
+		</div>
+
+	</div>
+</div>
+
+
+<script>
+	$(document).ready(function(e) {
+
+		$(".team-center .image-box .image-box-map").mouseenter(function() {
+			var align = $(this).parent().children('.bio').attr("data-align");
+			$(this).parent().children('.bio').removeClass("closed").addClass("open");
+			$(".bio.open").addClass("hover");
+	    }).mouseleave(function() {
+			$(this).parent().children('.bio').removeClass("open").addClass("closed");
+			$(".bio.open").removeClass("hover");
+	    });
+
+	})
+</script>
+
+<div class="advisors container px-5">
+    <div class="row">
+        <div class = "col-xs-12 col-sm-12 text-center align-self-center">
+                <h3 class="heading-title">
+                    <strong>
+                                                    ADVISORS
+                    </strong>
+                </h3>
+                <!-- <h1 class="sub-title"><span class="translation_missing localeapp" title="translation missing: en.pages.home.advisors.title">Title</span></h1> -->
+        </div>
+
+        <div class="items row text-center">
+            <div class="col-md-3 col-sm-12 fade-from-down startable">
+                <div class="image-box "><img src="/assets/advisors/advisor-daniel-8d86dcc3d96631a5ddc80afc7757dfb221d8ae8d342368a9ac98e728d5f0a43f.png" alt="Advisor daniel" /></div>
+                <h1>Daniel Schmachtenberger</h1>
+                <p>Co-founder, Neurohacker Collective.  
+Founder, Critical Path Global.  
+Evolutionary philosopher and integrated systems strategist.
+</p>
+            </div>
+            <div class="col-md-3 col-sm-12 fade-from-down startable delayed">
+                <div class="image-box"><img src="/assets/advisors/advisor-jordan-8b634906a100974ab55f56695643c6b22d086ed1c605d99b9d686812f9e893b8.png" alt="Advisor jordan" /></div>
+                <h1>Jordan Greenhall</h1>
+                <p>Co-founder and ex-CEO of Divx. Co-founder of MP3.com. One of the leaders of the Deep Code movement.</p>
+            </div>
+            <div class="col-md-3 col-sm-12 fade-from-down startable delayed">
+                <div class="image-box"><img src="/assets/advisors/advisor-yoni-b20e1c08c023cedb66201ea0e8d1b81a2c68511ca0aded82351f99b1c648d3cb.png" alt="Advisor yoni" /></div>
+                <h1>Yoni Assia</h1>
+                <p>Founder and CEO of eToro.com. Board Member of Meitav Dash. One of the pioneers of crypto trading.</p>
+            </div>
+            <div class="col-md-3 col-sm-12 fade-from-down startable delayed">
+                <div class="image-box"><img src="/assets/advisors/advisor-martin-0a6fff0eee0ae5c0db7e0e8a55a123d195d48aa225938a78e3bbbbbdaacb902f.png" alt="Advisor martin" /></div>
+                <h1>Martin Köppelmann</h1>
+                <p>Co Founder and CEO of Gnosis. Entrepreneur and thought leader in the blockchain space.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="timeline-container">
+  <div class="white-left-triangle"></div>
+  <h1 class="timeline-title">Timeline</h1>
+  <div class="timeline">
+    <div class="timeline-item right">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="firstline yellow"><div></div></td>
+              <td class="year">2013</td>
+              <td class="secondline yellow"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>The Beginning</h3>
+        <ul>
+          <li>Adam and Matan meet at the Technion and separately get hooked on blockchain</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item left">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="secondline green"><div></div></td>
+              <td class="year">2015</td>
+              <td class="firstline green"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Early R&amp;D</h3>
+        <ul>
+          <li>Matan and Primavera work full-time on R&amp;D of decentralized governance protocols within Backfeed. Backfeed stops operations on May 2016.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item right ">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="firstline green"><div></div></td>
+              <td class="year long">January 2017</td>
+              <td class="secondline green"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>DAOstack Genesis</h3>
+        <ul>
+          <li>The work on the DAOstack code base is started. Adam and Matan join forces.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item left ">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="secondline green"><div></div></td>
+              <td class="year medium">March 2017</td>
+              <td class="firstline green"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>The DAOstack Proof of Concept</h3>
+        <ul>
+          <li>The first Arc architecture is completed and an early prototype for the Alchemy interface is developed.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item right ">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="firstline yellow"><div></div></td>
+              <td class="year medium">May 2017</td>
+              <td class="secondline yellow"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Whitepaper Draft</h3>
+      </div>
+    </div>
+    <div class="timeline-item left">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="secondline red"><div></div></td>
+              <td class="year extralong">September 2017</td>
+              <td class="firstline red"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Founding DAOstack Gibraltar</h3>
+        <ul>
+          <li>Yehonatan and Roberto join the co-founding team</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item right">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="firstline yellow"><div></div></td>
+              <td class="year long">November 2017</td>
+              <td class="secondline yellow"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Opening the Private Token Sale</h3>
+        <ul>
+          <li>Gnosis joins as lead investor and partner</li>
+          <li>iAngels and NFX co-lead the Seed round</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item left ">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="secondline red"><div></div></td>
+              <td class="year extralong">February 2018</td>
+              <td class="firstline red"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Genomics Release (Alpha)</h3>
+        <ul>
+          <li>Arc code-base freeze and testnet launch</li>
+          <li>Arc.js released</li>
+          <li>Genesis protocol (holographic consensus) is developed and implemented</li>
+          <li>External auditing  started</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item right">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="firstline yellow"><div></div></td>
+              <td class="year extralong">May 2018</td>
+              <td class="secondline yellow"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Public token sale</h3>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="timeline-container">
+  <h1 class="timeline-title">Roadmap</h1>
+  <div class="timeline roadmap">
+    <div class="timeline-item left">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="secondline yellow"><div></div></td>
+              <td class="year medium">Q3 2018</td>
+              <td class="firstline yellow"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Genesis + Alchemy Release</h3>
+        <ul>
+          <li>Crowd management of funds</li>
+          <li>Contract stabilization &amp; optimization</li>
+          <li>Improved voting protocols</li>
+          <li>Alchemy in Public Beta (50 agents)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item right">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="firstline green"><div></div></td>
+              <td class="year medium">Q4 2018</td>
+              <td class="secondline green"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Pilot Program</h3>
+        <ul>
+          <li>Launch the Genesis DAO public pilot</li>
+          <li>Launch the Gnosis DAO and 5 other pilots</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item left">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="secondline green"><div></div></td>
+              <td class="year medium">Q1 2019</td>
+              <td class="firstline green"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Alchemy 2nd Release</h3>
+        <ul>
+          <li>DAO configuration</li>
+          <li>DAO browser</li>
+          <li>Predictors interface</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item right">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="firstline green"><div></div></td>
+              <td class="year medium">Q2 2019</td>
+              <td class="secondline green"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Genuine Release</h3>
+        <ul>
+          <li>Identity management</li>
+          <li>Reputation flow</li>
+          <li>Improved modularity and upgradability</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item left">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="secondline yellow"><div></div></td>
+              <td class="year medium">Q3 2019</td>
+              <td class="firstline yellow"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Alchemy 3rd Release</h3>
+        <ul>
+          <li>External integrations (Github, Slack, Telegram)</li>
+          <li>Mobile version</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item right">
+      <div class="content">
+        <h2>
+          <table>
+            <tr>
+              <td class="firstline red"><div></div></td>
+              <td class="year medium">Q4 2019</td>
+              <td class="secondline red"><div></div></td>
+            </tr>
+          </table>
+        </h2>
+        <h3>Generosity Release</h3>
+        <ul>
+          <li>Off-chain architecture</li>
+          <li>IPFS &amp; Swarm integration</li>
+          <li>Delegate voting</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--
+  <div class="way-triangle"><img src="/assets/triangle-02@2x-17d55b017ca9b4482238cc1983bb48895d390aaf044e3f86be4a5132d2dd0eb0.png" alt="Triangle 02@2x" /></div>
+  -->
+</div>
+
+    <footer>
+	<div class="row">
+		<div class="col-xs-12 col-md-6 left-part">
+			<!-- <div class="logo-container">
+				<img class="icon-logo" src="/assets/footer/daostack_icon_cdcdcd_thin-57c2df2a7bc234955b04ecfdd345b13750589574a75be0497ea63f7bb1fd36fc.svg" alt="Daostack icon cdcdcd thin" />
+			</div> -->
+			<a href="/" class="logo-container">
+				<img class="icon-logo" src="/assets/footer/daostack_icon_2e2e2e_thin-dc22b389cd19c06d2c224a1bcc401bd25d6daf5c932545267ec3cfb562d2c5e4.svg" alt="Daostack icon 2e2e2e thin" />
+			</a>
+			<ul class="learn">
+				<!-- <li><strong>learn</strong></li> -->
+				<li><a href="/wp/DAOstack-White-Paper-en.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</a></li>
+				<li><a href="/deck/DAOstack-Deck-en.pdf" target="_blank" rel="noopener noreferrer">Summary</a></li>
+				<li><a href="https://www.youtube.com/channel/UCX4GNxoP4GdGQk7pUp0j6JA/videos" target="_blank" rel="noopener noreferrer">Videos</a></li>
+				<li><a href="https://forum.daostack.io/" target="_blank" rel="noopener noreferrer">Forum</a></li>
+				<li><a href="https://github.com/daostack" target="_blank" rel="noopener noreferrer">Github</a></li>
+				<li><a href="https://daotalk.org" target="_blank" rel="noopener noreferrer">Blog</a></li>
+			</ul>
+		</div>			
+
+		<div class = "col-xs-12 col-md-6 connect">
+			<div class="inner-container">
+				<div class="links-container">
+					<a href="https://daostack.io/community" target="_blank" rel="noopener noreferrer" class="community">
+						<img class="link-icon" src="/assets/footer/social_footer_discord-8ff6e1f9ae702cb2a0df942f453f3650ad90a319b3348137d01be01fad008937.png" alt="Social footer discord" />						
+					</a>					
+					<a href="https://medium.com/daostack" target="_blank">
+						<img class="link-icon" src="/assets/footer/social_footer_medium-329c0ecc06932f11cc22381291a2fe3b83f3bc622bbaa3c922f16ed618c86096.png" alt="Social footer medium" />
+					</a>
+					<a href="https://twitter.com/daostack" target="_blank" rel="noopener noreferrer"/>
+						<img class="link-icon" src="/assets/footer/social_footer_twitter-3e54fc6e573bc5cfff2531e1aac51119eb66504d6dfa50680a35d3a9a2b9c0b5.png" alt="Social footer twitter" />
+					</a>
+					<a href="#" data-toggle="modal" data-target="#newsletter">
+						<img class="link-icon" src="/assets/footer/social_footer_daotalk-9bcb95c5417eea17a7f3b2de98c05ba6dfeb6212b0fa07f0250c052e632c12f2.png" alt="Social footer daotalk" />
+					</a>
+				</div>
+				<div class="trademark">
+					© 2019 DAOstack
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
+<div class="modal fade" id="newsletter" tabindex="-1" role="dialog" aria-labelledby="newsletter" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+		<div class="border">
+			<div class="modal-header">
+				<h2 class="modal-title" id="exampleModalLabel">Enter your email below and we&#39;ll send you the download link</h2>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+		       </button>
+			</div>
+			<div class="modal-body">
+				<div class="form">
+					<div class="form-group">
+						<input type="email" class="form-control" id="newsletterInput" aria-describedby="emailHelp" placeholder="Enter email">
+						<label class="valid">Please enter valid email address</label>
+					</div>
+					<div class="align-center">
+						<a class="blackBtn" id="signUpNewsletter">Submit</a>
+					</div>
+				</div>
+				<div class="thanks">
+					<h2>THANK YOU! THE LINK WILL BE SENT TO YOU SHORTLY</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script>
+	$(document).ready(function() {
+		$("#newsletter .form-group label.valid").hide();
+		function validateEmail($email) {
+ 			var emailReg = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*(\+[a-z0-9-]+)?@[a-z0-9-]+(\.[a-z0-9-]+)*$/;
+ 			return emailReg.test( $email );
+		}
+		$("#newsletter a#signUpNewsletter").on( "click", function(event) {
+			event.preventDefault();
+			var email = document.getElementById("newsletterInput").value;
+			if( !validateEmail(email) || email=="") {
+				$("#newsletter .form-group label.valid").show();
+				return;
+			} else {
+				jQuery.ajax({
+					type: 'POST',
+					url: "/add",
+					headers: {
+						'X-CSRF-Token': 'Dh5pSnjElG1tDFHnlCA7CsxCYoilLPs2pisxHbIV5HOGCK5nmOmrP9zSSprammM5Wcf1OdLzucCQvz7Lx4g+tA=='
+					},
+					data: {email: email},
+					dataType: 'json',
+					success: function(data) {
+						if (data.success) {
+							$("#newsletter .form").hide();
+							$("#newsletter .thanks").show();
+			                $(".economy .form").hide();
+			                $(".economy .thanks").show();
+						} else {
+							$("#newsletter .form-group label.valid").text(email + " looks invalid, please enter a real email address.")
+							$("#newsletter .form-group label.valid").show();
+						}
+					}, error: function (err) {
+							var r = jQuery.parseJSON(err.responseText);
+							r.msg = r.msg.replace("Use PUT to insert or update list members.", "");
+							$(".form-group label.valid").text(r.msg)
+							$(".form-group label.valid").show();
+          }
+				});
+			}
+		});
+	})
+</script>
+
+</footer>
+
+    <!-- Tageting Analytics -->
+    </div>
+  </body>
+</html>

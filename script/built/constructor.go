@@ -1,10 +1,13 @@
 package built
 
 import (
+	"bytes"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"github.com/parnurzeal/gorequest"
+	"io"
+	"io/ioutil"
 	"net/http"
 	"os"
 	"reflect"
@@ -125,7 +128,7 @@ func InitializeTokens(dir string, tokenLists []TokenInfo) error {
 
 func WriteTokenInfo(dir string, token TokenInfo) error {
 	f := fmt.Sprintf("%s/%s/token.json", dir, strings.ToLower(token.Address))
-	if _, err := os.Stat(f); err == nil || os.IsExist(err){
+	if _, err := os.Stat(f); err == nil || os.IsExist(err) {
 		return nil
 	}
 	file, err := os.OpenFile(f, os.O_RDWR|os.O_CREATE|os.O_TRUNC, os.ModePerm)
@@ -140,7 +143,38 @@ func WriteTokenInfo(dir string, token TokenInfo) error {
 	if _, err := file.Write(data); err != nil {
 		return err
 	}
+	p := fmt.Sprintf("%s/%s/token.png", dir, strings.ToLower(token.Address))
+	if err := RequestIcon(token.Logo.Src, p); err != nil {
+		return err
+	}
 	fmt.Println("write success:", token.Address, FormatSymbol(token.Symbol))
+	return nil
+}
+
+func RequestIcon(url, p string) error {
+	if url == "" {
+		return nil
+	}
+	resp, err := http.Get(url)
+	if err != nil {
+		fmt.Println(errors.New("get" + url + "error:" + err.Error()))
+		return nil
+	}
+	if resp.StatusCode != http.StatusOK {
+		fmt.Println("get" + url + "error:" + resp.Status)
+		return nil
+	}
+	defer resp.Body.Close()
+	pix, err := ioutil.ReadAll(resp.Body)
+	out, err := os.Create(p)
+	if err != nil {
+		return errors.New("os create png err:" + err.Error())
+	}
+	defer out.Close()
+	_, err = io.Copy(out, bytes.NewReader(pix))
+	if err != nil {
+		return errors.New("io copy err:" + err.Error())
+	}
 	return nil
 }
 
