@@ -74,19 +74,23 @@ func ReadTokenInfo(address string, client *ethclient.Client, url string) (string
 		if strings.Contains(err.Error(), "no contract code at given address") {
 			symbol = "killed"
 		} else {
-			symbol = CallContract(client, address, "symbol")
+			symbol, err = instance.SYMBOL(&bind.CallOpts{})
+			if err != nil {
+				symbol = CallContract(client, address, "symbol")
+			}
 		}
 	}
-	fmt.Println(symbol)
 	name, err := instance.Name(&bind.CallOpts{})
 	if err != nil {
 		if strings.Contains(err.Error(), "no contract code at given address") {
 			name = "killed"
 		} else {
-			name = CallContract(client, address, "name")
+			name, err = instance.NAME(&bind.CallOpts{})
+			if err != nil {
+				name = CallContract(client, address, "name")
+			}
 		}
 	}
-	fmt.Println(name)
 	if name == "" {
 		name = symbol
 	}
@@ -95,7 +99,10 @@ func ReadTokenInfo(address string, client *ethclient.Client, url string) (string
 	}
 	decimals, err := instance.Decimals(&bind.CallOpts{})
 	if err != nil {
-		decimals = 0
+		decimals, err = instance.DECIMALS(&bind.CallOpts{})
+		if err != nil {
+			decimals = 0
+		}
 	}
 	supply, err := instance.TotalSupply(&bind.CallOpts{})
 	if err != nil {

@@ -25,10 +25,12 @@ func Initialize(url string) (*Spider, error) { //"http://47.52.157.31:8585"
 func (s *Spider) BuiltTokensFromEtherScan() ([]built.TokenInfo, error) {
 	var tokens []built.TokenInfo
 	for i := 1; i <= pageMax; i++ {
+	retry:
 		fmt.Println("get the token from ether scan:", i)
 		ts, err := RequestErc20ListByPage(urlEtherScan + fmt.Sprintf("%d", i))
 		if err != nil {
-			return nil, err
+			fmt.Println("RequestErc20ListByPage:", err)
+			goto retry
 		}
 		tokens = append(tokens, ts...)
 		time.Sleep(time.Millisecond * 500)

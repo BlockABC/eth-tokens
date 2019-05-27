@@ -1,4 +1,4 @@
-pragma solidity ^0.5.7;
+pragma solidity ^0.5.0;
 
 contract ERC20 {
     string public constant name = "";
@@ -6,7 +6,7 @@ contract ERC20 {
     string public constant symbol = "";
     string public constant SYMBOL = "";
     uint8 public constant decimals = 0;
-    uint8 public constant DECIMAL = 0;
+    uint8 public constant DECIMALS = 0;
     function totalSupply() public pure returns (uint);
     function balanceOf(address tokenOwner) public pure returns (uint balance);
     function allowance(address tokenOwner, address spender) public pure returns (uint remaining);
