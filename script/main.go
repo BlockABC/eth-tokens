@@ -45,7 +45,7 @@ func main() {
 		Symbol:   "ETH",
 		Contract: "0x0000000000000000000000000000000000000000",
 		Decimals: 18,
-		Logo:     "https://raw.githubusercontent.com/eager7/eth_tokens/master/tokens/0x0000000000000000000000000000000000000000/token.png",
+		Logo:     "https://www.cryptocompare.com/media/20646/eth_logo.png?width=200",
 		Invalid:  true,
 	}
 	tokens = append([]*built.Token{&eth}, tokens...)
