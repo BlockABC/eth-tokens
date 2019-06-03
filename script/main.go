@@ -4,12 +4,14 @@ import (
 	"flag"
 	"fmt"
 	"github.com/eager7/eth_tokens/script/built"
+	"github.com/eager7/eth_tokens/script/coin_gecko"
 	"github.com/eager7/eth_tokens/script/ether_scan"
 )
 
 func main() {
 	var g = flag.Bool("g", false, "")
 	var e = flag.Bool("e", false, "")
+	var logo = flag.Bool("logo", false, "")
 	flag.Parse()
 	if *g {
 		tokenList, err := built.TokenListFromGit(built.URLTokenList)
@@ -39,6 +41,12 @@ func main() {
 	tokens, err := built.CollectTokens(`../../tokens`)
 	if err != nil {
 		panic(err)
+	}
+
+	if *logo {
+		for _, token := range tokens {
+			coin_gecko.ReplaceTokenLogoFromCoinGecko(token)
+		}
 	}
 	eth := built.Token{
 		Name:     "Ethereum",
