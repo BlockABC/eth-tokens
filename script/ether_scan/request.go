@@ -16,7 +16,7 @@ import (
 const urlEtherScan = `https://etherscan.io/tokens?ps=100&p=`
 const pageMax = 10
 
-func RequestErc20ListByPage(url string) ([]built.TokenInfo, error) {
+func RequestErc20ListByPage(url string) ([]*built.TokenInfo, error) {
 	res := gorequest.New().Proxy(UserProxyLists[rand.Intn(len(UserProxyLists))]).Set("user-agent", UserAgentLists[rand.Intn(len(UserAgentLists))])
 	ret, body, errs := res.Timeout(time.Second*5).Retry(5, time.Second, http.StatusRequestTimeout, http.StatusBadRequest).Get(url).End()
 	if errs != nil || ret.StatusCode != http.StatusOK {
@@ -35,7 +35,7 @@ func RequestErc20ListByPage(url string) ([]built.TokenInfo, error) {
 		return nil, errors.New("NewDocumentFromReader err:" + err.Error())
 	}
 
-	var tokens []built.TokenInfo
+	var tokens []*built.TokenInfo
 	dom.Find("div.media").Each(func(i int, selection *goquery.Selection) {
 		ret, err := selection.Html()
 		if err != nil {
@@ -55,7 +55,7 @@ func RequestErc20ListByPage(url string) ([]built.TokenInfo, error) {
 				Src: "https://etherscan.io" + icon,
 			},
 		}
-		tokens = append(tokens, token)
+		tokens = append(tokens, &token)
 	})
 
 	return tokens, nil

@@ -11,7 +11,6 @@ import (
 func main() {
 	var g = flag.Bool("g", false, "")
 	var e = flag.Bool("e", false, "")
-	var logo = flag.Bool("logo", false, "")
 	flag.Parse()
 	if *g {
 		tokenList, err := built.TokenListFromGit(built.URLTokenList)
@@ -33,6 +32,19 @@ func main() {
 			panic(err)
 		}
 		fmt.Println("success get token list:", len(tokenList))
+		for _, token := range tokenList {
+			coin_gecko.ReplaceTokenLogoFromCoinGecko(token)
+		}
+		tokenList = append(tokenList, &built.TokenInfo{
+			Symbol:   "ETH",
+			Name:     "Ethereum",
+			Type:     "Main Coin",
+			Address:  "0x0000000000000000000000000000000000000000",
+			Decimals: 18,
+			Logo: built.Logo{
+				Src: "https://www.cryptocompare.com/media/20646/eth_logo.png?width=200",
+			},
+		})
 		if err := built.InitializeTokens(`../../tokens`, tokenList); err != nil {
 			panic(err)
 		}
@@ -42,12 +54,12 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
-	if *logo {
-		for _, token := range tokens {
-			coin_gecko.ReplaceTokenLogoFromCoinGecko(token)
+	for i, t := range tokens {
+		if t.Contract == "0x0000000000000000000000000000000000000000" {
+			tokens = append(tokens[:i], tokens[i+1:]...)
 		}
 	}
+	fmt.Println("len tokens:", len(tokens))
 	eth := built.Token{
 		Name:     "Ethereum",
 		Symbol:   "ETH",

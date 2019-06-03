@@ -22,8 +22,8 @@ func Initialize(url string) (*Spider, error) { //"http://47.52.157.31:8585"
 	return &Spider{url: url, client: client}, nil
 }
 
-func (s *Spider) BuiltTokensFromEtherScan() ([]built.TokenInfo, error) {
-	var tokens []built.TokenInfo
+func (s *Spider) BuiltTokensFromEtherScan() ([]*built.TokenInfo, error) {
+	var tokens []*built.TokenInfo
 	for i := 1; i <= pageMax; i++ {
 	retry:
 		fmt.Println("get the token from ether scan:", i)

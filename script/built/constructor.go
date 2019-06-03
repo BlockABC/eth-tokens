@@ -84,7 +84,7 @@ func (token *TokenInfo) Bytes() ([]byte, error) {
 	return json.MarshalIndent(t, "", "    ")
 }
 
-func TokenListFromGit(url string) (tokenLists []TokenInfo, err error) {
+func TokenListFromGit(url string) (tokenLists []*TokenInfo, err error) {
 	requester := gorequest.New().Get(url).Timeout(time.Second*5).Retry(5, time.Second, http.StatusRequestTimeout, http.StatusBadRequest)
 	resp, body, errs := requester.EndBytes()
 	if errs != nil || resp.StatusCode != http.StatusOK {
@@ -114,7 +114,7 @@ func TokenListFromGit(url string) (tokenLists []TokenInfo, err error) {
 	return tokenLists, nil
 }
 
-func InitializeTokens(dir string, tokenLists []TokenInfo) error {
+func InitializeTokens(dir string, tokenLists []*TokenInfo) error {
 	for _, token := range tokenLists {
 		if err := os.MkdirAll(fmt.Sprintf("%s/%s", dir, strings.ToLower(token.Address)), os.ModePerm); err != nil {
 			return err
@@ -126,7 +126,7 @@ func InitializeTokens(dir string, tokenLists []TokenInfo) error {
 	return nil
 }
 
-func WriteTokenInfo(dir string, token TokenInfo) error {
+func WriteTokenInfo(dir string, token *TokenInfo) error {
 	f := fmt.Sprintf("%s/%s/token.json", dir, strings.ToLower(token.Address))
 	if _, err := os.Stat(f); err == nil || os.IsExist(err) {
 		return nil
