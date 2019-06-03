@@ -11,7 +11,6 @@ import (
 func main() {
 	var g = flag.Bool("g", false, "")
 	var e = flag.Bool("e", false, "")
-	var logo = flag.Bool("logo", false, "")
 	flag.Parse()
 	if *g {
 		tokenList, err := built.TokenListFromGit(built.URLTokenList)
@@ -32,6 +31,9 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
+		for index := range tokenList {
+			coin_gecko.ReplaceTokenLogoFromCoinGecko(&tokenList[index])
+		}
 		fmt.Println("success get token list:", len(tokenList))
 		if err := built.InitializeTokens(`../../tokens`, tokenList); err != nil {
 			panic(err)
@@ -43,11 +45,6 @@ func main() {
 		panic(err)
 	}
 
-	if *logo {
-		for _, token := range tokens {
-			coin_gecko.ReplaceTokenLogoFromCoinGecko(token)
-		}
-	}
 	eth := built.Token{
 		Name:     "Ethereum",
 		Symbol:   "ETH",

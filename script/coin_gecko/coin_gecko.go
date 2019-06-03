@@ -24,18 +24,18 @@ type CoinGecko struct {
 	} `json:"image"`
 }
 
-func ReplaceTokenLogoFromCoinGecko(token *built.Token) {
+func ReplaceTokenLogoFromCoinGecko(token *built.TokenInfo) {
 	var err error
 	for i := 0; i < 3; i++ {
 		if err := RequestTokenInfoFromCoinGecko(token); err == nil {
 			return
 		}
 	}
-	fmt.Println("RequestTokenInfoFromCoinGecko err:", err, token.Contract)
+	fmt.Println("RequestTokenInfoFromCoinGecko err:", err, token.Address)
 }
 
-func RequestTokenInfoFromCoinGecko(token *built.Token) error {
-	u := fmt.Sprintf(urlGecko, common.HexToAddress(token.Contract).Hex())
+func RequestTokenInfoFromCoinGecko(token *built.TokenInfo) error {
+	u := fmt.Sprintf(urlGecko, common.HexToAddress(token.Address).Hex())
 	fmt.Println("request url:", u)
 	req, err := http.NewRequest("GET", u, nil)
 	if err != nil {
@@ -64,7 +64,7 @@ func RequestTokenInfoFromCoinGecko(token *built.Token) error {
 	if err := json.Unmarshal(body, &coin); err != nil {
 		return errors.New("json unmarshal err:" + err.Error())
 	}
-	token.Logo = coin.Image.Large
+	token.Logo.Src = coin.Image.Large
 	if token.Name == "" {
 		token.Name = coin.Name
 	}
