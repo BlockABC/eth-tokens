@@ -31,6 +31,9 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
+		for index := range tokenList {
+			coin_gecko.ReplaceTokenLogoFromCoinGecko(&tokenList[index])
+		}
 		fmt.Println("success get token list:", len(tokenList))
 		for _, token := range tokenList {
 			coin_gecko.ReplaceTokenLogoFromCoinGecko(token)
@@ -54,12 +57,16 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+<<<<<<< HEAD
 	for i, t := range tokens {
 		if t.Contract == "0x0000000000000000000000000000000000000000" {
 			tokens = append(tokens[:i], tokens[i+1:]...)
 		}
 	}
 	fmt.Println("len tokens:", len(tokens))
+=======
+
+>>>>>>> a9adde2b2ccc50d30799e6486a54168657ba98a4
 	eth := built.Token{
 		Name:     "Ethereum",
 		Symbol:   "ETH",

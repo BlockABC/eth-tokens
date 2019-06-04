@@ -116,6 +116,7 @@ func TokenListFromGit(url string) (tokenLists []*TokenInfo, err error) {
 
 func InitializeTokens(dir string, tokenLists []*TokenInfo) error {
 	for _, token := range tokenLists {
+		time.Sleep(time.Millisecond * 500)
 		if err := os.MkdirAll(fmt.Sprintf("%s/%s", dir, strings.ToLower(token.Address)), os.ModePerm); err != nil {
 			return err
 		}
@@ -129,13 +130,14 @@ func InitializeTokens(dir string, tokenLists []*TokenInfo) error {
 func WriteTokenInfo(dir string, token *TokenInfo) error {
 	f := fmt.Sprintf("%s/%s/token.json", dir, strings.ToLower(token.Address))
 	if _, err := os.Stat(f); err == nil || os.IsExist(err) {
-		return nil
+		fmt.Println("the contract is exist, rewrite info:", token.Address)
+		//return nil
 	}
 	file, err := os.OpenFile(f, os.O_RDWR|os.O_CREATE|os.O_TRUNC, os.ModePerm)
 	if err != nil {
 		return err
 	}
-	defer file.Close()
+	defer checkError(file.Close)
 	data, err := token.Bytes()
 	if err != nil {
 		return err
@@ -164,13 +166,13 @@ func RequestIcon(url, p string) error {
 		fmt.Println("get" + url + "error:" + resp.Status)
 		return nil
 	}
-	defer resp.Body.Close()
+	defer checkError(resp.Body.Close)
 	pix, err := ioutil.ReadAll(resp.Body)
 	out, err := os.Create(p)
 	if err != nil {
 		return errors.New("os create png err:" + err.Error())
 	}
-	defer out.Close()
+	defer checkError(out.Close)
 	_, err = io.Copy(out, bytes.NewReader(pix))
 	if err != nil {
 		return errors.New("io copy err:" + err.Error())
@@ -192,4 +194,10 @@ func FormatSymbol(s string) string {
 	s = strings.Replace(s, `$`, ``, -1)
 	s = strings.Replace(s, `ф`, ``, -1)
 	return strings.Replace(s, ` `, ``, -1)
+}
+
+func checkError(f func() error) {
+	if err := f(); err != nil {
+		fmt.Println(err)
+	}
 }
