@@ -46,6 +46,7 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
+		fmt.Println("total len of token:", len(tokens))
 		var tokenList []built.TokenInfo
 		for _, t := range tokens {
 			if t.Logo == "" {
