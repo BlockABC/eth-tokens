@@ -18,7 +18,7 @@ func main() {
 			panic(err)
 		}
 		fmt.Println("success get token list:", len(tokenList))
-		if err := built.InitializeTokens(`../../tokens`, tokenList); err != nil {
+		if err := built.InitializeTokens(`../../tokens`, tokenList, false); err != nil {
 			panic(err)
 		}
 	}
@@ -35,20 +35,7 @@ func main() {
 			coin_gecko.ReplaceTokenLogoFromCoinGecko(&tokenList[index])
 		}
 		fmt.Println("success get token list:", len(tokenList))
-		for _, token := range tokenList {
-			coin_gecko.ReplaceTokenLogoFromCoinGecko(token)
-		}
-		tokenList = append(tokenList, &built.TokenInfo{
-			Symbol:   "ETH",
-			Name:     "Ethereum",
-			Type:     "Main Coin",
-			Address:  "0x0000000000000000000000000000000000000000",
-			Decimals: 18,
-			Logo: built.Logo{
-				Src: "https://www.cryptocompare.com/media/20646/eth_logo.png?width=200",
-			},
-		})
-		if err := built.InitializeTokens(`../../tokens`, tokenList); err != nil {
+		if err := built.InitializeTokens(`../../tokens`, tokenList, false); err != nil {
 			panic(err)
 		}
 	}
@@ -57,16 +44,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-<<<<<<< HEAD
-	for i, t := range tokens {
-		if t.Contract == "0x0000000000000000000000000000000000000000" {
-			tokens = append(tokens[:i], tokens[i+1:]...)
-		}
-	}
-	fmt.Println("len tokens:", len(tokens))
-=======
 
->>>>>>> a9adde2b2ccc50d30799e6486a54168657ba98a4
 	eth := built.Token{
 		Name:     "Ethereum",
 		Symbol:   "ETH",

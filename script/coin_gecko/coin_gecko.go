@@ -4,12 +4,15 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/eager7/elog"
 	"github.com/eager7/eth_tokens/script/built"
 	"github.com/ethereum/go-ethereum/common"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 )
+
+var log = elog.NewLogger("gecko", elog.DebugLevel)
 
 const urlGecko = "https://api.coingecko.com/api/v3/coins/ethereum/contract/%s"
 
@@ -31,12 +34,12 @@ func ReplaceTokenLogoFromCoinGecko(token *built.TokenInfo) {
 			return
 		}
 	}
-	fmt.Println("RequestTokenInfoFromCoinGecko err:", err, token.Address)
+	log.Error("RequestTokenInfoFromCoinGecko err:", err, token.Address)
 }
 
 func RequestTokenInfoFromCoinGecko(token *built.TokenInfo) error {
 	u := fmt.Sprintf(urlGecko, common.HexToAddress(token.Address).Hex())
-	fmt.Println("request url:", u)
+	log.Notice("request url:", u)
 	req, err := http.NewRequest("GET", u, nil)
 	if err != nil {
 		return errors.New("http request err:" + err.Error())

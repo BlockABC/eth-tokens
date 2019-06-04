@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/eager7/elog"
 	"github.com/parnurzeal/gorequest"
 	"io"
 	"io/ioutil"
@@ -16,6 +17,8 @@ import (
 )
 
 const URLTokenList = "https://raw.githubusercontent.com/MyEtherWallet/ethereum-lists/master/dist/tokens/eth/tokens-eth.json"
+
+var log = elog.NewLogger("constructor", elog.DebugLevel)
 
 type Logo struct {
 	Src      string      `json:"src"`
@@ -84,7 +87,7 @@ func (token *TokenInfo) Bytes() ([]byte, error) {
 	return json.MarshalIndent(t, "", "    ")
 }
 
-func TokenListFromGit(url string) (tokenLists []*TokenInfo, err error) {
+func TokenListFromGit(url string) (tokenLists []TokenInfo, err error) {
 	requester := gorequest.New().Get(url).Timeout(time.Second*5).Retry(5, time.Second, http.StatusRequestTimeout, http.StatusBadRequest)
 	resp, body, errs := requester.EndBytes()
 	if errs != nil || resp.StatusCode != http.StatusOK {
@@ -114,24 +117,26 @@ func TokenListFromGit(url string) (tokenLists []*TokenInfo, err error) {
 	return tokenLists, nil
 }
 
-func InitializeTokens(dir string, tokenLists []*TokenInfo) error {
+func InitializeTokens(dir string, tokenLists []TokenInfo, skip bool) error {
 	for _, token := range tokenLists {
 		time.Sleep(time.Millisecond * 500)
 		if err := os.MkdirAll(fmt.Sprintf("%s/%s", dir, strings.ToLower(token.Address)), os.ModePerm); err != nil {
 			return err
 		}
-		if err := WriteTokenInfo(dir, token); err != nil {
+		if err := WriteTokenInfo(dir, token, skip); err != nil {
 			return err
 		}
 	}
 	return nil
 }
 
-func WriteTokenInfo(dir string, token *TokenInfo) error {
+func WriteTokenInfo(dir string, token TokenInfo, skip bool) error {
 	f := fmt.Sprintf("%s/%s/token.json", dir, strings.ToLower(token.Address))
 	if _, err := os.Stat(f); err == nil || os.IsExist(err) {
-		fmt.Println("the contract is exist, rewrite info:", token.Address)
-		//return nil
+		log.Debug("the contract is exist, rewrite info:", token.Address, token.Name, token.Symbol)
+		if skip {
+			return nil
+		}
 	}
 	file, err := os.OpenFile(f, os.O_RDWR|os.O_CREATE|os.O_TRUNC, os.ModePerm)
 	if err != nil {
@@ -146,10 +151,16 @@ func WriteTokenInfo(dir string, token *TokenInfo) error {
 		return err
 	}
 	p := fmt.Sprintf("%s/%s/token.png", dir, strings.ToLower(token.Address))
+	times := 0
+retry:
 	if err := RequestIcon(token.Logo.Src, p); err != nil {
+		times++
+		if times <= 3 {
+			goto retry
+		}
 		return err
 	}
-	fmt.Println("write success:", token.Address, FormatSymbol(token.Symbol))
+	log.Info("write success:", token.Address, FormatSymbol(token.Symbol))
 	return nil
 }
 
@@ -159,11 +170,11 @@ func RequestIcon(url, p string) error {
 	}
 	resp, err := http.Get(url)
 	if err != nil {
-		fmt.Println(errors.New("get" + url + "error:" + err.Error()))
+		log.Error("get" + url + "error:" + err.Error())
 		return nil
 	}
 	if resp.StatusCode != http.StatusOK {
-		fmt.Println("get" + url + "error:" + resp.Status)
+		log.Error("get" + url + "error:" + resp.Status)
 		return nil
 	}
 	defer checkError(resp.Body.Close)
