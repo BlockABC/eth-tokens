@@ -2,6 +2,7 @@ package ether_scan
 
 import (
 	"fmt"
+	"github.com/eager7/eth_tokens/script/built"
 	"regexp"
 	"testing"
 )
@@ -44,4 +45,14 @@ Bottos is a platform for the value exchange of AI and affiliated industries base
 	fmt.Println(icon)
 	fmt.Println("--------------------------------------")
 	fmt.Println(contract)
+}
+
+func TestRequestTokenLogo(t *testing.T) {
+	token := built.TokenInfo{
+		Address: `0x501262281b2ba043e2fbf14904980689cddb0c78`,
+	}
+	if err := RequestTokenLogo(&token); err != nil {
+		t.Fatal(err)
+	}
+	t.Log(token)
 }

@@ -14,6 +14,7 @@ import (
 )
 
 const urlEtherScan = `https://etherscan.io/tokens?ps=100&p=`
+const urlTokenInfo = `https://etherscan.io/token/%s`
 const pageMax = 10
 
 func RequestErc20ListByPage(url string) ([]built.TokenInfo, error) {
@@ -64,4 +65,38 @@ func RequestErc20ListByPage(url string) ([]built.TokenInfo, error) {
 func IsValidAddress(address string) bool {
 	re := regexp.MustCompile("^0x[0-9a-fA-F]{40}$")
 	return re.MatchString(address)
+}
+
+func RequestTokenLogo(token *built.TokenInfo) error {
+	u := fmt.Sprintf(urlTokenInfo, token.Address)
+	log.Debug("request token logo:", u)
+	res := gorequest.New().Proxy(UserProxyLists[rand.Intn(len(UserProxyLists))]).Set("user-agent", UserAgentLists[rand.Intn(len(UserAgentLists))])
+	ret, body, errs := res.Timeout(time.Second*5).Retry(5, time.Second, http.StatusRequestTimeout, http.StatusBadRequest).Get(u).End()
+	if errs != nil || ret.StatusCode != http.StatusOK {
+		req, err := res.MakeRequest()
+		if err == nil && req != nil && ret != nil {
+			fmt.Printf("request status:%d, body:%+v\n", ret.StatusCode, req)
+		}
+		var errStr string
+		for _, e := range errs {
+			errStr += e.Error()
+		}
+		return errors.New("request err:" + errStr)
+	}
+	dom, err := goquery.NewDocumentFromReader(strings.NewReader(body))
+	if err != nil {
+		return errors.New("NewDocumentFromReader err:" + err.Error())
+	}
+	dom.Find("h1").Each(func(i int, selection *goquery.Selection) {
+		ret, err := selection.Html()
+		if err != nil {
+			fmt.Println("selection to html err:" + err.Error())
+			return
+		}
+		reIcon := regexp.MustCompile(`.*?src="(?P<icon>[^"]*)(?s:".*)`)
+		icon := reIcon.ReplaceAllString(ret, "$icon")
+		token.Logo.Src = "https://etherscan.io"+icon
+		token.Logo.Src = strings.Replace(token.Logo.Src, "\n", "", -1)
+	})
+	return nil
 }
