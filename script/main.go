@@ -20,7 +20,7 @@ func main() {
 
 	if *nft {
 		if *build {
-			spider, err := ether_scan.Initialize("https://mainnet.infura.io")//"https://mainnet.infura.io" "http://47.52.157.31:8585"
+			spider, err := ether_scan.Initialize("https://mainnet.infura.io") //"https://mainnet.infura.io" "http://47.52.157.31:8585"
 			if err != nil {
 				panic(err)
 			}
@@ -40,7 +40,7 @@ func main() {
 		if err := built.BuildDist(`../../dist/nft.json`, tokens); err != nil {
 			panic(err)
 		}
-		if err := built.BuildReadme(`../../nft.md`, tokens); err != nil {
+		if err := built.BuildReadme(`../../nft.md`, built.Erc721Path, tokens); err != nil {
 			panic(err)
 		}
 	}
@@ -124,7 +124,7 @@ func main() {
 		if err := built.BuildDist(`../../dist/tokens.json`, tokens); err != nil {
 			panic(err)
 		}
-		if err := built.BuildReadme(`../../tokens.md`, tokens); err != nil {
+		if err := built.BuildReadme(`../../tokens.md`, built.Erc20Path, tokens); err != nil {
 			panic(err)
 		}
 	}
