@@ -40,9 +40,15 @@ func (s *Spider) BuiltTokensFromEtherScan() ([]built.TokenInfo, error) {
 	}
 	log.Debug("get tokens from ether scan:", len(tokens))
 	for i, token := range tokens {
+		times := 0
+	read:
 		name, symbol, decimals, _, err := erc20.ReadTokenInfo(token.Address, s.client, s.url)
 		if err != nil {
+			times++
 			log.Error("read token info err:", token.Address, err)
+			if times <= 3 {
+				goto read
+			}
 			continue
 		}
 		if name != "" {
