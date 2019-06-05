@@ -14,10 +14,11 @@ import (
 )
 
 const urlEtherScan = `https://etherscan.io/tokens?ps=100&p=`
+const urlNftEtherScan = `https://etherscan.io/tokens-nft?ps=100&p=`
 const urlTokenInfo = `https://etherscan.io/token/%s`
 const pageMax = 10
 
-func RequestErc20ListByPage(url string) ([]built.TokenInfo, error) {
+func RequestTokenListByPage(url string) ([]built.TokenInfo, error) {
 	res := gorequest.New().Proxy(UserProxyLists[rand.Intn(len(UserProxyLists))]).Set("user-agent", UserAgentLists[rand.Intn(len(UserAgentLists))])
 	ret, body, errs := res.Timeout(time.Second*5).Retry(5, time.Second, http.StatusRequestTimeout, http.StatusBadRequest).Get(url).End()
 	if errs != nil || ret.StatusCode != http.StatusOK {
@@ -95,7 +96,7 @@ func RequestTokenLogo(token *built.TokenInfo) error {
 		}
 		reIcon := regexp.MustCompile(`.*?src="(?P<icon>[^"]*)(?s:".*)`)
 		icon := reIcon.ReplaceAllString(ret, "$icon")
-		token.Logo.Src = "https://etherscan.io"+icon
+		token.Logo.Src = "https://etherscan.io" + icon
 		token.Logo.Src = strings.Replace(token.Logo.Src, "\n", "", -1)
 	})
 	return nil

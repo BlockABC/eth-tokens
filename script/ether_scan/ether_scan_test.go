@@ -8,7 +8,7 @@ import (
 )
 
 func TestRequestErc20ListByPage(t *testing.T) {
-	tokens, err := RequestErc20ListByPage(urlEtherScan + "10")
+	tokens, err := RequestTokenListByPage(urlEtherScan + "10")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -55,4 +55,21 @@ func TestRequestTokenLogo(t *testing.T) {
 		t.Fatal(err)
 	}
 	t.Log(token)
+}
+
+func TestBuiltNftFromEtherScan(t *testing.T) {
+	spider, err := Initialize("http://47.106.254.3:8585")
+	if err != nil {
+		panic(err)
+	}
+	tokenList, err := spider.BuiltNftFromEtherScan()
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("success get token list:", len(tokenList))
+	for i, token := range tokenList {
+		fmt.Println(i, "-------------")
+		fmt.Println(token.Address)
+		fmt.Println(token.Logo.Src)
+	}
 }
