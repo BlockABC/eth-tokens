@@ -15,6 +15,14 @@ func TestRequestErc20ListByPage(t *testing.T) {
 	t.Log("tokens:", len(tokens))
 }
 
+func TestRequestNftListByPage(t *testing.T) {
+	tokens, err := RequestTokenListByPage(urlNftEtherScan + "1")
+	if err != nil {
+		t.Fatal(err)
+	}
+	t.Log("tokens:", len(tokens))
+}
+
 func TestBuilt(t *testing.T) {
 	spider, err := Initialize("http://47.52.157.31:8585")
 	if err != nil {

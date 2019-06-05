@@ -1,0 +1,902 @@
+[
+    {
+        "name": "0x032ef0359eb068d3dddd6e91021c02f397afce5a0x032ef0359eb068d3dddd6e..",
+        "symbol": "",
+        "contract": "0x032ef0359eb068d3dddd6e91021c02f397afce5a",
+        "decimals": 1,
+        "logo": "https://etherscan.io/images/main/empty-token.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "CryptoKitties",
+        "symbol": "CK",
+        "contract": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptokitties_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "CryptoKitties is a game centered around breedable, collectible, and oh-so-adorable creatures we call CryptoKitties.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Neon District In-Game Item",
+        "symbol": "NDIGI",
+        "contract": "0x1276dce965ada590e42d62b3953ddc1ddceb0392",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/neon_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Neon District cyberpunk RPG.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "CryptoServalGame",
+        "symbol": "CSG",
+        "contract": "0x14c4293d7e7325cec8c52cea3df37d91aa9cc7b6",
+        "decimals": 1,
+        "logo": "https://etherscan.io/images/main/empty-token.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Footbattle Card",
+        "symbol": "FBC",
+        "contract": "0x157ad40f43e26e72909f16bb07f2ca97466df849",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/footbattle_128.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Footbattle is a football management simulation game. Collect, level up and trade players from countries all around the world.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "MARBLE-NFT",
+        "symbol": "MRBLNFT",
+        "contract": "0x1d963688fe2209a98db35c67a041524822cf04ff",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/marblecards_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Marble enables people to save digital memories as crypto collectibles.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Reality Clash Weapon",
+        "symbol": "RC GUN",
+        "contract": "0x20bd491fee75b6af6c2100c83b83312d620f2958",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/realityclash_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Augmented Reality FPS for Mobile backed by the Ethereum Blockchain.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "MCP Appliance",
+        "symbol": "MCPA",
+        "contract": "0x2594d80da5f2e4f742d1e479eb9408aad132d0bd",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/megacryptopolis_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Dесеntrаlized city builder game on the Ethereum blосkсhаin",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "MyCryptoHeroes:Hero",
+        "symbol": "MCHH",
+        "contract": "0x273f7f8e6489682df756151f5525576e322d51a3",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/mycryptoheroes_32.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "My Crypto Heroes (MCH) is a workerplacement RPG. You will gather and train historical heroes in the actual world while obtaining a number of extensions, in order to conquer the Crypto World.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "KudosToken",
+        "symbol": "KDO",
+        "contract": "0x2aea4add166ebf38b63d09a75de1a7b94aa24163",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/kudos_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Kudos is a new way to show appreciation and build relationships.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "0x2f4bdafb22bd92aa7b7552d270376de8edccbc1e0x2f4bdafb22bd92aa7b7552..",
+        "symbol": "",
+        "contract": "0x2f4bdafb22bd92aa7b7552d270376de8edccbc1e",
+        "decimals": 1,
+        "logo": "https://etherscan.io/images/main/empty-token.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "CryptoAssaultUnit",
+        "symbol": "CAU",
+        "contract": "0x31af195db332bc9203d758c74df5a5c5e597cdb7",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptoassault_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Strategy war MMO on the blockchain.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "FOAM Signal",
+        "symbol": "FSX",
+        "contract": "0x36f16a0d35b866cdd0f3c3fa39e2ba8f48b099d2",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/foam_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "The FOAM Signal is staking mechanism to incentivize location-specific mining.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Hedgie",
+        "symbol": "HDG",
+        "contract": "0x452b2bc7c94515720b36d304ce33909a8323f3e3",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/hedgie_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Hedgie is a real-time strategy blockchain game.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Flower",
+        "symbol": "FLOWER",
+        "contract": "0x4f41d10f7e67fd16bde916b4a6dc3dd101c57394",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/flowerpatch_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Flowerpatch is an Ethereum indie game about collecting and breeding cannabis flowers.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "EtheremonMonster",
+        "symbol": "EMONA",
+        "contract": "0x5d00d312e171be5342067c09bae883f9bcb2003b",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/etheremon_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Etheremon combines Blockchain with Virtual Reality (VR) to set the foundation for the Game 3.0 era.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "DozerDoll",
+        "symbol": "Rare Key",
+        "contract": "0x5fCCE8Ab5500ed68fF5d6d75aF1071195215D97E",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptodozer_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "CryptoDozer is a blockchain-powered arcade game with the aim of collecting dolls by dropping coins.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Gods Unchained",
+        "symbol": "GODS",
+        "contract": "0x6EbeAf8e8E946F0716E6533A6f2cefc83f60e8Ab",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/godsunchained_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "A TCG on the Ethereum blockchain that uses NFT's to bring real ownership to in-game assets.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Spheroid SPACE",
+        "symbol": "SPACE",
+        "contract": "0x7b00ae36c7485b678fe945c2dd9349eb5baf7b6b",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/spheroiduniverse_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Spheroid Universe is a platform for entertainment, advertising, and business in the world of planet Earth’s augmented reality. It operates geo-localized private property on Earth's digital surface (Spaces).",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Codex Record",
+        "symbol": "CR",
+        "contract": "0x8853b05833029e3cf8d3cbb592f9784fa43d2a79",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/codex_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Codex is a decentralized registry for unique assets like art, fine wines, watches and more.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "CryptoFlowers",
+        "symbol": "CF",
+        "contract": "0x8bc67d00253fd60b1afcce88b78820413139f4c6",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptoflowers_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "CryptoFlowers is an internet collectibles game, focused on selecting and discovering new wonderful and beautiful breeds of fancy flowers.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "LucidSight-MLB-NFT",
+        "symbol": "MLBCB",
+        "contract": "0x8c9b261faef3b3c2e64ab5e58e04615f8c788099",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/mlbchampions_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "MLB Crypto Baseball is a blockchain-based sports game that anyone can play using their very own crypto figures!",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Estate",
+        "symbol": "EST",
+        "contract": "0x959e104e1a4db6317fa58f8295f586e1a978c297",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/decentraland_28.png?v=2",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Decentraland is a virtual reality platform powered by the Ethereum blockchain.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "MCP Resource",
+        "symbol": "MCPR",
+        "contract": "0x98ff4553a3dcbf5e4ff8b5d4cc6fb763b6f20174",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/megacryptopolis_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Dесеntrаlized city builder game on the Ethereum blосkсhаin",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "On-Chain Verification",
+        "symbol": "YES",
+        "contract": "0x9f2a7b5e6280727cd6c8486f5f96e5f76164f2df",
+        "decimals": 1,
+        "logo": "https://etherscan.io/images/main/empty-token.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "DozerDoll",
+        "symbol": "Magic Key",
+        "contract": "0xB447030C916bA07a5a4AA50a379259E387c48182",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptodozer_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "BlockMarkGems",
+        "symbol": "BMG",
+        "contract": "0xb62b330a1b1ed55feb93296f89ea7679c4e0c36c",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/blockmarkgems_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "BlockMark Gems is a Digital-Collectible Game for collecting, trading and remixing unique and rare Diamonds, Rubies, Emeralds, Lapaz Lazuli and more.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "LORDLESS:Bounty",
+        "symbol": "Bounty",
+        "contract": "0xb9250c9581e4594b7c6914897823ad18d6b78e96",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/lordless_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "LORDLESS is a fantasy game where you rule your Tavern.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "MCP Pack",
+        "symbol": "MCPP",
+        "contract": "0xba7a1265933be28ee36841f8c2170d51688b365d",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/megacryptopolis_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Dесеntrаlized city builder game on the Ethereum blосkсhаin",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Nifty Football Trading Card",
+        "symbol": "NFTFC",
+        "contract": "0xbc5370374fe08d699cf7fcd2e625a93bf393ccc4",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/niftyfootball_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "NFT Football Trading Cards on the Blockchain.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "DozerDoll",
+        "symbol": "Dozer",
+        "contract": "0xBd13e53255eF917DA7557db1B7D2d5C38a2EFe24",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptodozer_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "CryptoDozer is a blockchain-powered arcade game with the aim of collecting dolls by dropping coins.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Atom",
+        "symbol": "ATH",
+        "contract": "0xbdaed67214641b7eda3bf8d7431c3ae5fc46f466",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptoatom_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Create and collect unique atoms!",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "EtheremonAdventure",
+        "symbol": "EMOND",
+        "contract": "0xbfde6246df72d3ca86419628cac46a9d2b60393c",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/etheremon_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Treasure is hidden around the Etheremon world! Send your Mons on adventures, and they will bring back amazing rewards!",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "CryptoSkulls",
+        "symbol": "CryptoSkulls",
+        "contract": "0xc1caf0c19a8ac28c41fe59ba6c754e4b9bd54de9",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptoskulls_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "CryptoSkulls are 10,000 collectible ERC-721 Non-Fungible Tokens stored on Ethereum blockchain. Each CryptoSkull character is an unique pixel art image.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Marble",
+        "symbol": "MIB",
+        "contract": "0xc2d8db56c50f253d1279da6760345fe78f784ed9",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/mib_28.png?v1.1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "NFT.Kred",
+        "symbol": "NFT.Kred",
+        "contract": "0xd3551ab3018edb9e1c1111e966cceffdf625a730",
+        "decimals": 1,
+        "logo": "https://etherscan.io/images/main/empty-token.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Autoglyphs",
+        "symbol": "☵",
+        "contract": "0xd4e4078ca3495de5b1d4db434bebc5a986197782",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/autoglyphs_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Autoglyphs are the “on-chain” generative art on the Ethereum blockchain.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "MyCryptoHeroes:Extension",
+        "symbol": "MCHE",
+        "contract": "0xdceaf1652a131F32a821468Dc03A92df0edd86Ea",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/mycryptoheroes_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "My Crypto Heroes (MCH) is a workerplacement RPG. You will gather and train historical heroes in the actual world while obtaining a number of extensions, in order to conquer the Crypto World.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": " Arcona Digital Land",
+        "symbol": "ARDL",
+        "contract": "0xdf5d68d54433661b1e5e90a547237ffb0adf6ec2",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/arcona_28.png?v=2",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Arcona merges real and virtual worlds together creating unique layer of augmented reality all over the planet’s surface – the Digital Land.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "CryptoRome-Land-NFT",
+        "symbol": "CRLAND",
+        "contract": "0xe60d2325f996e197eedded8964227a0c6ca82d0f",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptorome_28_2.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "A game of economic, political and military strategy",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "0xe694010c4f1fcd35ebc04ceb60f847caaf2cd6f20xe694010c4f1fcd35ebc04c..",
+        "symbol": "",
+        "contract": "0xe694010c4f1fcd35ebc04ceb60f847caaf2cd6f2",
+        "decimals": 1,
+        "logo": "https://etherscan.io/images/main/empty-token.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Cryptant Crab",
+        "symbol": "CC",
+        "contract": "0xecd6b4a2f82b0c9fb283a4a8a1ef5adf555f794b",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptantcrab_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "rain, mutate or challenge the multitude of Crabs and watch as you gain the appreciation of other CryptantCrab Challengers from across the world.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "MCP Citizen",
+        "symbol": "MCPC",
+        "contract": "0xf06059f01f6f08a603c939359a0a1186f7687685",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/megacryptopolis_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Dесеntrаlized city builder game on the Ethereum blосkсhаin",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "CryptoDerby-Horse",
+        "symbol": "CDH",
+        "contract": "0xf26a23019b4699068bb54457f32dafcf22a9d371",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/cryptoderby_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Crypt Derby is racehorse trading game, you can becomes a racehorse owner, increased by crossing a horse, or to run in the race raised the horse, it is also possible to trade the horse with other players.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Decentraland LAND",
+        "symbol": "LAND",
+        "contract": "0xf87e31492faf9a91b02ee0deaad50d51d56d5d4d",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/decentraland_28.png?v=2",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Decentraland is a virtual reality platform powered by the Ethereum blockchain.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "CryptoSpells",
+        "symbol": "CSPL",
+        "contract": "0xfa0a699828f689fd5eed9df5d0d9bddb832941ee",
+        "decimals": 1,
+        "logo": "https://etherscan.io/images/main/empty-token.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "",
+        "symbol": "ENS",
+        "contract": "0xfac7bea255a6990f749363002136af6556b31e04",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/ens_32.png?v1.0",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "ENS offers a secure \u0026 decentralised way to address resources both on and off the blockchain using simple, human-readable names.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "KnownOriginDigitalAsset",
+        "symbol": "KODA",
+        "contract": "0xfbeef911dc5821886e1dda71586d90ed28174b7d",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/knownorigin_28.png?v=1",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Discover, buy and collect digital assets of artwork by some of the world's most respected artists, illustrators and creative practitioners.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Nike",
+        "symbol": "Nik",
+        "contract": "0xfd680cbb249e1022eb80e820cf8c3d9424c001b8",
+        "decimals": 1,
+        "logo": "https://etherscan.io/images/main/empty-token.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    },
+    {
+        "name": "Zed Token",
+        "symbol": "ZT",
+        "contract": "0xff488fd296c38a24cccc60b43dd7254810dab64e",
+        "decimals": 1,
+        "logo": "https://etherscan.io/token/images/zedtoken_28.png",
+        "desc": {
+            "en": "ERC721",
+            "zh": "ERC721"
+        },
+        "website": "",
+        "whitepaper": "Build a star-studded stable of winning racehorses and create a legacy by buying, breeding and racing digital thoroughbreds.",
+        "invalid": true,
+        "links": {
+            "twitter": "",
+            "telegram": ""
+        }
+    }
+]

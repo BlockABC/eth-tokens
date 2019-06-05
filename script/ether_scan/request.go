@@ -14,7 +14,7 @@ import (
 )
 
 const urlEtherScan = `https://etherscan.io/tokens?ps=100&p=`
-const urlNftEtherScan = `https://etherscan.io/tokens-nft?ps=100&p=`
+const urlNftEtherScan = `https://etherscan.io/tokens-nft?ps=50&p=`
 const urlTokenInfo = `https://etherscan.io/token/%s`
 const pageMax = 10
 
@@ -44,18 +44,41 @@ func RequestTokenListByPage(url string) ([]built.TokenInfo, error) {
 			fmt.Println("selection to html err:" + err.Error())
 			return
 		}
+		info := selection.Find("a").Text()
+		index := strings.Index(info, "(")
+		var name, symbol string
+		if index == -1 {
+			name = info
+		} else {
+			symbol = strings.Replace(info[index+1:], ")", "", -1)
+		}
+		description := selection.Find("p").Text()
+
 		reIcon := regexp.MustCompile(`.*?src="(?P<icon>[^"]*)(?s:".*)`)
-		reContract := regexp.MustCompile(`.*?href="/token/(?P<contract>[^"]*)(?s:".*)`)
 		icon := reIcon.ReplaceAllString(ret, "$icon")
+
+		reContract := regexp.MustCompile(`.*?href="/token/(?P<contract>[^"]*)(?s:".*)`)
 		contract := reContract.ReplaceAllString(ret, "$contract")
+
 		if !IsValidAddress(contract) {
 			fmt.Println("IsValidAddress false:", contract, ret)
 		}
-		token := built.TokenInfo{
-			Address: contract,
+		var token = built.TokenInfo{
+			Symbol:     symbol,
+			Name:       name,
+			Type:       "",
+			Address:    contract,
+			EnsAddress: "",
+			Decimals:   0,
+			Website:    "",
 			Logo: built.Logo{
 				Src: "https://etherscan.io" + icon,
 			},
+			Support: built.Support{
+				Email: "",
+				Url:   description,
+			},
+			Social: built.Social{},
 		}
 		tokens = append(tokens, token)
 	})

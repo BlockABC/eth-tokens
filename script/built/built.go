@@ -30,8 +30,8 @@ type Token struct {
 	} `json:"links"`
 }
 
-func BuildDist(dir string, tokens []*Token) error {
-	file, err := os.OpenFile(dir+"/tokens.json", os.O_RDWR|os.O_CREATE|os.O_TRUNC, os.ModePerm)
+func BuildDist(f string, tokens []*Token) error {
+	file, err := os.OpenFile(f, os.O_RDWR|os.O_CREATE|os.O_TRUNC, os.ModePerm)
 	if err != nil {
 		return err
 	}

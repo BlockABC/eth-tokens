@@ -11,12 +11,21 @@ This lib aims to collect all the tokens and their data including their **logo/de
 
 ## Contributing
 PR is welcome!
-
-0. Star this repository
+### ERC20
+0. Star this repository for erc20 token
 
 1. Create a folder under [/tokens](/tokens) named with token's contract address(lowercase) `/tokens/${CONTRACT_ADDRESS}`
 
 2. Then add yor token LOGO and JSON file under the folder. `/tokens/${CONTRACT_ADDRESS}/token.png` `/tokens/${CONTRACT_ADDRESS}/token.json`
+
+3. Create PR, and leave your contact (Telegram/WeChat/Email) in comment for further support.
+
+### ERC721
+0. Star this repository for erc721 nft token
+
+1. Create a folder under [/nft](/nft) named with token's contract address(lowercase) `/nft/${CONTRACT_ADDRESS}`
+
+2. Then add yor token LOGO and JSON file under the folder. `/nft/${CONTRACT_ADDRESS}/token.png` `/nft/${CONTRACT_ADDRESS}/token.json`
 
 3. Create PR, and leave your contact (Telegram/WeChat/Email) in comment for further support.
 
@@ -56,3 +65,4 @@ Please submit your token's JSON file follow template below. [BNB](tokens/0xb8c77
 
 ## Token List
  [tokens.md](./tokens.md)
+ [nft.md](./nft.md)

@@ -73,8 +73,8 @@ func (token *TokenInfo) Bytes() ([]byte, error) {
 			En: token.Type,
 			Zh: token.Type,
 		},
-		WebSite:    token.Social.Blog,
-		WhitePaper: "",
+		WebSite:    token.Website,
+		WhitePaper: token.Support.Url,
 		Invalid:    true,
 		Links: struct {
 			Twitter  string `json:"twitter"`
@@ -168,7 +168,8 @@ func RequestIcon(url, p string) error {
 	if url == "" {
 		return nil
 	}
-	resp, err := http.Get(url)
+	client := http.Client{Timeout: time.Duration(time.Second * 5)}
+	resp, err := client.Get(url)
 	if err != nil {
 		log.Error("get" + url + "error:" + err.Error())
 		return nil

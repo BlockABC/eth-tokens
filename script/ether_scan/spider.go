@@ -45,10 +45,15 @@ func (s *Spider) BuiltTokensFromEtherScan() ([]built.TokenInfo, error) {
 			log.Error("read token info err:", token.Address, err)
 			continue
 		}
-		tokens[i].Name = name
-		tokens[i].Symbol = symbol
+		if name != "" {
+			tokens[i].Name = name
+		}
+		if symbol != "" {
+			tokens[i].Symbol = symbol
+		}
+		tokens[i].Type = "ERC20"
 		tokens[i].Decimals = int(decimals)
-		log.Debug("get token:", name, symbol, decimals, token.Address)
+		log.Debug("get token:", tokens[i].Name, tokens[i].Symbol, tokens[i].Decimals, tokens[i].Type, token.Address)
 	}
 
 	return tokens, nil
@@ -56,10 +61,10 @@ func (s *Spider) BuiltTokensFromEtherScan() ([]built.TokenInfo, error) {
 
 func (s *Spider) BuiltNftFromEtherScan() ([]built.TokenInfo, error) {
 	var tokens []built.TokenInfo
-	for i := 1; i <= pageMax; i++ {
+	for i := 1; i <= 1; i++ {
 	retry:
 		log.Debug("get the token from ether scan:", i)
-		ts, err := RequestTokenListByPage(urlEtherScan + fmt.Sprintf("%d", i))
+		ts, err := RequestTokenListByPage(urlNftEtherScan + fmt.Sprintf("%d", i))
 		if err != nil {
 			log.Error("RequestTokenListByPage error:", err)
 			goto retry
@@ -69,15 +74,20 @@ func (s *Spider) BuiltNftFromEtherScan() ([]built.TokenInfo, error) {
 	}
 	log.Debug("get tokens from ether scan:", len(tokens))
 	for i, token := range tokens {
-		name, symbol, decimals, _, err := erc20.ReadTokenInfo(token.Address, s.client, s.url)
+		name, symbol, _, _, err := erc20.ReadTokenInfo(token.Address, s.client, s.url)
 		if err != nil {
 			log.Error("read token info err:", token.Address, err)
 			continue
 		}
-		tokens[i].Name = name
-		tokens[i].Symbol = symbol
+		if name != "" {
+			tokens[i].Name = name
+		}
+		if symbol != "" {
+			tokens[i].Symbol = symbol
+		}
 		tokens[i].Decimals = 1
-		log.Debug("get token:", name, symbol, decimals, token.Address)
+		tokens[i].Type = "ERC721"
+		log.Debug("get token:", tokens[i].Name, tokens[i].Symbol, tokens[i].Decimals, tokens[i].Type, token.Address)
 	}
 	return tokens, nil
 }
