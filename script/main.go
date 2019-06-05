@@ -56,7 +56,7 @@ func main() {
 			}
 		}
 		if *e {
-			spider, err := ether_scan.Initialize("http://47.52.157.31:8585")
+			spider, err := ether_scan.Initialize("https://mainnet.infura.io")
 			if err != nil {
 				panic(err)
 			}
