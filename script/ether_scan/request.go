@@ -13,7 +13,7 @@ import (
 	"time"
 )
 
-const urlEtherScan = `https://etherscan.io/tokens?ps=100&p=`
+const urlErc20EtherScan = `https://etherscan.io/tokens?ps=100&p=`
 const urlNftEtherScan = `https://etherscan.io/tokens-nft?ps=50&p=`
 const urlTokenInfo = `https://etherscan.io/token/%s`
 const pageMax = 10
@@ -62,6 +62,9 @@ func RequestTokenListByPage(url string) ([]built.TokenInfo, error) {
 
 		if !IsValidAddress(contract) {
 			fmt.Println("IsValidAddress false:", contract, ret)
+		}
+		if strings.Contains(name, contract) { //有的代币没有名称，ether scan会返回代币地址，我们过滤掉这种代币
+			name = ""
 		}
 		var token = built.TokenInfo{
 			Symbol:     symbol,

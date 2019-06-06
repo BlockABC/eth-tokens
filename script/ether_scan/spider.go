@@ -30,7 +30,7 @@ func (s *Spider) BuiltTokensFromEtherScan() ([]built.TokenInfo, error) {
 	for i := 1; i <= pageMax; i++ {
 	retry:
 		log.Debug("get the token from ether scan:", i)
-		ts, err := RequestTokenListByPage(urlNftEtherScan + fmt.Sprintf("%d", i))
+		ts, err := RequestTokenListByPage(urlErc20EtherScan + fmt.Sprintf("%d", i))
 		if err != nil {
 			log.Error("RequestTokenListByPage error:", err)
 			goto retry
