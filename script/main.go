@@ -71,6 +71,24 @@ func main() {
 				coin_gecko.ReplaceTokenLogoFromCoinGecko(&tokenList[index])
 			}
 			fmt.Println("success get token list:", len(tokenList))
+			eth := built.TokenInfo{
+				Symbol:     "ETH",
+				Name:       "Ethereum",
+				Type:       "",
+				Address:    "0x0000000000000000000000000000000000000000",
+				EnsAddress: "",
+				Decimals:   18,
+				Website:    "",
+				Logo:       built.Logo{
+					Src:      "https://www.cryptocompare.com/media/20646/eth_logo.png?width=200",
+					Width:    nil,
+					Height:   nil,
+					IpfsHash: "",
+				},
+				Support:    built.Support{},
+				Social:     built.Social{},
+			}
+			tokenList = append([]built.TokenInfo{eth}, tokenList...)
 			//用上面拿到的数据构建仓库，写入json文件并下载logo到指定目录
 			if err := built.InitializeTokens(`../../tokens`, tokenList, false); err != nil {
 				panic(err)
@@ -117,15 +135,7 @@ func main() {
 		}
 
 		//前端要求ETH必须是第一位，因此需要加上ETH做为ERC20代币，用地址区分
-		eth := built.Token{
-			Name:     "Ethereum",
-			Symbol:   "ETH",
-			Contract: "0x0000000000000000000000000000000000000000",
-			Decimals: 18,
-			Logo:     "https://www.cryptocompare.com/media/20646/eth_logo.png?width=200",
-			Invalid:  true,
-		}
-		tokens = append([]*built.Token{&eth}, tokens...)
+
 		if err := built.BuildDist(`../../dist/tokens.json`, tokens); err != nil { //用仓库中代币信息构建给前端使用的json文件
 			panic(err)
 		}

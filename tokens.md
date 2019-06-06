@@ -2,7 +2,6 @@
 <!-- token_list_start -->
 |   Logo    | Symbol      | Account Name |
 | ----------- |:------------:|:------------:|
-|  <img src="https://www.cryptocompare.com/media/20646/eth_logo.png?width=200" width=30 />  | [ETH](https://github.com/eager7/eth_tokens/blob/master/tokens/0x0000000000000000000000000000000000000000/token.json) | [0x0000000000000000000000000000000000000000](https://etherscan.io/address/0x0000000000000000000000000000000000000000) |
 |  <img src="https://assets.coingecko.com/coins/images/3449/large/TUSD.png?1559172762" width=30 />  | [TUSD](https://github.com/eager7/eth_tokens/blob/master/tokens/0x0000000000085d4780b73119b644ae5ecd22b376/token.json) | [0x0000000000085d4780B73119b644AE5ecd22b376](https://etherscan.io/address/0x0000000000085d4780B73119b644AE5ecd22b376) |
 |  <img src="https://assets.coingecko.com/coins/images/2978/large/IP_Exchange.png?1547037230" width=30 />  | [IPSX](https://github.com/eager7/eth_tokens/blob/master/tokens/0x001f0aa5da15585e5b2305dbab2bac425ea71007/token.json) | [0x001f0aa5da15585e5b2305dbab2bac425ea71007](https://etherscan.io/address/0x001f0aa5da15585e5b2305dbab2bac425ea71007) |
 |  <img src="https://assets.coingecko.com/coins/images/1230/large/stox-token.png?1547035256" width=30 />  | [STX](https://github.com/eager7/eth_tokens/blob/master/tokens/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45/token.json) | [0x006bea43baa3f7a6f765f14f10a1a1b08334ef45](https://etherscan.io/address/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45) |
