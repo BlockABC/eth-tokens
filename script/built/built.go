@@ -118,7 +118,7 @@ func TokensDirList(dir string) ([]string, error) {
 			if f == nil {
 				return err
 			}
-			if f.IsDir() && !strings.Contains(path, "0x0000000000000000000000000000000000000000") {
+			if f.IsDir() {
 				dirList = append(dirList, path)
 				return nil
 			}
