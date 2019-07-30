@@ -10,12 +10,12 @@ import (
 )
 
 func main() {
-	var g = flag.Bool("g", false, "")
-	var e = flag.Bool("e", false, "")
-	var logo = flag.Bool("logo", false, "")
-	var nft = flag.Bool("nft", false, "")
-	var erc20 = flag.Bool("erc20", false, "")
-	var build = flag.Bool("build", false, "")
+	var g = flag.Bool("g", false, "pull data from my wallet of github")
+	var e = flag.Bool("e", false, "pull data from ether scan")
+	var logo = flag.Bool("logo", false, "pull logo from ether scan")
+	var nft = flag.Bool("nft", false, "pull nft data from ether scan")
+	var erc20 = flag.Bool("erc20", false, "pull erc20 data")
+	var build = flag.Bool("build", false, "pull data from ether scan")
 	flag.Parse()
 
 	if *nft { //构建erc721代币信息
@@ -129,7 +129,7 @@ func main() {
 			}
 		}
 
-		tokens, err := built.CollectTokens(`../../tokens`) //从仓库中取出所有代币信息
+		tokens, err := built.CollectTokens(`../../tokens`) //从本地仓库中取出所有代币信息
 		if err != nil {
 			panic(err)
 		}
