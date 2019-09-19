@@ -12,7 +12,7 @@ func TestReadTokenIcon(t *testing.T) {
 		fmt.Println("read token info err:", err)
 		t.Fatal(err)
 	}
-	if err := ReadTokenIcon(dir, token.Logo); err != nil {
+	if err := ReadTokenIcon(dir, token); err != nil {
 		t.Fatal(err)
 	}
 }

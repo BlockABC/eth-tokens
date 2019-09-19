@@ -82,7 +82,7 @@ func CollectTokens(dir string) (tokens []*Token, err error) {
 			fmt.Println("read token info err:", err)
 			return nil, err
 		}
-		if err := ReadTokenIcon(dir, token.Logo); err != nil {
+		if err := ReadTokenIcon(dir, token); err != nil {
 			return nil, err
 		}
 		tokens = append(tokens, token)
@@ -114,21 +114,21 @@ func ReadTokenInfo(dir string) (*Token, error) {
 	return &token, nil
 }
 
-func ReadTokenIcon(dir, logo string) error {
-	if logo == "" {
-		return nil
-	}
+func ReadTokenIcon(dir string, token *Token) error {
 	names, err := filepath.Glob(dir + "/token.png")
 	if err != nil {
 		return err
 	}
-	if len(names) == 1 {
+	if len(names) == 1 { //icon已经存在不需要下载
+		if token.Logo == "" { //json中没有则填充
+			token.Logo = fmt.Sprintf("https://raw.githubusercontent.com/eager7/eth_tokens/master/tokens/%s/token.png", token.Contract)
+		}
 		return nil
 	}
 	p := fmt.Sprintf("%s/token.png", dir)
 	times := 0
 retry:
-	if err := RequestIcon(logo, p); err != nil {
+	if err := RequestIcon(token.Logo, p); err != nil {
 		times++
 		if times <= 3 {
 			goto retry
