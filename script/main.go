@@ -135,7 +135,7 @@ func main() {
 		}
 		for index, token := range tokens {
 			if token.Logo != "" {
-				tokens[index].Logo = fmt.Sprintf("https://github.eospark.com/eager7/eth_tokens/master/tokens/%s/token.png", token.Contract)
+				tokens[index].Logo = fmt.Sprintf("https://raw.githubusercontent.com/eager7/eth_tokens/master/tokens/%s/token.png", token.Contract)
 			}
 		}
 
