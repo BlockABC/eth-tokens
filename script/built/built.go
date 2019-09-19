@@ -125,6 +125,9 @@ func ReadTokenIcon(dir string, token *Token) error {
 		}
 		return nil
 	}
+	if token.Logo == "" {
+		return nil //用户没有填写logo信息，无需下载
+	}
 	p := fmt.Sprintf("%s/token.png", dir)
 	times := 0
 retry:
