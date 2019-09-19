@@ -79,14 +79,14 @@ func main() {
 				EnsAddress: "",
 				Decimals:   18,
 				Website:    "",
-				Logo:       built.Logo{
+				Logo: built.Logo{
 					Src:      "https://www.cryptocompare.com/media/20646/eth_logo.png?width=200",
 					Width:    nil,
 					Height:   nil,
 					IpfsHash: "",
 				},
-				Support:    built.Support{},
-				Social:     built.Social{},
+				Support: built.Support{},
+				Social:  built.Social{},
 			}
 			tokenList = append([]built.TokenInfo{eth}, tokenList...)
 			//用上面拿到的数据构建仓库，写入json文件并下载logo到指定目录
@@ -133,8 +133,11 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-
-		//前端要求ETH必须是第一位，因此需要加上ETH做为ERC20代币，用地址区分
+		for index, token := range tokens {
+			if token.Logo != "" {
+				tokens[index].Logo = fmt.Sprintf("https://github.eospark.com/eager7/eth_tokens/master/tokens/%s/token.png", token.Contract)
+			}
+		}
 
 		if err := built.BuildDist(`../../dist/tokens.json`, tokens); err != nil { //用仓库中代币信息构建给前端使用的json文件
 			panic(err)

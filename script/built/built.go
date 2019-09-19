@@ -82,6 +82,9 @@ func CollectTokens(dir string) (tokens []*Token, err error) {
 			fmt.Println("read token info err:", err)
 			return nil, err
 		}
+		if err := ReadTokenIcon(dir, token.Logo); err != nil {
+			return nil, err
+		}
 		tokens = append(tokens, token)
 	}
 	return tokens, nil
@@ -109,6 +112,30 @@ func ReadTokenInfo(dir string) (*Token, error) {
 		return nil, errors.New("json un marshal err:" + err.Error())
 	}
 	return &token, nil
+}
+
+func ReadTokenIcon(dir, logo string) error {
+	if logo == "" {
+		return nil
+	}
+	names, err := filepath.Glob(dir + "/token.png")
+	if err != nil {
+		return err
+	}
+	if len(names) == 1 {
+		return nil
+	}
+	p := fmt.Sprintf("%s/token.png", dir)
+	times := 0
+retry:
+	if err := RequestIcon(logo, p); err != nil {
+		times++
+		if times <= 3 {
+			goto retry
+		}
+		return err
+	}
+	return nil
 }
 
 func TokensDirList(dir string) ([]string, error) {

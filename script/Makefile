@@ -11,13 +11,13 @@ LDFLAGS=-ldflags "-X main.Version=${GITTAG} -X main.Build_Time=${BUILD_TIME} -s 
 default: mod
 
 mod:
-	export GOPROXY="https://athens.azurefd.net" && GO111MODULE=on go build ${LDFLAGS} -o build/${TARGET} ${SRC}
+	export GOPROXY=https://gocenter.io && GO111MODULE=on go build ${LDFLAGS} -o build/${TARGET} ${SRC}
 
 depends:
 	GO111MODULE=on go mod download
 
 tidy:
-	export GOPROXY="https://athens.azurefd.net" && GO111MODULE=on go mod tidy
+	export GOPROXY=https://gocenter.io && GO111MODULE=on go mod tidy
 
 clean:
 	-rm -rf build
