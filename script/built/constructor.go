@@ -158,6 +158,7 @@ retry:
 		if times <= 3 {
 			goto retry
 		}
+		log.Error("request icon err:", err)
 	}
 	log.Info("write success:", token.Address, FormatSymbol(token.Symbol))
 	return nil
