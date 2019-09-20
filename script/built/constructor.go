@@ -172,11 +172,11 @@ func RequestIcon(url, p string) error {
 	resp, err := client.Get(url)
 	if err != nil {
 		log.Error("get" + url + "error:" + err.Error())
-		return nil
+		return err
 	}
 	if resp.StatusCode != http.StatusOK {
 		log.Error("get" + url + "error:" + resp.Status)
-		return nil
+		return err
 	}
 	defer checkError(resp.Body.Close)
 	pix, err := ioutil.ReadAll(resp.Body)
