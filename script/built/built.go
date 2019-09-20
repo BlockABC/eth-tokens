@@ -136,7 +136,7 @@ retry:
 		if times <= 3 {
 			goto retry
 		}
-		return err
+		log.Error("request icon err:", err)
 	}
 	return nil
 }
