@@ -3,10 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/eager7/eth_tokens/script/built"
-	"github.com/eager7/eth_tokens/script/coin_gecko"
-	"github.com/eager7/eth_tokens/script/ether_scan"
 	"time"
+
+	"github.com/BlockABC/eth-tokens/script/built"
+	"github.com/BlockABC/eth-tokens/script/coin_gecko"
+	"github.com/BlockABC/eth-tokens/script/ether_scan"
 )
 
 func main() {
@@ -135,7 +136,7 @@ func main() {
 		}
 		for index, token := range tokens {
 			if token.Logo != "" {
-				tokens[index].Logo = fmt.Sprintf("https://raw.githubusercontent.com/eager7/eth_tokens/master/tokens/%s/token.png", token.Contract)
+				tokens[index].Logo = fmt.Sprintf("https://raw.githubusercontent.com/BlockABC/eth-tokens/master/tokens/%s/token.png", token.Contract)
 			}
 		}
 

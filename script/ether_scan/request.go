@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
-	"github.com/eager7/eth_tokens/script/built"
+	"github.com/BlockABC/eth-tokens/script/built"
 	"github.com/parnurzeal/gorequest"
 	"math/rand"
 	"net/http"

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/eager7/elog"
-	"github.com/eager7/eth_tokens/script/built"
+	"github.com/BlockABC/eth-tokens/script/built"
 	"github.com/ethereum/go-ethereum/common"
 	"io/ioutil"
 	"net/http"

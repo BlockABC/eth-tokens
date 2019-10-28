@@ -10,8 +10,8 @@ import (
 	"strings"
 )
 
-const Erc20Path = `|  <img src="%s" width=30 />  | [%s](https://github.com/eager7/eth_tokens/blob/master/tokens/%s/%s.json) | [%s](https://etherscan.io/address/%s) |`
-const Erc721Path = `|  <img src="%s" width=30 />  | [%s](https://github.com/eager7/eth_tokens/blob/master/nft/%s/%s.json) | [%s](https://etherscan.io/address/%s) |`
+const Erc20Path = `|  <img src="%s" width=30 />  | [%s](https://github.com/BlockABC/eth-tokens/blob/master/tokens/%s/%s.json) | [%s](https://etherscan.io/address/%s) |`
+const Erc721Path = `|  <img src="%s" width=30 />  | [%s](https://github.com/BlockABC/eth-tokens/blob/master/nft/%s/%s.json) | [%s](https://etherscan.io/address/%s) |`
 
 type Token struct {
 	Name     string `json:"name"`
@@ -121,7 +121,7 @@ func ReadTokenIcon(dir string, token *Token) error {
 	}
 	if len(names) == 1 { //icon已经存在不需要下载
 		if token.Logo == "" { //json中没有则填充
-			token.Logo = fmt.Sprintf("https://raw.githubusercontent.com/eager7/eth_tokens/master/tokens/%s/token.png", token.Contract)
+			token.Logo = fmt.Sprintf("https://raw.githubusercontent.com/BlockABC/eth-tokens/master/tokens/%s/token.png", token.Contract)
 		}
 		return nil
 	}

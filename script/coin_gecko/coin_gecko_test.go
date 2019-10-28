@@ -1,7 +1,7 @@
 package coin_gecko
 
 import (
-	"github.com/eager7/eth_tokens/script/built"
+	"github.com/BlockABC/eth-tokens/script/built"
 	"testing"
 )
 

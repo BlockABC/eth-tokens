@@ -11,7 +11,7 @@ LDFLAGS=-ldflags "-X main.Version=${GITTAG} -X main.Build_Time=${BUILD_TIME} -s 
 default: mod
 
 mod:
-	export GOPROXY=https://gocenter.io && GO111MODULE=on go build ${LDFLAGS} -o build/${TARGET} ${SRC}
+	GO111MODULE=on go build ${LDFLAGS} -o build/${TARGET} ${SRC}
 
 depends:
 	GO111MODULE=on go mod download

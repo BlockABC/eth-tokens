@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/eager7/elog"
-	"github.com/eager7/eth_tokens/script/built"
-	"github.com/eager7/eth_tokens/script/erc20"
+	"github.com/BlockABC/eth-tokens/script/built"
+	"github.com/BlockABC/eth-tokens/script/erc20"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"time"
 )

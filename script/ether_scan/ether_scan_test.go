@@ -2,7 +2,7 @@ package ether_scan
 
 import (
 	"fmt"
-	"github.com/eager7/eth_tokens/script/built"
+	"github.com/BlockABC/eth-tokens/script/built"
 	"regexp"
 	"testing"
 )
