@@ -1,4 +1,4 @@
-module github.com/eager7/eth_tokens/script
+module github.com/BlockABC/eth-tokens/script
 
 go 1.12
 
