@@ -10,6 +10,9 @@ LDFLAGS=-ldflags "-X main.Version=${GITTAG} -X main.Build_Time=${BUILD_TIME} -s 
 
 default: mod
 
+release:
+	GO111MODULE=on CGO_ENABLED=1 go build -v -mod=vendor ${LDFLAGS} -o build/${TARGET} ${SRC}
+
 mod:
 	GO111MODULE=on go build ${LDFLAGS} -o build/${TARGET} ${SRC}
 
