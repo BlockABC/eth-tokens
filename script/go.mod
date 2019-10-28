@@ -6,6 +6,7 @@ require (
 	github.com/PuerkitoBio/goquery v1.5.0
 	github.com/allegro/bigcache v1.2.0 // indirect
 	github.com/aristanetworks/goarista v0.0.0-20190429220743-799535f6f364 // indirect
+	github.com/btcsuite/btcd v0.20.0-beta // indirect
 	github.com/deckarep/golang-set v1.7.1 // indirect
 	github.com/eager7/elog v0.1.1
 	github.com/ethereum/go-ethereum v1.8.27
@@ -16,4 +17,5 @@ require (
 	github.com/rjeczalik/notify v0.9.2 // indirect
 	github.com/rs/cors v1.6.0 // indirect
 	github.com/syndtr/goleveldb v1.0.0 // indirect
+	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
 )
