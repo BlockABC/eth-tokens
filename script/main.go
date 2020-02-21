@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"strings"
 	"time"
 
 	"github.com/BlockABC/eth-tokens/script/built"
@@ -136,7 +137,7 @@ func main() {
 		}
 		for index, token := range tokens {
 			if token.Logo != "" {
-				tokens[index].Logo = fmt.Sprintf("https://raw.githubusercontent.com/BlockABC/eth-tokens/master/tokens/%s/token.png", token.Contract)
+				tokens[index].Logo = fmt.Sprintf("https://raw.githubusercontent.com/BlockABC/eth-tokens/master/tokens/%s/token.png", strings.ToLower(token.Contract))
 			}
 		}
 

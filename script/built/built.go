@@ -71,6 +71,9 @@ func BuildReadme(fil, path string, tokens []*Token) error {
 	return nil
 }
 
+/*
+** 从本地tokens目录拉取所有代币信息，并补充logo
+*/
 func CollectTokens(dir string) (tokens []*Token, err error) {
 	dirList, err := TokensDirList(dir)
 	if err != nil {
@@ -90,6 +93,9 @@ func CollectTokens(dir string) (tokens []*Token, err error) {
 	return tokens, nil
 }
 
+/*
+** 读取代币json文件
+*/
 func ReadTokenInfo(dir string) (*Token, error) {
 	names, err := filepath.Glob(dir + "/*.json")
 	if err != nil {
@@ -121,7 +127,7 @@ func ReadTokenIcon(dir string, token *Token) error {
 	}
 	if len(names) == 1 { //icon已经存在不需要下载
 		if token.Logo == "" { //json中没有则填充
-			token.Logo = fmt.Sprintf("https://raw.githubusercontent.com/BlockABC/eth-tokens/master/tokens/%s/token.png", token.Contract)
+			token.Logo = fmt.Sprintf("https://raw.githubusercontent.com/BlockABC/eth-tokens/master/tokens/%s/token.png", strings.ToLower(token.Contract))
 		}
 		return nil
 	}
@@ -141,6 +147,9 @@ retry:
 	return nil
 }
 
+/*
+** 返回指定目录下的所有目录列表
+*/
 func TokensDirList(dir string) ([]string, error) {
 	var dirList []string
 	err := filepath.Walk(dir,
