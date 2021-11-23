@@ -14,6 +14,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
+//go:build darwin || dragonfly || freebsd || linux || nacl || netbsd || openbsd || solaris
 // +build darwin dragonfly freebsd linux nacl netbsd openbsd solaris
 
 package rpc
@@ -28,20 +29,10 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 )
 
-/*
-#include <sys/un.h>
-
-int max_socket_path_size() {
-struct sockaddr_un s;
-return sizeof(s.sun_path);
-}
-*/
-import "C"
-
 // ipcListen will create a Unix socket on the given endpoint.
 func ipcListen(endpoint string) (net.Listener, error) {
-	if len(endpoint) > int(C.max_socket_path_size()) {
-		log.Warn(fmt.Sprintf("The ipc endpoint is longer than %d characters. ", C.max_socket_path_size()),
+	if len(endpoint) > int(max_path_size) {
+		log.Warn(fmt.Sprintf("The ipc endpoint is longer than %d characters. ", max_path_size),
 			"endpoint", endpoint)
 	}
 
@@ -60,5 +51,5 @@ func ipcListen(endpoint string) (net.Listener, error) {
 
 // newIPCConnection will connect to a Unix socket on the given endpoint.
 func newIPCConnection(ctx context.Context, endpoint string) (net.Conn, error) {
-	return dialContext(ctx, "unix", endpoint)
+	return new(net.Dialer).DialContext(ctx, "unix", endpoint)
 }
